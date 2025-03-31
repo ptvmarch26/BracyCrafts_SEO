@@ -5,19 +5,14 @@ interface BlogDetailsProps {
   params: Promise<{ slug: string }>;
 }
 
-// 🟢 Sử dụng generateStaticParams để Next.js biết danh sách params hợp lệ
-export async function generateStaticParams() {
-  return blogs.map((blog) => ({ slug: blog.slug }));
-}
-
-export default async function BlogDetails(props: BlogDetailsProps) {
-  const params = await props.params;
-  const blog = blogs.find((b) => b.slug === params.slug);
-
+export default async function BlogDetails({ params }: BlogDetailsProps) {
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.slug === slug);
+  
   if (!blog) {
     return notFound();
   }
-
+  
   return (
     <div className="container mx-auto py-10">
       <h1 className="text-4xl font-bold mb-5">{blog.title}</h1>
