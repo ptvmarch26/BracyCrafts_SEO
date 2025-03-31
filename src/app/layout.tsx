@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito, Pacifico } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const nunito = Nunito({
+  subsets: ["vietnamese"],
+  variable: "--font-nunito",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const pacifico = Pacifico({
+  subsets: ["vietnamese"],
+  weight: "400",
+  variable: "--font-pacifico",
 });
 
 export const metadata: Metadata = {
@@ -24,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${nunito.className} ${pacifico.variable}`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
