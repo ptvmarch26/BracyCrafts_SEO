@@ -2,7 +2,7 @@ import { blogs } from "@/data/MockBlog";
 import { notFound } from "next/navigation";
 
 interface BlogDetailsProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 // 🟢 Sử dụng generateStaticParams để Next.js biết danh sách params hợp lệ
@@ -10,7 +10,8 @@ export async function generateStaticParams() {
   return blogs.map((blog) => ({ slug: blog.slug }));
 }
 
-export default function BlogDetails({ params }: BlogDetailsProps) {
+export default async function BlogDetails(props: BlogDetailsProps) {
+  const params = await props.params;
   const blog = blogs.find((b) => b.slug === params.slug);
 
   if (!blog) {
