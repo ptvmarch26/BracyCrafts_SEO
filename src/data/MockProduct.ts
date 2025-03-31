@@ -1,28 +1,70 @@
 export interface Product {
+  id: number;
   slug: string;
+  src: string;
+  alt: string;
   name: string;
-  price: string;
-  description: string;
+  oldPrice: number;
+  newPrice: number;
+  star: number;
+  percent: number;
 }
 
-// Danh sách sản phẩm
+// Danh sách sản phẩm vòng tay
 export const products: Product[] = [
   {
-    slug: "vong-phong-thuy",
-    name: "Vòng phong thủy",
-    price: "500.000đ",
-    description: "Vòng phong thủy mang lại may mắn và bình an.",
+    id: 1,
+    slug: "vong-tay-da-thach-anh-tim",
+    src: "/images/vong-thach-anh-tim.jpg",
+    alt: "Vòng tay đá thạch anh tím",
+    name: "Vòng Tay Đá Thạch Anh Tím",
+    oldPrice: 750000,
+    newPrice: 650000,
+    star: 4.8,
+    percent: 13,
   },
   {
-    slug: "vong-handmade",
-    name: "Vòng handmade",
-    price: "300.000đ",
-    description: "Vòng tay handmade được làm thủ công, mang nét cá tính.",
+    id: 2,
+    slug: "vong-tay-da-mat-ho",
+    src: "/images/vong-mat-ho.jpg",
+    alt: "Vòng tay đá mắt hổ",
+    name: "Vòng Tay Đá Mắt Hổ",
+    oldPrice: 900000,
+    newPrice: 780000,
+    star: 5,
+    percent: 15,
   },
   {
-    slug: "vong-bac",
-    name: "Vòng bạc",
-    price: "700.000đ",
-    description: "Vòng tay bạc cao cấp, chống oxy hóa và đẹp mắt.",
+    id: 3,
+    slug: "vong-tay-da-hematite",
+    src: "/images/vong-hematite.jpg",
+    alt: "Vòng tay đá Hematite",
+    name: "Vòng Tay Đá Hematite",
+    oldPrice: 600000,
+    newPrice: 500000,
+    star: 4.6,
+    percent: 17,
+  },
+  {
+    id: 4,
+    slug: "vong-tay-tram-huong",
+    src: "/images/vong-tram-huong.jpg",
+    alt: "Vòng tay trầm hương",
+    name: "Vòng Tay Trầm Hương Cao Cấp",
+    oldPrice: 1200000,
+    newPrice: 1000000,
+    star: 4.9,
+    percent: 16,
+  },
+  {
+    id: 5,
+    slug: "vong-tay-da-lam-ngoc",
+    src: "/images/vong-lam-ngoc.jpg",
+    alt: "Vòng tay đá lam ngọc",
+    name: "Vòng Tay Đá Lam Ngọc",
+    oldPrice: 850000,
+    newPrice: 730000,
+    star: 4.7,
+    percent: 14,
   },
 ];
