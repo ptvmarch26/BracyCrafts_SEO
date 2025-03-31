@@ -5,6 +5,11 @@ interface BlogDetailsProps {
   params: { slug: string };
 }
 
+// 🟢 Sử dụng generateStaticParams để Next.js biết danh sách params hợp lệ
+export async function generateStaticParams() {
+  return blogs.map((blog) => ({ slug: blog.slug }));
+}
+
 export default function BlogDetails({ params }: BlogDetailsProps) {
   const blog = blogs.find((b) => b.slug === params.slug);
 
