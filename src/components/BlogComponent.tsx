@@ -15,26 +15,29 @@ interface BlogProps {
 
 const BlogComponent = ({ blog }: BlogProps) => {
   return (
-    <div className="bg-white rounded-xs shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 cursor-pointer">
-      <div className="relative w-full h-[280px]">
-        <Image
-          src={blog.image}
-          alt={blog.title}
-          fill
-          className="object-cover border"
-        />
-      </div>
-      <Link href={`/blog/${blog.slug}`}>
+    <Link href={`/blog/${blog.slug}`}>
+      <div className="bg-white rounded-xs shadow-lg overflow-hidden transform transition-all duration-300 cursor-pointer">
+        <div className="relative w-full h-[250px]">
+          <Image
+            src={blog.image}
+            alt={blog.title}
+            fill
+            className="object-cover border"
+          />
+        </div>
         <div className="p-4">
-          <h2 className="text-xl font-bold mb-2 line-clamp-2 min-h-[60px]">
+          <h2 className="text-xl font-bold hover:text-primary line-clamp-2 min-h-[56px]">
             {blog.title}
           </h2>
-          <p className="text-gray-600 text-sm line-clamp-2 min-h-[40px]">
+          <div className="flex justify-center my-5">
+            <div className="h-[1px] w-full bg-[#FFD2D8]"></div>
+          </div>
+          <p className="text-[#00000080] text-sm line-clamp-2 min-h-[40px]">
             {blog.content}
           </p>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 

@@ -11,7 +11,7 @@ export default function ProductComponent({ product }: ProductProps) {
     <div className="group text-black overflow-hidden shadow-sm hover:shadow-xl transition-transform duration-300 transform">
       <div className="relative w-full h-[280px]">
         <Image
-          src={product.src}
+          src={product.images.main}
           alt={product.alt}
           fill
           className="object-cover border"

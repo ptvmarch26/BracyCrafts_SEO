@@ -7,6 +7,7 @@ import ins_logo from "../../../public/images/ins_logo.svg";
 import fb_logo from "../../../public/images/fb_logo.svg";
 import shopee_logo from "../../../public/images/shopee_logo.svg";
 import Image from "next/image";
+import SliderBlog from "@/components/SliderBlog";
 
 export default function Home() {
   const socials = [
@@ -105,6 +106,9 @@ export default function Home() {
         </div>
 
         <div className="flex-1 h-[1px] bg-[#FFD2D8]"></div>
+      </div>
+      <div>
+        <SliderBlog />
       </div>
     </div>
   );

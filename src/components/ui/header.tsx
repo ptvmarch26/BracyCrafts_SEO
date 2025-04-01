@@ -8,11 +8,11 @@ import { LuUser } from "react-icons/lu";
 const options = [
   {
     name: "Mọi thứ",
-    url: "/products",
+    url: "/product",
     subOptions: [
-      { name: "Vòng tay", url: "/products" },
-      { name: "Áo mới", url: "/products" },
-      { name: "Phụ kiện mới", url: "/products" },
+      { name: "Vòng tay", url: "/product" },
+      { name: "Áo mới", url: "/product" },
+      { name: "Phụ kiện mới", url: "/product" },
     ],
   },
   { name: "BTS thời đại", url: "/collection" },
