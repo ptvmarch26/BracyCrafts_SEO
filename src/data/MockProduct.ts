@@ -24,14 +24,14 @@ export const products: Product[] = [
     images: {
       main: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
       gallery: [
-        "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502960/3_tuabai.jpg",
-        "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502961/4_tuabai.jpg",
+        "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
       ],
     },
     alt: "Vòng tay đá thạch anh tím",
     name: "Vòng Tay Đá Thạch Anh Tím",
     description:
-      "Vòng tay đá thạch anh tím mang lại năng lượng tích cực, giúp giảm căng thẳng và tăng cường tập trung.",
+      "Vòng tay đá thạch anh tím mang lại năng lượng tích cực, giúp giảm căng thẳng và tăng cường tập trung.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.",
     oldPrice: 750000,
     newPrice: 650000,
     star: 4.8,
