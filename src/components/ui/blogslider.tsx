@@ -1,18 +1,15 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import slider1 from "../../../public/images/slider1.svg";
-import slider2 from "../../../public/images/slider2.svg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import BlogComponent from "@/components/BlogComponent";
+import { blogs } from "@/data/MockBlog";
 
-export default function Slider() {
+export default function BlogSlider() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const slides = [slider1, slider2, slider1];
 
-  // Cập nhật index khi thay đổi slide
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
@@ -34,12 +31,12 @@ export default function Slider() {
   }, [emblaApi]);
 
   return (
-    <div className="container max-w-[1440px] mx-auto relative">
+    <div className="container mx-auto relative">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          {slides.map((image, index) => (
-            <div key={index} className="flex-[0_0_100%]">
-              <Image src={image} alt={`Slide ${index + 1}`} sizes="100%" />
+          {blogs.map((blog, index) => (
+            <div key={index} className="flex-[0_0_33.3333%]">
+              <BlogComponent blog={blog} />
             </div>
           ))}
         </div>
@@ -61,19 +58,6 @@ export default function Slider() {
       >
         <FaChevronRight className="w-5 h-5" />
       </button>
-
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            className={`w-5 h-5 rounded-full cursor-pointer ${
-              selectedIndex === index ? "bg-[#BD3A3A]" : "bg-gray-300"
-            }`}
-            onClick={() => emblaApi && emblaApi.scrollTo(index)}
-            disabled={!emblaApi}
-          />
-        ))}
-      </div>
     </div>
   );
 }

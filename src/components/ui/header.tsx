@@ -86,7 +86,7 @@ const Header = () => {
                     <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#BD3A3A] transition-all duration-300 group-hover:w-full"></span>
                   </Link>
                   {option.subOptions && (
-                    <ul className="absolute left-0 top-[132%] space-y-3 w-[800px] bg-white shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    <ul className="absolute left-0 top-[132%] z-20 space-y-3 w-[800px] bg-white shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
                       {option.subOptions.map((sub, subIndex) => (
                         <li
                           key={subIndex}

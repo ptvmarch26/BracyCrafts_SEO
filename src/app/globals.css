@@ -124,3 +124,15 @@
 .pacifico {
   font-family: var(--font-pacifico);
 }
+
+.text-primary {
+  color: #BD3A3A;
+}
+
+.bg-primary {
+  background-color: #BD3A3A;
+}
+
+.bg-secondary {
+  background-color: #FEFBF4;;
+}

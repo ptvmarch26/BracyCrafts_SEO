@@ -1,6 +1,6 @@
 import { products } from "@/data/MockProduct";
 import { notFound } from "next/navigation";
-import Image from "next/image";
+// import Image from "next/image";  
 
 interface ProductDetailsProps {
   params: Promise<{ slug: string }>;

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito, Pacifico } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/ui/header";
-import Footer from "@/components/ui/footer";
 
 const nunito = Nunito({
   subsets: ["vietnamese"],
@@ -28,9 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${nunito.className} ${pacifico.variable}`}>
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );

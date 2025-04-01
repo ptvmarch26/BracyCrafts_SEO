@@ -15,9 +15,9 @@ export const products: Product[] = [
   {
     id: 1,
     slug: "vong-tay-da-thach-anh-tim",
-    src: "/images/vong-thach-anh-tim.jpg",
+    src: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     alt: "Vòng tay đá thạch anh tím",
-    name: "Vòng Tay Đá Thạch Anh Tím",
+    name: "Vòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh TímVòng Tay Đá Thạch Anh Tím",
     oldPrice: 750000,
     newPrice: 650000,
     star: 4.8,
@@ -26,7 +26,7 @@ export const products: Product[] = [
   {
     id: 2,
     slug: "vong-tay-da-mat-ho",
-    src: "/images/vong-mat-ho.jpg",
+    src: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     alt: "Vòng tay đá mắt hổ",
     name: "Vòng Tay Đá Mắt Hổ",
     oldPrice: 900000,
@@ -37,7 +37,7 @@ export const products: Product[] = [
   {
     id: 3,
     slug: "vong-tay-da-hematite",
-    src: "/images/vong-hematite.jpg",
+    src: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     alt: "Vòng tay đá Hematite",
     name: "Vòng Tay Đá Hematite",
     oldPrice: 600000,
@@ -48,7 +48,7 @@ export const products: Product[] = [
   {
     id: 4,
     slug: "vong-tay-tram-huong",
-    src: "/images/vong-tram-huong.jpg",
+    src: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     alt: "Vòng tay trầm hương",
     name: "Vòng Tay Trầm Hương Cao Cấp",
     oldPrice: 1200000,
@@ -59,7 +59,7 @@ export const products: Product[] = [
   {
     id: 5,
     slug: "vong-tay-da-lam-ngoc",
-    src: "/images/vong-lam-ngoc.jpg",
+    src: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     alt: "Vòng tay đá lam ngọc",
     name: "Vòng Tay Đá Lam Ngọc",
     oldPrice: 850000,
