@@ -79,7 +79,7 @@ export default function ProductDetails({ params }: ProductDetailsProps) {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    beforeChange: (_: any, next: number) => {
+    beforeChange: (_: number, next: number) => {
       setCurrentSlide(next);
       if (thumbSliderRef.current) {
         thumbSliderRef.current.slickGoTo(next);
@@ -94,7 +94,7 @@ export default function ProductDetails({ params }: ProductDetailsProps) {
     slidesToShow: 5,
     slidesToScroll: 1,
     focusOnSelect: true,
-    beforeChange: (_: any, next: number) => {
+    beforeChange: (_: number, next: number) => {
       setCurrentSlide(next);
       if (mainSliderRef.current) {
         mainSliderRef.current.slickGoTo(next);
@@ -108,8 +108,7 @@ export default function ProductDetails({ params }: ProductDetailsProps) {
       mainSliderRef.current.slickGoTo(index);
     }
   };
-
-  console.log("pr,sz", product.sizes);
+  console.log("Main image exists:", mainImage);
 
   return (
     <div className="container mx-auto py-10">
