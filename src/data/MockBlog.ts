@@ -8,6 +8,12 @@ export interface BlogSection {
   id?: string; // ID duy nhất cho mỗi section
 }
 
+interface StructuredData {
+  "@context": string;
+  "@type": string;
+  [key: string]: string | number | boolean | StructuredData | StructuredData[] | { "@type": string; name: string; };
+}
+
 export interface Blog {
   slug: string;
   title: string;
@@ -24,7 +30,7 @@ export interface Blog {
   metaTitle?: string; // Tiêu đề tùy chỉnh cho SEO
   metaDescription?: string; // Mô tả tùy chỉnh cho SEO
   canonicalUrl?: string; // URL chuẩn nếu có nhiều URL dẫn đến cùng nội dung
-  structuredData?: Record<string, any>; // Dữ liệu có cấu trúc cho Schema.org
+  structuredData?: StructuredData; // Dữ liệu có cấu trúc cho Schema.org
 }
 
 export const blogPosts: Blog[] = [
