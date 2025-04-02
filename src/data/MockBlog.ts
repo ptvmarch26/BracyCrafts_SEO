@@ -11,7 +11,13 @@ export interface BlogSection {
 interface StructuredData {
   "@context": string;
   "@type": string;
-  [key: string]: string | number | boolean | StructuredData | StructuredData[] | { "@type": string; name: string; };
+  [key: string]:
+    | string
+    | number
+    | boolean
+    | StructuredData
+    | StructuredData[]
+    | { "@type": string; name: string };
 }
 
 export interface Blog {
@@ -68,8 +74,15 @@ export const blogPosts: Blog[] = [
       {
         id: "section-1",
         type: "heading",
-        content: "Vòng Tay Cho Người Tay Nhỏ",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
         level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
       },
       {
         type: "paragraph",
