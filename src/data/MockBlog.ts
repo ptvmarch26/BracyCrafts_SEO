@@ -33,15 +33,13 @@ export interface Blog {
   tags: string[]; // Thêm tags để tăng khả năng SEO
   readingTime: number;
   sections: BlogSection[];
-  metaTitle?: string; // Tiêu đề tùy chỉnh cho SEO
-  metaDescription?: string; // Mô tả tùy chỉnh cho SEO
   canonicalUrl?: string; // URL chuẩn nếu có nhiều URL dẫn đến cùng nội dung
   structuredData?: StructuredData; // Dữ liệu có cấu trúc cho Schema.org
 }
 
 export const blogPosts: Blog[] = [
   {
-    slug: "cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
     title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
     description:
       "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
@@ -54,9 +52,6 @@ export const blogPosts: Blog[] = [
     category: ["Vòng Tay", "Thời Trang"],
     tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
     readingTime: 8,
-    metaTitle: "Chọn Vòng Tay Phù Hợp | Hướng Dẫn Chi Tiết",
-    metaDescription:
-      "Khám phá cách chọn vòng tay phù hợp với từng dáng tay, phong cách và nhu cầu của bạn.",
     canonicalUrl:
       "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
     structuredData: {
@@ -155,7 +150,7 @@ export const blogPosts: Blog[] = [
     ],
   },
   {
-    slug: "cham-soc-vong-tay-da",
+    slug: "cach-cham-soc-vong-tay-da",
     title: "Cách Chăm Sóc Vòng Tay Da Để Luôn Bền Đẹp",
     description:
       "Hướng dẫn chi tiết cách chăm sóc vòng tay da để giữ được độ bền đẹp và mới lâu dài.",
@@ -167,9 +162,6 @@ export const blogPosts: Blog[] = [
     category: ["Vòng Tay", "Chăm Sóc Sản Phẩm"],
     tags: ["vòng tay da", "chăm sóc vòng tay", "bảo quản sản phẩm"],
     readingTime: 6,
-    metaTitle: "Cách Chăm Sóc Vòng Tay Da Đúng Cách | Giữ Độ Bền Mới Lâu",
-    metaDescription:
-      "Hướng dẫn chi tiết cách chăm sóc vòng tay da, giúp sản phẩm của bạn luôn mới và bền lâu.",
     canonicalUrl: "https://example.com/blog/cham-soc-vong-tay-da",
     structuredData: {
       "@context": "https://schema.org",

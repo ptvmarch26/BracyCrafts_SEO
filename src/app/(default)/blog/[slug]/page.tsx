@@ -28,17 +28,27 @@ export async function generateMetadata({
   }
 
   return {
-    title: post.metaTitle || post.title,
-    description: post.metaDescription || post.description,
+    title: post.title,
+    description: post.description,
     openGraph: {
-      title: post.metaTitle || post.title,
-      description: post.metaDescription || post.description,
+      title: post.title,
+      description: post.description,
+      url: `https://bracycrafts-seo.vercel.app/blog/${post.slug}`,
       images: [
         {
           url: post.image,
+          width: 1200,
+          height: 630,
           alt: post.altText,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@bracycrafts",
+      title: post.title,
+      description: post.description,
+      images: [post.image],
     },
     alternates: {
       canonical: post.canonicalUrl,
@@ -46,7 +56,6 @@ export async function generateMetadata({
   };
 }
 
-// Nội dung Blog
 const BlogSectionComponent = ({
   section,
   post,
