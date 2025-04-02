@@ -9,6 +9,11 @@ import reason4 from "../../../../public/images/about/reason4.svg";
 import reason5 from "../../../../public/images/about/reason5.svg";
 import reason6 from "../../../../public/images/about/reason6.svg";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Về chúng tôi",
+};
 
 const AboutUs = () => {
   const options = [

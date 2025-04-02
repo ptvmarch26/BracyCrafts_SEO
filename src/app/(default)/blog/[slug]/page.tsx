@@ -139,7 +139,11 @@ const BlogSectionComponent = ({
   }
 };
 
-export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params; // Đợi Promise resolve để có slug
   const post = blogPosts.find((post) => post.slug === slug);
 

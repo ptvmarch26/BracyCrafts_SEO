@@ -124,19 +124,19 @@ export default function Footer() {
                   </h3>
                   <nav className="space-y-2">
                     <Link
-                      href={"/"}
+                      href={"/about-us"}
                       className="block text-md opacity-80 hover:opacity-100 hover:font-medium transition"
                     >
                       Chuyện nhà mình
                     </Link>
                     <Link
-                      href={"/"}
+                      href={"/term-of-use"}
                       className="block text-md opacity-80 hover:opacity-100 hover:font-medium transition"
                     >
                       Điều khoản chung
                     </Link>
                     <Link
-                      href={"/"}
+                      href={"/private-policy"}
                       className="block text-md opacity-80 hover:opacity-100 hover:font-medium transition"
                     >
                       Chính sách bảo mật

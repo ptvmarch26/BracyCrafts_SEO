@@ -8,6 +8,12 @@ import fb_logo from "../../../public/images/fb_logo.svg";
 import shopee_logo from "../../../public/images/shopee_logo.svg";
 import Image from "next/image";
 import SliderBlog from "@/components/SliderBlog";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Trang chủ",
+  description: "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tậm tâm nhất dành cho khách hàng. Hãy khám phá thêm về chúng tôi bằng cách trải nghiệm mua sắm ngay hôm nay!",
+};
 
 export default function Home() {
   const socials = [

@@ -1,6 +1,11 @@
 import { products } from "@/data/MockProduct";
 import ProductComponent from "@/components/ProductComponent";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sản phẩm",
+};
 
 export default function ProductList() {
   return (

@@ -1,5 +1,10 @@
 import { blogPosts } from "@/data/MockBlog";
 import BlogComponent from "@/components/BlogComponent";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bài viết",
+};
 
 export default function Blog() {
   return (

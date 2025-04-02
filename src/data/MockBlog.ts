@@ -88,13 +88,33 @@ export const blogPosts: Blog[] = [
         type: "paragraph",
         content:
           "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
-        parentId: "section-1",
+        parentId: "section-1-1",
       },
       {
         type: "image",
         content:
           "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
         altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
         parentId: "section-1",
       },
       {

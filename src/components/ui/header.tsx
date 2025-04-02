@@ -15,10 +15,10 @@ const options = [
       { name: "Phụ kiện mới", url: "/product" },
     ],
   },
-  { name: "BTS thời đại", url: "/collection" },
+  { name: "BTS thời đại", url: "/" },
   { name: "Blog hay", url: "/blog" },
-  { name: "Ưu đãi", url: "/discount" },
-  { name: "Về Bracycrafts", url: "/about" },
+  { name: "Ưu đãi", url: "/" },
+  { name: "Về Bracycrafts", url: "/about-us" },
 ];
 
 const Header = () => {
@@ -49,7 +49,7 @@ const Header = () => {
             <div className="flex items-center space-x-2">
               <div className="flex items-center space-x-4 text-[#BD3A3A] text-3xl">
                 <div className="group relative cursor-pointer">
-                  <Link href="/sign-in" className="no-underline flex">
+                  <Link href="/" className="no-underline flex">
                     <div className="transition">
                       <LuUser />
                     </div>
@@ -58,7 +58,7 @@ const Header = () => {
                 </div>
 
                 <div className="group relative cursor-pointer">
-                  <Link href="/cart" className="no-underline flex">
+                  <Link href="/" className="no-underline flex">
                     <div className="transition">
                       <MdOutlineShoppingBag />
                     </div>
