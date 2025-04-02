@@ -1,9 +1,14 @@
 import { Metadata } from "next";
+import Script from "next/script";
 import React from "react";
 
 export const metadata: Metadata = {
   title: "Điều khoản sử dụng",
+  description: "Đọc và hiểu rõ các điều khoản sử dụng dịch vụ tại BracyCrafts, bao gồm chính sách thanh toán, bảo mật, và quyền lợi của khách hàng.",
+  keywords: "Điều khoản sử dụng, BracyCrafts, Chính sách bảo mật, Thanh toán, Hướng dẫn sử dụng website, Mua sắm online",
+  robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
 };
+
 
 const Term = () => {
   const terms = [
@@ -98,6 +103,28 @@ const Term = () => {
           })}
         </div>
       ))}
+      <Script
+        id="schema-terms"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "BracyCrafts | Điều khoản sử dụng",
+            "url": "https://bracycrafts-seo.vercel.app/term-of-use",
+            "description":
+              "Đọc và hiểu rõ các điều khoản sử dụng dịch vụ tại BracyCrafts, bao gồm chính sách thanh toán, bảo mật, và quyền lợi của khách hàng.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "BracyCrafts",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
     </div>
   );
 };

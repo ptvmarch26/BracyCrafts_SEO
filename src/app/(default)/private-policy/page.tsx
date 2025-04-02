@@ -1,8 +1,14 @@
 import { Metadata } from "next";
+import Script from "next/script";
 import React from "react";
 
 export const metadata: Metadata = {
   title: "Chính sách bảo mật",
+  description:
+    "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
+  keywords:
+    "Chính sách bảo mật, bảo mật thông tin khách hàng, bảo mật dữ liệu, bảo vệ thông tin cá nhân, BracyCrafts",
+  robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
 };
 
 const PrivatePolicy = () => {
@@ -59,6 +65,28 @@ const PrivatePolicy = () => {
           ))}
         </div>
       ))}
+      <Script
+        id="schema-privacy-policy"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "BracyCrafts | Chính sách bảo mật",
+            url: "https://bracycrafts-seo.vercel.app/private-policy",
+            description:
+              "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
+            publisher: {
+              "@type": "Organization",
+              name: "BracyCrafts",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
     </div>
   );
 };

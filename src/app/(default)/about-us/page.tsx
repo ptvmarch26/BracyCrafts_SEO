@@ -10,9 +10,15 @@ import reason5 from "../../../../public/images/about/reason5.svg";
 import reason6 from "../../../../public/images/about/reason6.svg";
 import Image from "next/image";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Về chúng tôi",
+  description:
+    "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
+  keywords:
+    "về chúng tôi, vòng tay handmade, phụ kiện handmade, sản phẩm thủ công, BracyCrafts, thiết kế vòng tay cá nhân hóa, phụ kiện tự làm",
+  robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
 };
 
 const AboutUs = () => {
@@ -181,6 +187,28 @@ const AboutUs = () => {
           ))}
         </div>
       </section>
+      <Script
+        id="schema-about-us"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "BracyCrafts | Về chúng tôi",
+            url: "https://bracycrafts-seo.vercel.app/about-us",
+            description:
+              "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
+            publisher: {
+              "@type": "Organization",
+              name: "BracyCrafts",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
     </div>
   );
 };

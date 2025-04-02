@@ -12,7 +12,39 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Trang chủ",
-  description: "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tậm tâm nhất dành cho khách hàng. Hãy khám phá thêm về chúng tôi bằng cách trải nghiệm mua sắm ngay hôm nay!",
+  description:
+    "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tậm tâm nhất dành cho khách hàng. Hãy khám phá thêm về chúng tôi bằng cách trải nghiệm mua sắm ngay hôm nay!",
+  keywords: [
+    "vòng tay handmade",
+    "vòng tay phong thủy",
+    "quà tặng thủ công",
+    "BracyCrafts",
+    "sản phẩm handmade",
+    "sản phẩm thủ công",
+  ],
+  openGraph: {
+    title: "BracyCrafts | Trang chủ",
+    description:
+      "Khám phá sản phẩm thủ công độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng đặc biệt.",
+    url: "https://bracycrafts-seo.vercel.app",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+        width: 1200,
+        height: 630,
+        alt: "BracyCrafts - Sản phẩm handmade",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@bracycrafts",
+    title: "BracyCrafts | Trang chủ",
+    description: "Khám phá các sản phẩm handmade độc đáo tại BracyCrafts.",
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
+  },
 };
 
 export default function Home() {
