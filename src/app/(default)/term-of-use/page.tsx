@@ -79,14 +79,14 @@ const Term = () => {
             if (line.startsWith("Cách 1") || line.startsWith("Cách 2")) {
               const parts = line.split(":");
               return (
-                <p key={i} className="text-lg font-[400] mb-2">
+                <p key={i} className="text-gray-700 text-lg font-[400] mb-2">
                   <strong className="underline">{parts[0]}</strong>
                   {parts.length > 1 && `:${parts.slice(1).join(":")}`}
                 </p>
               );
             }
             return (
-              <p key={i} className="text-lg font-[400] mb-2">
+              <p key={i} className="text-gray-700 text-lg font-[400] mb-2">
                 {line}
               </p>
             );
