@@ -17,6 +17,7 @@ export default function SliderBlog() {
     <button
       className="absolute left-3 top-1/2 -translate-y-1/2 bg-[#BD3A3A] text-white w-10 h-10 flex items-center justify-center rounded-full hover:opacity-70 cursor-pointer z-10"
       onClick={onClick}
+      aria-label="Back Button"
     >
       <FaChevronLeft className="w-5 h-5" />
     </button>
@@ -26,6 +27,7 @@ export default function SliderBlog() {
     <button
       className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#BD3A3A] text-white w-10 h-10 flex items-center justify-center rounded-full hover:opacity-70 cursor-pointer z-10"
       onClick={onClick}
+      aria-label="Next Button"
     >
       <FaChevronRight className="w-5 h-5" />
     </button>
