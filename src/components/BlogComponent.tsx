@@ -5,7 +5,7 @@ import Image from "next/image";
 export interface Blog {
   slug: string;
   title: string;
-  content: string;
+  description: string;
   image: string;
 }
 
@@ -33,7 +33,7 @@ const BlogComponent = ({ blog }: BlogProps) => {
             <div className="h-[1px] w-full bg-[#FFD2D8]"></div>
           </div>
           <p className="text-[#00000080] text-sm line-clamp-2 min-h-[40px]">
-            {blog.content}
+            {blog.description}
           </p>
         </div>
       </div>

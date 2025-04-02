@@ -1,4 +1,4 @@
-import { blogs } from "@/data/MockBlog";
+import { blogPosts } from "@/data/MockBlog";
 import BlogComponent from "@/components/BlogComponent";
 
 export default function Blog() {
@@ -6,7 +6,7 @@ export default function Blog() {
     <div className="container max-w-[1200px] mx-auto py-10">
       <h1 className="text-4xl pacifico font-medium text-primary text-center mb-5">Danh sách bài viết</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {blogs.map((blog) => (
+        {blogPosts.map((blog) => (
           <BlogComponent key={blog.slug} blog={blog} />
         ))}
       </div>

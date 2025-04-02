@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
-import { blogs } from "@/data/MockBlog";
+import { blogPosts } from "@/data/MockBlog";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import BlogComponent from "./BlogComponent";
 
@@ -47,7 +47,7 @@ export default function SliderBlog() {
   return (
     <div className="relative">
       <Slider {...settings}>
-        {blogs.map((blog, index) => (
+        {blogPosts.map((blog, index) => (
           <div key={index} className="flex items-center justify-center px-5">
             <BlogComponent blog={blog} />
           </div>
