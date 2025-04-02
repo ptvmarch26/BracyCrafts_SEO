@@ -277,16 +277,18 @@ export default function ProductDetails({ params }: ProductDetailsProps) {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl uppercase font-bold text-center my-10">
-          Sản phẩm tương tự
-        </h1>
-        <div className="grid grid-cols-5 gap-6">
-          {products.map((product) => (
-            <Link key={product.id} href={`/product/${product.slug}`}>
-              <ProductComponent product={product} />
-            </Link>
-          ))}
-        </div>
+        <section>
+          <h1 className="text-4xl uppercase font-bold text-center my-10">
+            Sản phẩm tương tự
+          </h1>
+          <div className="grid grid-cols-5 gap-6">
+            {products.map((product) => (
+              <Link key={product.id} href={`/product/${product.slug}`}>
+                <ProductComponent product={product} />
+              </Link>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );
