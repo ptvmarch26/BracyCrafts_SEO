@@ -55,11 +55,11 @@ export default function Home() {
   ];
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto py-10 px-2">
       <SliderBanner />
 
       <div className="grid items-center grid-cols-5 py-20 gap-5">
-        <div className="col-span-3">
+        <div className="col-span-5 md:col-span-3">
           <h2 className="pacifico text-primary font-medium text-4xl">
             Giá trị mà BracyCrafts mang đến
           </h2>
@@ -78,7 +78,7 @@ export default function Home() {
             Cảm ơn các bạn đã luôn tin tưởng và ủng hộ BracyCrafts!
           </p>
         </div>
-        <div className="bg-secondary col-span-2 py-20 px-5 border-3 border-[#BD3A3A] rounded-xl">
+        <div className="bg-secondary col-span-5 md:col-span-2 py-20 px-5 border-3 border-[#BD3A3A] rounded-xl">
           <Image src={logo} alt="BracyCrafts Logo" width={500} height={250} />
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function Home() {
 
         <div className="flex-1 h-[1px] bg-[#FFD2D8]"></div>
       </div>
-      <div className="grid grid-cols-5 gap-6 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {products.map((product) => (
           <Link key={product.id} href={`/product/${product.slug}`}>
             <ProductComponent product={product} />
@@ -114,7 +114,7 @@ export default function Home() {
         <div className="flex-1 h-[1px] bg-[#FFD2D8]"></div>
       </div>
       <div className="flex justify-around items-center">
-        <div className="flex-1 flex justify-around items-center">
+        <div className="flex-1 flex justify-around items-center gap-5 flex-wrap">
           {socials.map((social, index) => (
             <Link
               key={index}

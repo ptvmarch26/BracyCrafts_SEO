@@ -172,7 +172,7 @@ export default async function BlogPost({
   };
 
   return (
-    <article className="max-w-4xl mx-auto py-10">
+    <article className="max-w-4xl mx-auto py-10 px-2">
       {/* Thêm dữ liệu có cấu trúc cho SEO */}
       {post.structuredData && (
         <script

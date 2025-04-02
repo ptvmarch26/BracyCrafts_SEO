@@ -26,13 +26,13 @@ const BlogComponent = ({ blog }: BlogProps) => {
           />
         </div>
         <div className="p-4">
-          <h2 className="text-xl font-bold hover:text-primary line-clamp-2 min-h-[56px]">
+          <h2 className="text-xl font-bold hover:text-primary line-clamp-2 sm:min-h-[56px]">
             {blog.title}
           </h2>
           <div className="flex justify-center my-5">
             <div className="h-[1px] w-full bg-[#FFD2D8]"></div>
           </div>
-          <p className="text-[#00000080] text-sm line-clamp-2 min-h-[40px]">
+          <p className="text-[#00000080] text-sm line-clamp-2 sm:min-h-[40px]">
             {blog.description}
           </p>
         </div>

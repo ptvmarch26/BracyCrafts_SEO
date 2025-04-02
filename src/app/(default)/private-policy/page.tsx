@@ -46,7 +46,7 @@ const PrivatePolicy = () => {
     },
   ];
   return (
-    <div className="container mx-auto flex flex-col py-10">
+    <div className="container mx-auto flex flex-col py-10 px-2">
       <h1 className="text-4xl pacifico font-medium text-primary text-center">
         BracyCrafts - Chính sách bảo mật thông tin
       </h1>
@@ -59,7 +59,7 @@ const PrivatePolicy = () => {
             {index + 1}. {policy.title}
           </h2>
           {policy.content.split("\n").map((line, i) => (
-            <p key={i} className="text-gray-700 text-lg font-[400] mb-2">
+            <p key={i} className="text-gray-700 text-lg font-[400] mb-2 text-justify">
               {line}
             </p>
           ))}

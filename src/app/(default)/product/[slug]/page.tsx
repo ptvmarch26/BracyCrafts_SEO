@@ -92,7 +92,7 @@ export default async function ProductDetailsPage({
   };
 
   return (
-    <article className="container mx-auto py-10">
+    <article className="container mx-auto py-10 px-2">
       {/* Thêm dữ liệu có cấu trúc cho SEO */}
       <script
         type="application/ld+json"

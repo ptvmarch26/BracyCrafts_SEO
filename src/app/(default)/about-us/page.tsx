@@ -82,7 +82,7 @@ const AboutUs = () => {
     },
   ];
   return (
-    <div className="container mx-auto flex flex-col items-center py-10">
+    <div className="container mx-auto flex flex-col items-center py-10 px-2">
       <section>
         <h1 className="text-4xl pacifico font-medium text-primary text-center">
           BracyCrafts - Cửa hàng phụ kiện handmade siu xinh
@@ -94,16 +94,18 @@ const AboutUs = () => {
           Chào mừng các tình iu đến với BracyCrafts – Thế giới của những món phụ
           kiện vòng tay handmade độc đáo, đáng yêu và đậm chất riêng!{" "}
         </p>
-        <div className="flex justify-evenly py-10">
+        <div className="flex justify-evenly flex-wrap lg:flex-nowrap py-10">
           {options.map((option, index) => (
-            <div key={index} className="flex flex-col items-center">
+            <div key={index} className="flex flex-col items-center py-5 lg:py-0">
               <Image
                 src={option.img}
                 alt={option.title}
                 width={80}
                 height={80}
               />
-              <p className="font-bold text-lg my-3">{option.title}</p>
+              <p className="font-bold text-lg my-3 text-center">
+                {option.title}
+              </p>
               <p className="text-center">{option.content}</p>
             </div>
           ))}
@@ -181,7 +183,7 @@ const AboutUs = () => {
                 width={80}
                 height={80}
               />
-              <p className="font-bold text-lg my-3">{reason.title}</p>
+              <p className="font-bold text-lg my-3 text-center">{reason.title}</p>
               <p className="text-center">{reason.content}</p>
             </div>
           ))}

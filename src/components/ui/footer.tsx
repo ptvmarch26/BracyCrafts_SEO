@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#BD3A3A] bg-[url('/images/footer_design.svg')] bg-bottom">
+    <footer className="bg-[#BD3A3A] bg-[url('/images/footer_design.svg')] bg-bottom px-2">
       <div className="container mx-auto">
         <div className="py-10">
           <h1 className="text-4xl text-white pacifico">

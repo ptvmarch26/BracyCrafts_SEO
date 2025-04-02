@@ -100,7 +100,7 @@ export default function ProductDetailsClient({
   console.log("mainImage",mainImage);
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-10">
+      <div className="flex flex-col items-center lg:flex-row gap-10">
         <div className="w-full max-w-lg">
           <div className="w-full max-w-lg">
             <div className="relative w-fu">
@@ -295,7 +295,7 @@ export default function ProductDetailsClient({
           <h2 className="text-4xl uppercase font-bold text-center my-10">
             Sản phẩm tương tự
           </h2>
-          <div className="grid grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">  
             {products.slice(0, 5).map((relatedProduct) => (
               <Link
                 key={relatedProduct.id}

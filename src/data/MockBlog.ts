@@ -213,4 +213,559 @@ export const blogPosts: Blog[] = [
       },
     ],
   },
+  {
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+    description:
+      "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+    altText: "Các loại vòng tay cho các dáng tay khác nhau",
+    publishedAt: "2025-04-10T08:00:00Z",
+    updatedAt: "2025-04-10T10:00:00Z",
+    author: "Nguyễn Văn A",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
+    readingTime: 8,
+    canonicalUrl:
+      "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+      datePublished: "2025-04-10T08:00:00Z",
+      dateModified: "2025-04-10T10:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Văn A",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
+        level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "Vòng Tay Cho Người Tay Lớn",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Đối với người có cổ tay lớn, các mẫu vòng tay rộng và mạnh mẽ sẽ giúp tạo sự cân đối và tôn lên vẻ đẹp của bàn tay.",
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay lớn",
+        parentId: "section-2",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "Cách Lựa Chọn Màu Sắc Vòng Tay",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Đầu tiên, chọn vòng tay phù hợp với phong cách",
+          "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
+          "Cuối cùng, lựa chọn màu sắc vòng tay thích hợp",
+        ],
+        parentId: "section-3",
+      },
+    ],
+  },
+  {
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+    description:
+      "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+    altText: "Các loại vòng tay cho các dáng tay khác nhau",
+    publishedAt: "2025-04-10T08:00:00Z",
+    updatedAt: "2025-04-10T10:00:00Z",
+    author: "Nguyễn Văn A",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
+    readingTime: 8,
+    canonicalUrl:
+      "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+      datePublished: "2025-04-10T08:00:00Z",
+      dateModified: "2025-04-10T10:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Văn A",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
+        level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "Vòng Tay Cho Người Tay Lớn",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Đối với người có cổ tay lớn, các mẫu vòng tay rộng và mạnh mẽ sẽ giúp tạo sự cân đối và tôn lên vẻ đẹp của bàn tay.",
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay lớn",
+        parentId: "section-2",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "Cách Lựa Chọn Màu Sắc Vòng Tay",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Đầu tiên, chọn vòng tay phù hợp với phong cách",
+          "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
+          "Cuối cùng, lựa chọn màu sắc vòng tay thích hợp",
+        ],
+        parentId: "section-3",
+      },
+    ],
+  },
+  {
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+    description:
+      "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+    altText: "Các loại vòng tay cho các dáng tay khác nhau",
+    publishedAt: "2025-04-10T08:00:00Z",
+    updatedAt: "2025-04-10T10:00:00Z",
+    author: "Nguyễn Văn A",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
+    readingTime: 8,
+    canonicalUrl:
+      "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+      datePublished: "2025-04-10T08:00:00Z",
+      dateModified: "2025-04-10T10:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Văn A",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
+        level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "Vòng Tay Cho Người Tay Lớn",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Đối với người có cổ tay lớn, các mẫu vòng tay rộng và mạnh mẽ sẽ giúp tạo sự cân đối và tôn lên vẻ đẹp của bàn tay.",
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay lớn",
+        parentId: "section-2",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "Cách Lựa Chọn Màu Sắc Vòng Tay",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Đầu tiên, chọn vòng tay phù hợp với phong cách",
+          "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
+          "Cuối cùng, lựa chọn màu sắc vòng tay thích hợp",
+        ],
+        parentId: "section-3",
+      },
+    ],
+  },
+  {
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+    description:
+      "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+    altText: "Các loại vòng tay cho các dáng tay khác nhau",
+    publishedAt: "2025-04-10T08:00:00Z",
+    updatedAt: "2025-04-10T10:00:00Z",
+    author: "Nguyễn Văn A",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
+    readingTime: 8,
+    canonicalUrl:
+      "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+      datePublished: "2025-04-10T08:00:00Z",
+      dateModified: "2025-04-10T10:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Văn A",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
+        level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "Vòng Tay Cho Người Tay Lớn",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Đối với người có cổ tay lớn, các mẫu vòng tay rộng và mạnh mẽ sẽ giúp tạo sự cân đối và tôn lên vẻ đẹp của bàn tay.",
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay lớn",
+        parentId: "section-2",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "Cách Lựa Chọn Màu Sắc Vòng Tay",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Đầu tiên, chọn vòng tay phù hợp với phong cách",
+          "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
+          "Cuối cùng, lựa chọn màu sắc vòng tay thích hợp",
+        ],
+        parentId: "section-3",
+      },
+    ],
+  },
+  {
+    slug: "10-cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    title: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+    description:
+      "Hướng dẫn chi tiết về cách lựa chọn vòng tay phù hợp với từng dáng tay, giúp bạn chọn được sản phẩm hoàn hảo.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+    altText: "Các loại vòng tay cho các dáng tay khác nhau",
+    publishedAt: "2025-04-10T08:00:00Z",
+    updatedAt: "2025-04-10T10:00:00Z",
+    author: "Nguyễn Văn A",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
+    readingTime: 8,
+    canonicalUrl:
+      "https://example.com/blog/cach-chon-vong-tay-phu-hop-voi-tung-dang-tay",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "10 Cách Chọn Vòng Tay Phù Hợp Với Từng Dáng Tay",
+      datePublished: "2025-04-10T08:00:00Z",
+      dateModified: "2025-04-10T10:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Văn A",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Vòng Tay Cho Người Tay Nhỏ",
+        level: 2,
+      },
+      {
+        id: "section-1-1",
+        type: "heading",
+        content: "1.1. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khi chọn vòng tay cho người tay nhỏ, bạn nên chọn những chiếc vòng có thiết kế thanh mảnh và nhẹ nhàng để tạo sự cân đối.",
+        parentId: "section-1-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay nhỏ",
+        parentId: "section-1-1",
+      },
+      {
+        id: "section-1-2",
+        type: "heading",
+        content: "1.2. Vòng Tay Nhỏ Xinh",
+        level: 3,
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "Vòng Tay Cho Người Tay Lớn",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Đối với người có cổ tay lớn, các mẫu vòng tay rộng và mạnh mẽ sẽ giúp tạo sự cân đối và tôn lên vẻ đẹp của bàn tay.",
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
+        altText: "Vòng tay cho tay lớn",
+        parentId: "section-2",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "Cách Lựa Chọn Màu Sắc Vòng Tay",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Đầu tiên, chọn vòng tay phù hợp với phong cách",
+          "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
+          "Cuối cùng, lựa chọn màu sắc vòng tay thích hợp",
+        ],
+        parentId: "section-3",
+      },
+    ],
+  },
 ];

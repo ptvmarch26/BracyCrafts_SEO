@@ -136,3 +136,10 @@
 .bg-secondary {
   background-color: #FEFBF4;;
 }
+
+
+@media (max-width: 767px) {
+  html {
+    font-size: 80%;
+  }
+} 

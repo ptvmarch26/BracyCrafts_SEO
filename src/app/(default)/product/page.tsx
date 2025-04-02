@@ -80,11 +80,11 @@ export default function ProductList() {
           }),
         }}
       />
-      <div className="container mx-auto py-10">
+      <div className="container mx-auto py-10 px-2">
         <h1 className="text-4xl pacifico font-medium text-primary text-center mb-5">
           Danh sách sản phẩm
         </h1>
-        <div className="grid grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <Link key={product.id} href={`/product/${product.slug}`}>
               <ProductComponent product={product} />

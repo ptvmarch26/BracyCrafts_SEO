@@ -73,7 +73,7 @@ const Term = () => {
     },
   ];
   return (
-    <div className="container mx-auto flex flex-col py-10">
+    <div className="container mx-auto flex flex-col py-10 px-2">
       <h1 className="text-4xl pacifico font-medium text-primary text-center">
         BracyCrafts - Điều khoản sử dụng
       </h1>
@@ -96,7 +96,7 @@ const Term = () => {
               );
             }
             return (
-              <p key={i} className="text-gray-700 text-lg font-[400] mb-2">
+              <p key={i} className="text-gray-700 text-lg font-[400] mb-2 text-justify">
                 {line}
               </p>
             );
