@@ -1,39 +1,63 @@
-import { NextResponse } from 'next/server';
-import { products } from '@/data/MockProduct';
+import { MetadataRoute } from "next";
+import { products, Product } from "@/data/MockProduct";
+import { blogPosts, Blog } from "@/data/MockBlog";
 
-export async function GET() {
-  const baseUrl = 'https://bracycrafts-seo.vercel.app/';
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // URL cơ bản của website
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
 
-  const productUrls = products
-    .map(
-      (product) => `
-      <url>
-        <loc>${baseUrl}/product/${product.slug}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <priority>0.8</priority>
-      </url>
-    `
-    )
-    .join('');
+  // Chuyển đổi dữ liệu sản phẩm giả thành định dạng sitemap
+  const productUrls: MetadataRoute.Sitemap = (products as Product[]).map(
+    (product) => ({
+      url: `${baseUrl}/products/${product.slug}`,
+      lastModified: new Date(new Date()),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    })
+  );
 
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-      <loc>${baseUrl}/</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
-      <priority>1.0</priority>
-    </url>
-    <url>
-      <loc>${baseUrl}/shop</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
-      <priority>0.9</priority>
-    </url>
-    ${productUrls}
-  </urlset>`;
+  // Chuyển đổi dữ liệu blog giả thành định dạng sitemap
+  const blogUrls: MetadataRoute.Sitemap = (blogPosts as Blog[]).map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.updatedAt || new Date()),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
-  return new NextResponse(sitemap, {
-    headers: {
-      'Content-Type': 'application/xml',
+  // Các trang tĩnh
+  const staticPages: MetadataRoute.Sitemap = [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 1.0,
     },
-  });
+    {
+      url: `${baseUrl}/products`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/privacy-policy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+  ];
+
+  // Kết hợp tất cả URL
+  return [...staticPages, ...productUrls, ...blogUrls];
 }
