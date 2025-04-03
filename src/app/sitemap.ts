@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Chuyển đổi dữ liệu sản phẩm giả thành định dạng sitemap
   const productUrls: MetadataRoute.Sitemap = (products as Product[]).map(
     (product) => ({
-      url: `${baseUrl}/products/${product.slug}`,
+      url: `${baseUrl}/product/${product.slug}`,
       lastModified: new Date(new Date()),
       changeFrequency: "weekly",
       priority: 0.8,
@@ -32,7 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/products`,
+      url: `${baseUrl}/product`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.9,
@@ -44,13 +44,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/terms`,
+      url: `${baseUrl}/term-of-use`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/privacy-policy`,
+      url: `${baseUrl}/private-policy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/about-us`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
