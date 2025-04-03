@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bracycrafts-seo.vercel.app/sitemap.xml
+Sitemap: https://bracycrafts-seo.vercel.app/sitemap.ts
