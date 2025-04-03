@@ -3,8 +3,7 @@ import { products, Product } from "@/data/MockProduct";
 import { blogPosts, Blog } from "@/data/MockBlog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  // URL cơ bản của website
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+  const baseUrl = "https://bracycrafts-seo.vercel.app";
 
   // Chuyển đổi dữ liệu sản phẩm giả thành định dạng sitemap
   const productUrls: MetadataRoute.Sitemap = (products as Product[]).map(
