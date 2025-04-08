@@ -19,6 +19,21 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'bracycrafts-seo.vercel.app',
+          },
+        ],
+        destination: 'https://bracycrafts.id.vn/:path*',
+        permanent: true, // Status 301
+      },
+    ];
+  },
 };
 
 export default nextConfig;
