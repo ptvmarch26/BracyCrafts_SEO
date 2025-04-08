@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "BracyCrafts | Tất cả bài viết",
     description:
       "Khám phá các bài viết thú vị về sản phẩm handmade, quà tặng thủ công và những câu chuyện tại BracyCrafts.",
-    url: "https://bracycrafts-seo.vercel.app/blog", // Cập nhật URL thực tế của trang
+    url: "https://bracycrafts.id.vn/blog", // Cập nhật URL thực tế của trang
     images: [
       {
         url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
@@ -67,7 +67,7 @@ export default function Blog() {
                   "@type": "Organization",
                   name: "BracyCrafts",
                 },
-                url: `https://bracycrafts.com/blog/${blog.slug}`,
+                url: `https://bracycrafts.id.vn/blog/${blog.slug}`,
               },
             })),
           }),

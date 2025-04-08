@@ -102,6 +102,7 @@ const AboutUs = () => {
                 alt={option.title}
                 width={80}
                 height={80}
+                quality={100}
               />
               <p className="font-bold text-lg my-3 text-center">
                 {option.title}
@@ -182,6 +183,7 @@ const AboutUs = () => {
                 alt={reason.title}
                 width={80}
                 height={80}
+                quality={100}
               />
               <p className="font-bold text-lg my-3 text-center">{reason.title}</p>
               <p className="text-center">{reason.content}</p>

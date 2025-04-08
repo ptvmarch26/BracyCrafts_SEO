@@ -23,6 +23,7 @@ const BlogComponent = ({ blog }: BlogProps) => {
             alt={blog.title}
             fill
             className="object-cover border"
+            quality={100}
           />
         </div>
         <div className="p-4">

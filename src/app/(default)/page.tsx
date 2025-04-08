@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "BracyCrafts | Trang chủ",
     description:
       "Khám phá sản phẩm thủ công độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng đặc biệt.",
-    url: "https://bracycrafts-seo.vercel.app",
+    url: "https://bracycrafts.id.vn/",
     images: [
       {
         url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
@@ -79,7 +79,7 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-secondary col-span-5 md:col-span-2 py-20 px-5 border-3 border-[#BD3A3A] rounded-xl">
-          <Image src={logo} alt="BracyCrafts Logo" width={500} height={250} />
+          <Image src={logo} alt="BracyCrafts Logo" width={500} height={250} quality={100}/>
         </div>
       </div>
 
@@ -128,6 +128,7 @@ export default function Home() {
                 alt={social.alt}
                 width={100}
                 height={100}
+                quality={100}
               />
             </Link>
           ))}

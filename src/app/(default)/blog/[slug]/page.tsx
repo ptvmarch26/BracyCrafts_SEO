@@ -33,7 +33,7 @@ export async function generateMetadata({
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://bracycrafts-seo.vercel.app/blog/${post.slug}`,
+      url: `https://bracycrafts.id.vn/blog/${post.slug}`,
       images: [
         {
           url: post.image,
@@ -110,6 +110,7 @@ const BlogSectionComponent = ({
               width={700}
               height={700}
               className="rounded-lg"
+              quality={100}
             />
             {section.altText && (
               <p className="text-md text-gray-500 mt-2 text-center">
@@ -204,6 +205,7 @@ export default async function BlogPost({
             width={500}
             height={500}
             className="rounded-xl"
+            quality={100}
           />
         </div>
 

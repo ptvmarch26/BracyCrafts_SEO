@@ -59,6 +59,7 @@ export default function SliderBanner() {
               width={1440}
               height={400}
               layout="fixed"
+              quality={100}
             />
           </div>
         ))}

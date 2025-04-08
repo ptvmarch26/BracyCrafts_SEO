@@ -56,6 +56,7 @@ const Header = () => {
                 alt="BracyCrafts Logo"
                 width={120}
                 height={80}
+                quality={100}
               />
             </Link>
           </div>

@@ -31,7 +31,7 @@ export async function generateMetadata({
     openGraph: {
       title: product.name,
       description: product.description.substring(0, 160),
-      url: `https://bracycrafts-seo.vercel.app/product/${product.slug}`,
+      url: `https://bracycrafts.id.vn/product/${product.slug}`,
       images: [
         {
           url: product.images.main,
@@ -82,7 +82,7 @@ export default async function ProductDetailsPage({
       "@type": "Offer",
       url: `/product/${product.slug}`,
       priceCurrency: "VND",
-      price: product.newPrice,
+      price: product.price,
       priceValidUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
         .toISOString()
         .split("T")[0],

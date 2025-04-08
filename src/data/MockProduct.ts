@@ -4,8 +4,7 @@ export interface Product {
   alt: string;
   name: string;
   description: string;
-  oldPrice: number;
-  newPrice: number;
+  price: number;
   star: number;
   percent: number;
   colors?: string[];
@@ -32,8 +31,7 @@ export const products: Product[] = [
     name: "Vòng Tay Đá Thạch Anh Tím",
     description:
       "Vòng tay đá thạch anh tím mang lại năng lượng tích cực, giúp giảm căng thẳng và tăng cường tập trung.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.",
-    oldPrice: 750000,
-    newPrice: 650000,
+    price: 750000,
     star: 4.8,
     percent: 13,
     colors: ["Tím", "Hồng nhạt"],
@@ -52,8 +50,7 @@ export const products: Product[] = [
     name: "Vòng Tay Đá Mắt Hổ",
     description:
       "Vòng tay đá mắt hổ mang lại sự tự tin, giúp cải thiện khả năng quyết đoán và tăng cường sức mạnh tinh thần.",
-    oldPrice: 900000,
-    newPrice: 780000,
+    price: 900000,
     star: 5,
     percent: 15,
     sizes: ["M", "L"],
@@ -72,8 +69,7 @@ export const products: Product[] = [
     name: "Vòng Tay Đá Hematite",
     description:
       "Vòng tay đá Hematite giúp cân bằng năng lượng, giảm căng thẳng và tăng cường khả năng tập trung.",
-    oldPrice: 600000,
-    newPrice: 500000,
+    price: 600000,
     star: 4.6,
     percent: 17,
     colors: ["Xám bạc", "Đen"],
@@ -91,8 +87,7 @@ export const products: Product[] = [
     name: "Vòng Tay Trầm Hương Cao Cấp",
     description:
       "Vòng tay trầm hương mang lại hương thơm dễ chịu, giúp thư giãn tinh thần và cải thiện giấc ngủ.",
-    oldPrice: 1200000,
-    newPrice: 1000000,
+    price: 1200000,
     star: 4.9,
     percent: 16,
     sizes: ["M", "L"],
@@ -110,8 +105,7 @@ export const products: Product[] = [
     name: "Vòng Tay Đá Lam Ngọc",
     description:
       "Vòng tay đá lam ngọc tượng trưng cho sự may mắn, bình an và giúp cải thiện trực giác.",
-    oldPrice: 850000,
-    newPrice: 730000,
+    price: 850000,
     star: 4.7,
     percent: 14,
     colors: ["Xanh lam", "Xanh ngọc"],

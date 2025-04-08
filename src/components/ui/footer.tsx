@@ -63,6 +63,7 @@ export default function Footer() {
                       width={32}
                       height={32}
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
+                      quality={100}
                     />
                   </Link>
                   <Link href="/" aria-label="Instagram">
@@ -72,6 +73,7 @@ export default function Footer() {
                       width={32}
                       height={32}
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
+                      quality={100}
                     />
                   </Link>
                   <Link href="/" aria-label="TikTok">
@@ -81,6 +83,7 @@ export default function Footer() {
                       width={32}
                       height={32}
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
+                      quality={100}
                     />
                   </Link>
                 </div>

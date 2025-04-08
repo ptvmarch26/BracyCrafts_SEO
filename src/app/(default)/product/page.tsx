@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "BracyCrafts | Sản phẩm",
     description:
       "Khám phá những sản phẩm độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng thủ công.",
-    url: "https://bracycrafts-seo.vercel.app/product",
+    url: "https://bracycrafts.id.vn//product",
     images: [
       {
         url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
@@ -65,9 +65,9 @@ export default function ProductList() {
                 sku: product.id,
                 offers: {
                   "@type": "Offer",
-                  url: `https://bracycrafts.com/product/${product.slug}` || "",
+                  url: `https://bracycrafts.id.vn/product/${product.slug}` || "",
                   priceCurrency: "VND",
-                  price: product.newPrice,
+                  price: product.price,
                   itemCondition: "https://schema.org/NewCondition",
                   availability: "https://schema.org/InStock",
                   seller: {

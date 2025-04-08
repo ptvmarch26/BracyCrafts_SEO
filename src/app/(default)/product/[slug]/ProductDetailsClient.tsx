@@ -97,7 +97,7 @@ export default function ProductDetailsClient({
     }
   };
 
-  console.log("mainImage",mainImage);
+  console.log("mainImage", mainImage);
   return (
     <>
       <div className="flex flex-col items-center lg:flex-row gap-10">
@@ -117,6 +117,7 @@ export default function ProductDetailsClient({
                       height={325}
                       className="object-cover border"
                       priority={index === 0}
+                      quality={100}
                     />
                   </div>
                 ))}
@@ -141,6 +142,7 @@ export default function ProductDetailsClient({
                           ? "border-black"
                           : "border-gray-200"
                       }`}
+                      quality={100}
                     />
                   </div>
                 ))}
@@ -155,13 +157,13 @@ export default function ProductDetailsClient({
           </header>
 
           <div className="flex items-center mt-4">
-            <meta itemProp="price" content={product.newPrice.toString()} />
+            <meta itemProp="price" content={product.price.toString()} />
             <meta itemProp="priceCurrency" content="VND" />
             <p className="text-xl font-bold text-primary mr-4">
-              {product.newPrice.toLocaleString()}₫
+              {product.price.toLocaleString()}₫
             </p>
             <p className="text-md text-[#9ca3af] line-through mr-4">
-              {product.oldPrice.toLocaleString()}₫
+            {(Math.round(product.price / (1 - product.percent / 100) / 1000) * 1000).toLocaleString()}₫
             </p>
             <p className="text-md font-semibold text-[#158857]">
               {product.percent}% Off
@@ -295,7 +297,7 @@ export default function ProductDetailsClient({
           <h2 className="text-4xl uppercase font-bold text-center my-10">
             Sản phẩm tương tự
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">  
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.slice(0, 5).map((relatedProduct) => (
               <Link
                 key={relatedProduct.id}

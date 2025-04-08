@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/logo.svg",
   },
-  metadataBase: new URL('https://bracycrafts-seo.vercel.app/'),
+  metadataBase: new URL('https://bracycrafts.id.vn/'),
   openGraph: {
     type: "website",
     locale: "vi_VN",
-    url: "https://bracycrafts-seo.vercel.app/",
+    url: "https://bracycrafts.id.vn/",
     title: "BracyCrafts - Made with heart",
     description:
       "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn.",
