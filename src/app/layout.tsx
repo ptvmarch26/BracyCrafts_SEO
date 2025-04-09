@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   description:
     "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tận tâm nhất dành cho khách hàng. Hãy khám phá ngay hôm nay!",
-  icons: {
-    icon: "/images/logo.svg",
-  },
+  // icons: {
+  //   // icon: "/images/logo.svg",
+  // },
   metadataBase: new URL("https://bracycrafts.id.vn/"),
   openGraph: {
     type: "website",
@@ -80,9 +80,6 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
         <Script
           id="schema-jsonld"
           type="application/ld+json"
