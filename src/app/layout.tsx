@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/logo.svg",
   },
-  metadataBase: new URL('https://bracycrafts.id.vn/'),
+  metadataBase: new URL("https://bracycrafts.id.vn/"),
   openGraph: {
     type: "website",
     locale: "vi_VN",
@@ -48,7 +48,9 @@ export const metadata: Metadata = {
     title: "BracyCrafts - Made with heart",
     description:
       "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn.",
-    images: ["https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg"],
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
   },
 };
 
@@ -59,7 +61,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-       <head>
+      <head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
         <Script
           id="schema-jsonld"
           type="application/ld+json"
