@@ -79,7 +79,13 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-secondary col-span-5 md:col-span-2 py-20 px-5 border-3 border-[#BD3A3A] rounded-xl">
-          <Image src={logo} alt="BracyCrafts Logo" width={500} height={250} quality={100}/>
+          <Image
+            src={logo}
+            alt="BracyCrafts Logo"
+            width={500}
+            height={250}
+            quality={100}
+          />
         </div>
       </div>
 
@@ -95,11 +101,18 @@ export default function Home() {
         <div className="flex-1 h-[1px] bg-[#FFD2D8]"></div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
-        {products.map((product) => (
+        {products.slice(0, 12).map((product) => (
           <Link key={product.id} href={`/product/${product.slug}`}>
             <ProductComponent product={product} />
           </Link>
         ))}
+      </div>
+      <div className="text-center mt-10">
+        <Link href="/product">
+          <button className="px-6 py-3 bg-primary text-white font-semibold rounded-md shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
+            ✨ Xem thêm sản phẩm
+          </button>
+        </Link>
       </div>
 
       <div className="flex items-center justify-center w-full my-20">

@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { blogPosts } from "@/data/MockBlog";
 import { Blog, BlogSection } from "@/data/MockBlog";
+import Link from "next/link";
+import BlogComponent from "@/components/BlogComponent";
 
 // Tạo các đường dẫn tĩnh khi build
 export async function generateStaticParams() {
@@ -185,7 +187,7 @@ export default async function BlogPost({
       )}
 
       <header className="mb-10">
-        <div className="flex justify-between">
+        <div className="flex flex-wrap justify-between">
           <div className="flex items-center gap-3">
             <p className="text-primary font-bold">{post.author}</p>
             <p className="text-sm text-gray-500">{post.readingTime} phút đọc</p>
@@ -240,6 +242,27 @@ export default async function BlogPost({
           ))}
         </div>
       </footer>
+      
+      {/* Bài viết liên quan */}
+      <section className="mt-16" aria-labelledby="related-posts-title">
+        <h2
+          id="related-posts-title"
+          className="text-4xl pacifico font-medium text-primary text-center mb-5"
+        >
+          Bài viết liên quan
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {blogPosts
+            .filter(
+              (related) =>
+                related.slug !== post.slug &&
+                related.category.some((cat) => post.category.includes(cat))
+            )
+            .map((related) => (
+              <BlogComponent key={related.slug} blog={related} />
+            ))}
+        </div>
+      </section>
     </article>
   );
 }

@@ -139,7 +139,7 @@ export const blogPosts: Blog[] = [
       },
       {
         type: "list",
-        listType: "ordered",
+        listType: "unordered",
         content: [
           "Đầu tiên, chọn vòng tay phù hợp với phong cách",
           "Tiếp theo, đảm bảo kích thước vòng tay vừa vặn",
@@ -154,7 +154,8 @@ export const blogPosts: Blog[] = [
     title: "Cách Chăm Sóc Vòng Tay Da Để Luôn Bền Đẹp",
     description:
       "Hướng dẫn chi tiết cách chăm sóc vòng tay da để giữ được độ bền đẹp và mới lâu dài.",
-    image: "/images/bracelet-care.jpg",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743502959/2_tuabai.jpg",
     altText: "Chăm sóc vòng tay da",
     publishedAt: "2025-04-12T08:00:00Z",
     updatedAt: "2025-04-12T10:00:00Z",
