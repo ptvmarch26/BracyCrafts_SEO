@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { blogPosts } from "@/data/MockBlog";
 import { Blog, BlogSection } from "@/data/MockBlog";
-import Link from "next/link";
 import BlogComponent from "@/components/BlogComponent";
 
 // Tạo các đường dẫn tĩnh khi build
