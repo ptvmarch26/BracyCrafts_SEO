@@ -32,6 +32,32 @@ const nextConfig: NextConfig = {
         destination: 'https://bracycrafts.id.vn/:path*',
         permanent: true, // Status 301
       },
+
+      {
+        source: '/product/vong-tay-da-thach-anh-tim',
+        destination: '/product/vong-tay-magenta-glow',
+        permanent: true,
+      },
+      {
+        source: '/product/vong-tay-da-mat-ho',
+        destination: '/product/vong-tay-red-tide',
+        permanent: true,
+      },
+      {
+        source: '/product/vong-tay-da-hematite',
+        destination: '/product/vong-tay-midas-sea',
+        permanent: true,
+      },
+      {
+        source: '/product/vong-tay-tram-huong',
+        destination: '/product/vong-tay-underwater-world',
+        permanent: true,
+      },
+      {
+        source: '/product/vong-tay-da-lam-ngoc',
+        destination: '/product/vong-tay-conal-pink',
+        permanent: true,
+      },
     ];
   },
 };
