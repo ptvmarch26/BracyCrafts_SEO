@@ -294,9 +294,12 @@ export default function ProductDetailsClient({
       </div>
       <div>
         <section>
-          <h2 className="text-4xl uppercase font-bold text-center my-10">
-            Sản phẩm tương tự
-          </h2>
+        <h2
+          id="related-posts-title"
+          className="text-4xl pacifico font-medium text-primary text-center mb-5"
+        >
+          Sản phẩm tương tự
+        </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.slice(0, 5).map((relatedProduct) => (
               <Link
