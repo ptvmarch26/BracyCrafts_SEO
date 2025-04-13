@@ -241,7 +241,7 @@ export default async function BlogPost({
           ))}
         </div>
       </footer>
-      
+
       {/* Bài viết liên quan */}
       <section className="mt-16" aria-labelledby="related-posts-title">
         <h2

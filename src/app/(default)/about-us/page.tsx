@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
   keywords:
     "về chúng tôi, vòng tay handmade, phụ kiện handmade, sản phẩm thủ công, BracyCrafts, thiết kế vòng tay cá nhân hóa, phụ kiện tự làm",
-  robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
+  robots: "index, follow",
 };
 
 const AboutUs = () => {

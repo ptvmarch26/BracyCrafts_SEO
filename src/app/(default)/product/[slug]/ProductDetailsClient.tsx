@@ -163,7 +163,11 @@ export default function ProductDetailsClient({
               {product.price.toLocaleString()}₫
             </p>
             <p className="text-md text-[#9ca3af] line-through mr-4">
-            {(Math.round(product.price / (1 - product.percent / 100) / 1000) * 1000).toLocaleString()}₫
+              {(
+                Math.round(product.price / (1 - product.percent / 100) / 1000) *
+                1000
+              ).toLocaleString()}
+              ₫
             </p>
             <p className="text-md font-semibold text-[#158857]">
               {product.percent}% Off
@@ -294,21 +298,24 @@ export default function ProductDetailsClient({
       </div>
       <div>
         <section>
-        <h2
-          id="related-posts-title"
-          className="text-4xl pacifico font-medium text-primary text-center my-5"
-        >
-          Sản phẩm tương tự
-        </h2>
+          <h2
+            id="related-posts-title"
+            className="text-4xl pacifico font-medium text-primary text-center my-5"
+          >
+            Sản phẩm tương tự
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {products.slice(0, 5).map((relatedProduct) => (
-              <Link
-                key={relatedProduct.id}
-                href={`/product/${relatedProduct.slug}`}
-              >
-                <ProductComponent product={relatedProduct} />
-              </Link>
-            ))}
+            {products
+              .filter((p) => p.id !== product.id)
+              // .slice(0, 5)
+              .map((relatedProduct) => (
+                <Link
+                  key={relatedProduct.id}
+                  href={`/product/${relatedProduct.slug}`}
+                >
+                  <ProductComponent product={relatedProduct} />
+                </Link>
+              ))}
           </div>
         </section>
       </div>
