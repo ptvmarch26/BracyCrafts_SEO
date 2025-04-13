@@ -139,7 +139,7 @@ export default function ProductDetailsClient({
                       height={80}
                       className={`w-20 h-20 object-cover border-2 rounded cursor-pointer ${
                         currentSlide === index
-                          ? "border-black"
+                          ? "border-[#BD3A3A]"
                           : "border-gray-200"
                       }`}
                       quality={100}
@@ -296,7 +296,7 @@ export default function ProductDetailsClient({
         <section>
         <h2
           id="related-posts-title"
-          className="text-4xl pacifico font-medium text-primary text-center mb-5"
+          className="text-4xl pacifico font-medium text-primary text-center my-5"
         >
           Sản phẩm tương tự
         </h2>
