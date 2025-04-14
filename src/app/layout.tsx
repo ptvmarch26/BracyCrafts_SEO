@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  metadataBase: new URL('https://bracycrafts.id.vn/'),
+  metadataBase: new URL("https://bracycrafts.id.vn/"),
   openGraph: {
     type: "website",
     locale: "vi_VN",
@@ -48,7 +48,9 @@ export const metadata: Metadata = {
     title: "BracyCrafts - Made with heart",
     description:
       "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn.",
-    images: ["https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg"],
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
   },
 };
 
@@ -59,7 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-       <head>
+      <head>
         <Script
           id="schema-jsonld"
           type="application/ld+json"

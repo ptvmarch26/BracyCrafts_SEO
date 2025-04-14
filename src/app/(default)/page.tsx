@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
         width: 1200,
         height: 630,
-        alt: "BracyCrafts - Sản phẩm handmade",
+        alt: "Trang chủ - BracyCrafts",
       },
     ],
   },
@@ -109,7 +109,7 @@ export default function Home() {
       </div>
       <div className="text-center mt-10">
         <Link href="/product">
-          <button className="px-6 py-3 bg-primary text-white font-semibold rounded-md shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
+          <button className="cursor-pointer px-6 py-3 bg-primary text-white font-semibold rounded-md shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
             ✨ Xem thêm sản phẩm
           </button>
         </Link>
