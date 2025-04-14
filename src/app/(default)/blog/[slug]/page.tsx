@@ -67,6 +67,54 @@ const BlogSectionComponent = ({
   // Lọc ra các section con của section hiện tại
   const childSections = post.sections.filter((s) => s.parentId === section.id);
 
+  const parseTextWithLinks = (text: string): React.ReactNode => {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+    if (!text.match(urlRegex)) {
+      return text;
+    }
+
+    const matches: { url: string; start: number; end: number }[] = [];
+    let match;
+
+    while ((match = urlRegex.exec(text)) !== null) {
+      matches.push({
+        url: match[0],
+        start: match.index,
+        end: match.index + match[0].length,
+      });
+    }
+
+    const result: React.ReactNode[] = [];
+    let lastIndex = 0;
+
+    matches.forEach((match) => {
+      if (match.start > lastIndex) {
+        result.push(text.substring(lastIndex, match.start));
+      }
+
+      result.push(
+        <a
+          key={match.start}
+          href={match.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:underline"
+        >
+          {match.url}
+        </a>
+      );
+
+      lastIndex = match.end;
+    });
+
+    if (lastIndex < text.length) {
+      result.push(text.substring(lastIndex));
+    }
+
+    return result;
+  };
+
   switch (section.type) {
     case "heading":
       const HeadingTag =
@@ -97,7 +145,7 @@ const BlogSectionComponent = ({
     case "paragraph":
       return (
         <p className="mb-4 text-lg leading-relaxed">
-          {section.content as string}
+          {parseTextWithLinks(section.content as string)}
         </p>
       );
 
@@ -214,12 +262,12 @@ export default async function BlogPost({
       )}
 
       <header className="mb-10">
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap items-center justify-between">
           <div className="flex items-center gap-3">
             <p className="text-primary font-bold">{post.author}</p>
             <p className="text-sm text-gray-500">{post.readingTime} phút đọc</p>
           </div>
-          <div className="text-sm text-gray-500 mb-2">
+          <div className="text-sm text-gray-500">
             Đăng vào {formatDate(post.publishedAt)}
             {post.updatedAt && ` • Cập nhật ${formatDate(post.updatedAt)}`}
           </div>
@@ -227,17 +275,6 @@ export default async function BlogPost({
 
         <h1 className="text-4xl font-bold mt-8">{post.title}</h1>
         <p className="text-xl text-gray-600 my-3">{post.description}</p>
-        <div className="flex justify-center mb-8">
-          <Image
-            src={post.image}
-            alt={post.altText}
-            width={500}
-            height={500}
-            className="rounded-xl"
-            quality={100}
-          />
-        </div>
-
         <div className="flex flex-wrap gap-2">
           {post.category.map((cat) => (
             <span
