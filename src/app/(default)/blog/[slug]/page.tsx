@@ -173,6 +173,31 @@ export default async function BlogPost({
     });
   };
 
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Trang chủ",
+        item: "https://bracycrafts.id.vn",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://bracycrafts.id.vn/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: `https://bracycrafts.id.vn/blog/${post.slug}`,
+      },
+    ],
+  };
+
   return (
     <article className="max-w-4xl mx-auto py-10 px-2">
       {/* Thêm dữ liệu có cấu trúc cho SEO */}
@@ -180,7 +205,10 @@ export default async function BlogPost({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(post.structuredData),
+            __html: JSON.stringify([
+              post.structuredData,
+              breadcrumbStructuredData,
+            ]),
           }}
         />
       )}

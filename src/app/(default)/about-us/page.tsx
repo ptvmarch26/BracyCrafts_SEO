@@ -228,7 +228,7 @@ const AboutUs = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "BracyCrafts | Về chúng tôi",
-            url: "https://bracycrafts-seo.vercel.app/about-us",
+            url: "https://bracycrafts.id.vn/about-us",
             description:
               "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
             publisher: {

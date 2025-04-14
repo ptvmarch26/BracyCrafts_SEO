@@ -20,8 +20,14 @@ export const metadata: Metadata = {
     default: "BracyCrafts - Made with heart",
   },
   description:
-    "Chào mừng bạn đến với BracyCrafts – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tận tâm nhất dành cho khách hàng. Hãy khám phá ngay hôm nay!",
-  icons: {
+    "Chào mừng bạn đến với BracyCrafts (hoặc BracyCraft) – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tận tâm nhất dành cho khách hàng. Hãy khám phá ngay hôm nay!",
+    keywords: [
+      "BracyCrafts",
+      "BracyCraft",
+      "sản phẩm handmade",
+      "vòng tay handmade"
+    ],
+    icons: {
     icon: "/favicon.ico",
   },
   metadataBase: new URL("https://bracycrafts.id.vn/"),
@@ -70,7 +76,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "BracyCrafts",
-              url: "http://cloubracycrafts-seo.vercel.app/",
+              alternateName: "BracyCraft",
+              url: "https://bracycrafts.id.vn/",
               logo: "https://bracycrafts.id.vn/favicon.ico",
               description:
                 "BracyCrafts cung cấp vòng tay handmade, phong thủy chất lượng.",

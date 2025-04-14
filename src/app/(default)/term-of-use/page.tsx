@@ -139,7 +139,7 @@ const Term = () => {
             "@context": "https://schema.org",
             "@type": "TermsOfService",
             name: "BracyCrafts | Điều khoản sử dụng",
-            url: "https://bracycrafts-seo.vercel.app/term-of-use",
+            url: "https://bracycrafts.id.vn/term-of-use",
             description:
               "Trang Điều khoản sử dụng của ForCat Shop nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
             publisher: {

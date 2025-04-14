@@ -19,8 +19,11 @@ export const metadata: Metadata = {
     "vòng tay phong thủy",
     "quà tặng thủ công",
     "BracyCrafts",
+    "BracyCraft",
     "sản phẩm handmade",
     "sản phẩm thủ công",
+    "made with heart",
+    "phụ kiện siu xinh",
   ],
   openGraph: {
     title: "Trang chủ - BracyCrafts",

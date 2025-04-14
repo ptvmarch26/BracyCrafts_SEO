@@ -100,7 +100,7 @@ const PrivatePolicy = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "BracyCrafts | Chính sách bảo mật",
-            url: "https://bracycrafts-seo.vercel.app/private-policy",
+            url: "https://bracycrafts.id.vn/private-policy",
             description:
               "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
             publisher: {

@@ -80,7 +80,7 @@ export default async function ProductDetailsPage({
     },
     offers: {
       "@type": "Offer",
-      url: `/product/${product.slug}`,
+      url: `https://bracycrafts.id.vn/product/${product.slug}`,
       priceCurrency: "VND",
       price: product.price,
       priceValidUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
@@ -98,6 +98,35 @@ export default async function ProductDetailsPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Trang chủ",
+                item: "https://bracycrafts.id.vn",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Sản phẩm",
+                item: "https://bracycrafts.id.vn/product",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: product.name,
+                item: `https://bracycrafts.id.vn/product/${product.slug}`,
+              },
+            ],
+          }),
         }}
       />
 
