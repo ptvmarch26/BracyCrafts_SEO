@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "vòng tay handmade"
     ],
     icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon2.ico",
   },
   metadataBase: new URL("https://bracycrafts.id.vn/"),
   openGraph: {
@@ -88,7 +88,7 @@ export default function RootLayout({
             }),
           }}
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </head>
       <body className={`${nunito.className} ${pacifico.variable}`}>
         {children}
