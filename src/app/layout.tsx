@@ -71,7 +71,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "BracyCrafts",
               url: "http://cloubracycrafts-seo.vercel.app/",
-              logo: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              logo: "https://bracycrafts.id.vn/favicon.ico",
               description:
                 "BracyCrafts cung cấp vòng tay handmade, phong thủy chất lượng.",
               sameAs: [
@@ -81,6 +81,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${nunito.className} ${pacifico.variable}`}>
         {children}
