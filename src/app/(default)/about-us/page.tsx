@@ -15,10 +15,34 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Về chúng tôi",
   description:
-    "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
+    "Tìm hiểu về BracyCrafts – cửa hàng phụ kiện handmade đáng yêu, sáng tạo và đầy cảm hứng. Khám phá giá trị, sứ mệnh và lý do bạn nên chọn BracyCrafts!",
   keywords:
     "về chúng tôi, vòng tay handmade, phụ kiện handmade, sản phẩm thủ công, BracyCrafts, thiết kế vòng tay cá nhân hóa, phụ kiện tự làm",
   robots: "index, follow",
+  openGraph: {
+    title: "Về chúng tôi - BracyCrafts",
+    description:
+      "Tìm hiểu về BracyCrafts – cửa hàng phụ kiện handmade đáng yêu, sáng tạo và đầy cảm hứng. Khám phá giá trị, sứ mệnh và lý do bạn nên chọn BracyCrafts!",
+    url: "https://bracycrafts.id.vn/about-us",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+        width: 1200,
+        height: 630,
+        alt: "Về chúng tôi - BracyCrafts",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@bracycrafts",
+    title: "Về chúng tôi - BracyCrafts",
+    description:
+      "Tìm hiểu về BracyCrafts – cửa hàng phụ kiện handmade đáng yêu, sáng tạo và đầy cảm hứng. Khám phá giá trị, sứ mệnh và lý do bạn nên chọn BracyCrafts!",
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
+  },
 };
 
 const AboutUs = () => {
@@ -96,7 +120,10 @@ const AboutUs = () => {
         </p>
         <div className="flex justify-evenly flex-wrap lg:flex-nowrap py-10">
           {options.map((option, index) => (
-            <div key={index} className="flex flex-col items-center py-5 lg:py-0">
+            <div
+              key={index}
+              className="flex flex-col items-center py-5 lg:py-0"
+            >
               <Image
                 src={option.img}
                 alt={option.title}
@@ -185,7 +212,9 @@ const AboutUs = () => {
                 height={80}
                 quality={100}
               />
-              <p className="font-bold text-lg my-3 text-center">{reason.title}</p>
+              <p className="font-bold text-lg my-3 text-center">
+                {reason.title}
+              </p>
               <p className="text-center">{reason.content}</p>
             </div>
           ))}

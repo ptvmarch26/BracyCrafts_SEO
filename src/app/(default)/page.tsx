@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "sản phẩm thủ công",
   ],
   openGraph: {
-    title: "BracyCrafts | Trang chủ",
+    title: "Trang chủ - BracyCrafts",
     description:
       "Khám phá sản phẩm thủ công độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng đặc biệt.",
     url: "https://bracycrafts.id.vn/",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@bracycrafts",
-    title: "BracyCrafts | Trang chủ",
+    title: "Trang chủ - BracyCrafts",
     description: "Khám phá các sản phẩm handmade độc đáo tại BracyCrafts.",
     images: [
       "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",

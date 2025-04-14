@@ -16,7 +16,7 @@ const pacifico = Pacifico({
 
 export const metadata: Metadata = {
   title: {
-    template: "BracyCrafts | %s",
+    template: "%s - BracyCrafts",
     default: "BracyCrafts - Made with heart",
   },
   description:

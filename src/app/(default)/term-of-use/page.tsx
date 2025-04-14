@@ -4,11 +4,36 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "Điều khoản sử dụng",
-  description: "Đọc và hiểu rõ các điều khoản sử dụng dịch vụ tại BracyCrafts, bao gồm chính sách thanh toán, bảo mật, và quyền lợi của khách hàng.",
-  keywords: "Điều khoản sử dụng, BracyCrafts, Chính sách bảo mật, Thanh toán, Hướng dẫn sử dụng website, Mua sắm online",
+  description:
+    "Trang Điều khoản sử dụng của BracyCrafts nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
+  keywords:
+    "Điều khoản sử dụng, BracyCrafts, Chính sách bảo mật, Thanh toán, Hướng dẫn sử dụng website, Mua sắm online",
   robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
+  openGraph: {
+    title: "Điều khoản sử dụng - BracyCrafts",
+    description:
+      "Trang Điều khoản sử dụng của BracyCrafts nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
+    url: "https://bracycrafts.id.vn/term-of-use",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+        width: 1200,
+        height: 630,
+        alt: "Điều khoản sử dụng - BracyCrafts",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@bracycrafts",
+    title: "Điều khoản sử dụng - BracyCrafts",
+    description:
+      "Trang Điều khoản sử dụng của BracyCrafts nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
+  },
 };
-
 
 const Term = () => {
   const terms = [
@@ -96,7 +121,10 @@ const Term = () => {
               );
             }
             return (
-              <p key={i} className="text-gray-700 text-lg font-[400] mb-2 text-justify">
+              <p
+                key={i}
+                className="text-gray-700 text-lg font-[400] mb-2 text-justify"
+              >
                 {line}
               </p>
             );
@@ -109,17 +137,17 @@ const Term = () => {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "BracyCrafts | Điều khoản sử dụng",
-            "url": "https://bracycrafts-seo.vercel.app/term-of-use",
-            "description":
-              "Đọc và hiểu rõ các điều khoản sử dụng dịch vụ tại BracyCrafts, bao gồm chính sách thanh toán, bảo mật, và quyền lợi của khách hàng.",
-            "publisher": {
+            "@type": "TermsOfService",
+            name: "BracyCrafts | Điều khoản sử dụng",
+            url: "https://bracycrafts-seo.vercel.app/term-of-use",
+            description:
+              "Trang Điều khoản sử dụng của ForCat Shop nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
+            publisher: {
               "@type": "Organization",
-              "name": "BracyCrafts",
-              "logo": {
+              name: "BracyCrafts",
+              logo: {
                 "@type": "ImageObject",
-                "url": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
               },
             },
           }),

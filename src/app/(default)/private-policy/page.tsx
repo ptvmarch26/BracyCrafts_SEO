@@ -5,10 +5,34 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Chính sách bảo mật",
   description:
-    "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
+    "Chính sách bảo mật thông tin của ForCat Shop cam kết việc bảo vệ thông tin cá nhân của bạn và thú cưng của bạn. Chúng tôi tôn trọng và bảo vệ quyền riêng tư của mỗi khách hàng, và cam kết tuân thủ các quy định bảo vệ dữ liệu.",
   keywords:
     "Chính sách bảo mật, bảo mật thông tin khách hàng, bảo mật dữ liệu, bảo vệ thông tin cá nhân, BracyCrafts",
   robots: "index, follow", // Cho phép công cụ tìm kiếm index và theo dõi trang này
+  openGraph: {
+    title: "Chính sách bảo mật - BracyCrafts",
+    description:
+      "Chính sách bảo mật thông tin của ForCat Shop cam kết việc bảo vệ thông tin cá nhân của bạn và thú cưng của bạn. Chúng tôi tôn trọng và bảo vệ quyền riêng tư của mỗi khách hàng, và cam kết tuân thủ các quy định bảo vệ dữ liệu.",
+    url: "https://bracycrafts.id.vn/private-policy",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+        width: 1200,
+        height: 630,
+        alt: "Chính sách bảo mật - BracyCrafts",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@bracycrafts",
+    title: "Chính sách bảo mật - BracyCrafts",
+    description:
+      "Chính sách bảo mật thông tin của ForCat Shop cam kết việc bảo vệ thông tin cá nhân của bạn và thú cưng của bạn. Chúng tôi tôn trọng và bảo vệ quyền riêng tư của mỗi khách hàng, và cam kết tuân thủ các quy định bảo vệ dữ liệu.",
+    images: [
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+    ],
+  },
 };
 
 const PrivatePolicy = () => {
@@ -59,7 +83,10 @@ const PrivatePolicy = () => {
             {index + 1}. {policy.title}
           </h2>
           {policy.content.split("\n").map((line, i) => (
-            <p key={i} className="text-gray-700 text-lg font-[400] mb-2 text-justify">
+            <p
+              key={i}
+              className="text-gray-700 text-lg font-[400] mb-2 text-justify"
+            >
               {line}
             </p>
           ))}

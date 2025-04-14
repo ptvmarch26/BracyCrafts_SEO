@@ -3,7 +3,7 @@ import { products, Product } from "@/data/MockProduct";
 import { blogPosts, Blog } from "@/data/MockBlog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://bracycrafts.id.vn/";
+  const baseUrl = "https://bracycrafts.id.vn";
 
   // Chuyển đổi dữ liệu sản phẩm giả thành định dạng sitemap
   const productUrls: MetadataRoute.Sitemap = (products as Product[]).map(

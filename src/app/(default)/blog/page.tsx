@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "sản phẩm thủ công",
   ],
   openGraph: {
-    title: "BracyCrafts | Tất cả bài viết",
+    title: "Tất cả bài viết - BracyCrafts",
     description:
       "Khám phá các bài viết thú vị về sản phẩm handmade, quà tặng thủ công và những câu chuyện tại BracyCrafts.",
     url: "https://bracycrafts.id.vn/blog", // Cập nhật URL thực tế của trang
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@bracycrafts",
-    title: "BracyCrafts | Tất cả bài viết",
+    title: "Tất cả bài viết - BracyCrafts",
     description:
       "Khám phá những bài viết thú vị tại BracyCrafts về sản phẩm handmade và quà tặng thủ công.",
     images: [
@@ -75,7 +75,7 @@ export default function Blog() {
       />
       <div className="container max-w-[1200px] mx-auto py-10 px-2">
         <h1 className="text-4xl pacifico font-medium text-primary text-center mb-5">
-          Danh sách bài viết
+          Các bài viết tại BracyCrafts
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {blogPosts.map((blog) => (

@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     "BracyCrafts",
   ],
   openGraph: {
-    title: "BracyCrafts | Sản phẩm",
+    title: "Sản phẩm - BracyCrafts",
     description:
       "Khám phá những sản phẩm độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng thủ công.",
-    url: "https://bracycrafts.id.vn//product",
+    url: "https://bracycrafts.id.vn/product",
     images: [
       {
         url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@bracycrafts",
-    title: "BracyCrafts | Sản phẩm",
+    title: "Sản phẩm - BracyCrafts",
     description: "Khám phá các sản phẩm handmade độc đáo tại BracyCrafts.",
     images: [
       "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
@@ -82,7 +82,7 @@ export default function ProductList() {
       />
       <div className="container mx-auto py-10 px-2">
         <h1 className="text-4xl pacifico font-medium text-primary text-center mb-5">
-          Danh sách sản phẩm
+          Các sản phẩm thủ công tại BracyCrafts
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product) => (
