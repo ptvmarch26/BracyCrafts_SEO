@@ -1,5 +1,4 @@
 import { products } from "@/data/MockProduct";
-import ProductComponent from "@/components/ProductComponent";
 import Link from "next/link";
 import SliderBanner from "@/components/SliderBanner";
 import logo from "../../../public/images/logo.svg";
@@ -9,6 +8,7 @@ import shopee_logo from "../../../public/images/shopee_logo.svg";
 import Image from "next/image";
 import SliderBlog from "@/components/SliderBlog";
 import { Metadata } from "next";
+import ProductList from "@/components/ProductList";
 
 export const metadata: Metadata = {
   title: "Trang chủ",
@@ -100,13 +100,14 @@ export default function Home() {
 
         <div className="flex-1 h-[1px] bg-[#FFD2D8]"></div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+      {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {products.slice(0, 12).map((product) => (
           <Link key={product.id} href={`/product/${product.slug}`}>
             <ProductComponent product={product} />
           </Link>
         ))}
-      </div>
+      </div> */}
+      <ProductList products={products} />
       <div className="text-center mt-10">
         <Link href="/product">
           <button className="cursor-pointer px-6 py-3 bg-primary text-white font-semibold rounded-md shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">

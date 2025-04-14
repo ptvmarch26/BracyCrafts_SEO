@@ -6,7 +6,7 @@ import { Fragment } from "react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Sản phẩm",
+  title: "Tất cả sản phẩm",
   description:
     "Khám phá danh sách sản phẩm handmade tại BracyCrafts - Những món quà độc đáo, chất lượng, được làm thủ công với tâm huyết.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "BracyCrafts",
   ],
   openGraph: {
-    title: "Sản phẩm - BracyCrafts",
+    title: "Tất cả sản phẩm - BracyCrafts",
     description:
       "Khám phá những sản phẩm độc đáo tại BracyCrafts, từ vòng tay phong thủy đến các món quà tặng thủ công.",
     url: "https://bracycrafts.id.vn/product",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@bracycrafts",
-    title: "Sản phẩm - BracyCrafts",
+    title: "Tất cả sản phẩm - BracyCrafts",
     description: "Khám phá các sản phẩm handmade độc đáo tại BracyCrafts.",
     images: [
       "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
