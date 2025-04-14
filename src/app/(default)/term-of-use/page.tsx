@@ -99,6 +99,28 @@ const Term = () => {
   ];
   return (
     <div className="container mx-auto flex flex-col py-10 px-2">
+      <Script
+        id="schema-terms"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TermsOfService",
+            name: "Điều khoản sử dụng - BracyCrafts",
+            url: "https://bracycrafts.id.vn/term-of-use",
+            description:
+              "Trang Điều khoản sử dụng của ForCat Shop nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
+            publisher: {
+              "@type": "Organization",
+              name: "BracyCrafts",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
       <h1 className="text-4xl pacifico font-medium text-primary text-center">
         BracyCrafts - Điều khoản sử dụng
       </h1>
@@ -131,28 +153,6 @@ const Term = () => {
           })}
         </div>
       ))}
-      <Script
-        id="schema-terms"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "TermsOfService",
-            name: "BracyCrafts | Điều khoản sử dụng",
-            url: "https://bracycrafts.id.vn/term-of-use",
-            description:
-              "Trang Điều khoản sử dụng của ForCat Shop nêu rõ các quy định và chính sách áp dụng khi bạn truy cập và mua sắm trên website. Việc tiếp tục sử dụng đồng nghĩa với việc bạn đã đọc, hiểu và chấp nhận các điều khoản này.",
-            publisher: {
-              "@type": "Organization",
-              name: "BracyCrafts",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
-              },
-            },
-          }),
-        }}
-      />
     </div>
   );
 };

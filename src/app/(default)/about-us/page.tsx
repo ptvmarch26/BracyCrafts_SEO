@@ -107,6 +107,28 @@ const AboutUs = () => {
   ];
   return (
     <div className="container mx-auto flex flex-col items-center py-10 px-2">
+      <Script
+        id="schema-about-us"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Về chúng tôi - BracyCrafts",
+            url: "https://bracycrafts.id.vn/about-us",
+            description:
+              "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
+            publisher: {
+              "@type": "Organization",
+              name: "BracyCrafts",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
       <section>
         <h1 className="text-4xl pacifico font-medium text-primary text-center">
           BracyCrafts - Cửa hàng phụ kiện handmade siu xinh
@@ -220,28 +242,6 @@ const AboutUs = () => {
           ))}
         </div>
       </section>
-      <Script
-        id="schema-about-us"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "BracyCrafts | Về chúng tôi",
-            url: "https://bracycrafts.id.vn/about-us",
-            description:
-              "Khám phá BracyCrafts - Cửa hàng phụ kiện handmade độc đáo. Chúng tôi cam kết mang đến sản phẩm chất lượng, thiết kế cá nhân hóa và dịch vụ tận tâm cho bạn.",
-            publisher: {
-              "@type": "Organization",
-              name: "BracyCrafts",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
-              },
-            },
-          }),
-        }}
-      />
     </div>
   );
 };

@@ -71,6 +71,28 @@ const PrivatePolicy = () => {
   ];
   return (
     <div className="container mx-auto flex flex-col py-10 px-2">
+            <Script
+        id="schema-privacy-policy"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Chính sách bảo mật - BracyCrafts",
+            url: "https://bracycrafts.id.vn/private-policy",
+            description:
+              "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
+            publisher: {
+              "@type": "Organization",
+              name: "BracyCrafts",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
+              },
+            },
+          }),
+        }}
+      />
       <h1 className="text-4xl pacifico font-medium text-primary text-center">
         BracyCrafts - Chính sách bảo mật thông tin
       </h1>
@@ -92,28 +114,6 @@ const PrivatePolicy = () => {
           ))}
         </div>
       ))}
-      <Script
-        id="schema-privacy-policy"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "BracyCrafts | Chính sách bảo mật",
-            url: "https://bracycrafts.id.vn/private-policy",
-            description:
-              "Tìm hiểu về chính sách bảo mật thông tin của BracyCrafts, cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của khách hàng.",
-            publisher: {
-              "@type": "Organization",
-              name: "BracyCrafts",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1743605796/logo_m9hxmn.svg",
-              },
-            },
-          }),
-        }}
-      />
     </div>
   );
 };
