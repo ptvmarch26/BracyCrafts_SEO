@@ -71,7 +71,7 @@ const PrivatePolicy = () => {
   ];
   return (
     <div className="container mx-auto flex flex-col py-10 px-2">
-            <Script
+      <Script
         id="schema-privacy-policy"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

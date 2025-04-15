@@ -58,6 +58,11 @@ const nextConfig: NextConfig = {
         destination: '/product/vong-tay-conal-pink',
         permanent: true,
       },
+      {
+        source: '/product/vong-tay-bien',
+        destination: '/product/vong-tay-hoi-tho-bien',
+        permanent: true,
+      },
     ];
   },
 };

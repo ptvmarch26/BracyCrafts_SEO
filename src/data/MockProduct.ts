@@ -190,7 +190,7 @@ export const products: Product[] = [
   },
   {
     id: 10,
-    slug: "vong-tay-bien",
+    slug: "vong-tay-hoi-tho-bien",
     images: {
       main: "https://res.cloudinary.com/dkww5mgnf/image/upload/v1744598146/8_yj5hqv.jpg",
       gallery: [
@@ -200,10 +200,10 @@ export const products: Product[] = [
         "https://res.cloudinary.com/dkww5mgnf/image/upload/v1744598146/9_tbtzab.jpg",
       ],
     },
-    alt: "Vòng tay biển",
-    name: "Vòng Tay Biển",
+    alt: "Vòng tay hơi thở biển",
+    name: "Vòng Tay Hơi Thở Biển",
     description:
-      "Bộ sưu tập vòng tay Biển là chuỗi thiết kế handmade độc đáo lấy cảm hứng từ vẻ đẹp của đại dương – từ dịu dàng đến mãnh liệt. Mỗi chiếc vòng mang một sắc thái riêng: 'Biển Hồng' ngọt ngào và nữ tính, 'Biển Đỏ' rực rỡ cuốn hút, 'Biển Vắng' trầm lắng và hoài niệm, 'Biển Đêm' huyền bí, sâu thẳm. Tất cả được làm thủ công tỉ mỉ, sử dụng dây dù bền chắc và các charm vỏ sò, sao biển, ngọc trai… phù hợp với nhiều phong cách và sở thích. Chỉ với 35.000 VNĐ, bạn có thể mang theo một “mảnh biển” bên mình – dịu êm, đầy cảm hứng.",
+      "Bộ sưu tập vòng tay hơi thở biển là chuỗi thiết kế handmade độc đáo lấy cảm hứng từ vẻ đẹp của đại dương – từ dịu dàng đến mãnh liệt. Mỗi chiếc vòng mang một sắc thái riêng: 'Biển Hồng' ngọt ngào và nữ tính, 'Biển Đỏ' rực rỡ cuốn hút, 'Biển Vắng' trầm lắng và hoài niệm, 'Biển Đêm' huyền bí, sâu thẳm. Tất cả được làm thủ công tỉ mỉ, sử dụng dây dù bền chắc và các charm vỏ sò, sao biển, ngọc trai… phù hợp với nhiều phong cách và sở thích. Chỉ với 35.000 VNĐ, bạn có thể mang theo một “mảnh biển” bên mình – dịu êm, đầy cảm hứng.",
     price: 50000,
     star: 4.9,
     percent: 18,
