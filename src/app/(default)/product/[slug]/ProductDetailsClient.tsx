@@ -177,7 +177,7 @@ export default function ProductDetailsClient({
           {product.sizes && product.sizes.length > 0 && (
             <>
               <p className="text-lg font-medium my-3">Chọn kích thước</p>
-              <div className="grid grid-cols-5 gap-2">
+              <div className="grid grid-cols-4 gap-2">
                 {product.sizes.map((size) => (
                   <button
                     key={size}

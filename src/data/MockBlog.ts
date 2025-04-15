@@ -50,7 +50,7 @@ export const blogPosts: Blog[] = [
     publishedAt: "2025-04-14T08:00:00Z",
     updatedAt: "2025-04-15T10:00:00Z",
     author: "Nguyễn Lê Thanh Huyền",
-    category: ["Vòng Tay", "Thời Trang", "phong cách cá nhân"],
+    category: ["Vòng Tay", "Thời Trang", "Phong cách cá nhân"],
     tags: ["vòng tay", "lựa chọn vòng tay", "phong cách", "dáng tay"],
     readingTime: 35,
     canonicalUrl:
@@ -71,7 +71,7 @@ export const blogPosts: Blog[] = [
       {
         id: "section-1",
         type: "heading",
-        content: "1. Vòng tay – món phụ kiện biết kể chuyện",
+        content: "1. Vòng tay – Món phụ kiện biết kể chuyện",
         level: 2,
       },
       {
@@ -199,7 +199,7 @@ export const blogPosts: Blog[] = [
       {
         id: "section-3",
         type: "heading",
-        content: "3. Chiếc vòng – tấm gương phản chiếu tính cách",
+        content: "3. Chiếc vòng – Tấm gương phản chiếu tính cách",
         level: 2,
       },
       {
