@@ -197,7 +197,7 @@ export default function ProductDetailsClient({
           {product.colors && product.colors.length > 0 && (
             <>
               <p className="text-lg font-medium my-3">Chọn màu sắc</p>
-              <div className="grid grid-cols-5 gap-2">
+              <div className="grid grid-cols-3 gap-2">
                 {product.colors.map((color) => (
                   <button
                     key={color}

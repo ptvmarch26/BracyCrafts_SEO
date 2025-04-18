@@ -158,7 +158,7 @@ const BlogSectionComponent = ({
               alt={section.altText || "Blog image"}
               width={700}
               height={700}
-              className="rounded-lg"
+              className="rounded-lg border"
               quality={100}
             />
             {section.altText && (
