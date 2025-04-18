@@ -1362,7 +1362,7 @@ export const blogPosts: Blog[] = [
     "altText": "Vòng tay handmade ý nghĩa",
     "publishedAt": "2025-04-18T08:30:00Z",
     "updatedAt": "2025-04-18T08:30:00Z",
-    "author": "Trần Minh Tâm",
+    "author": "Phạm Quang Vũ",
     "category": ["Vòng Tay", "Quà Tặng"],
     "tags": [
       "vòng tay handmade",
@@ -1381,7 +1381,7 @@ export const blogPosts: Blog[] = [
       "dateModified": "2025-04-18T08:30:00Z",
       "author": {
         "@type": "Person",
-        "name": "Trần Minh Tâm"
+        "name": "Phạm Quang Vũ"
       }
     },
     "sections": [
