@@ -94,7 +94,7 @@ const PrivatePolicy = () => {
         }}
       />
       <h1 className="text-4xl pacifico font-medium text-primary text-center">
-        BracyCrafts - Chính sách bảo mật thông tin
+        BracyCrafts - Chính sách bảo mật
       </h1>
       <div className="flex justify-center py-7">
         <div className="h-[2px] w-[30%] bg-black"></div>

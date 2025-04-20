@@ -131,7 +131,7 @@ const AboutUs = () => {
       />
       <section>
         <h1 className="text-4xl pacifico font-medium text-primary text-center">
-          BracyCrafts - Cửa hàng phụ kiện handmade siu xinh
+          BracyCrafts - Về chúng tôi
         </h1>
         <div className="flex justify-center py-7">
           <div className="h-[2px] w-[30%] bg-black"></div>
