@@ -116,38 +116,38 @@ export const products: Product[] = [
     id: 6,
     slug: "vong-tay-ocean-bloom",
     images: {
-      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564841/ocean-main_rfdwfl.jpg",
+      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
       gallery: [
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564841/ocean-1_naynrp.jpg",
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564840/ocean-2_tpjjsp.jpg",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
       ],
     },
     alt: "Vòng tay ocean bloom",
     name: "Vòng Tay Ocean Bloom",
     description:
       "Chiếc vòng tay Ocean Bloom là sự hòa quyện nhẹ nhàng giữa màu sắc của đại dương và sự trong trẻo của thiên nhiên. Lấy cảm hứng từ sắc xanh của sóng biển, sắc tím – hồng nhạt của san hô và ánh sáng lung linh trên mặt nước, chiếc vòng mang đến cảm giác dịu dàng và thanh khiết. Các hạt đá hình hoa và lá được xâu tỉ mỉ trên nền dây dù nâu nhạt chắc chắn, có thể điều chỉnh kích thước dễ dàng. Với tone màu pastel ngọt ngào như xanh mint, tím lavender, hồng phấn, chiếc vòng không chỉ là phụ kiện, mà còn như một mảnh ghép của biển cả dịu êm được gói gọn trên cổ tay. Phù hợp với những ai yêu phong cách nữ tính, bay bổng và yêu thiên nhiên, đại dương.",
-    price: 35000,
+    price: 40000,
     star: 4.9,
     percent: 10,
-    colors: ["Xanh pastel”, “Hồng nhạt”, “Tím nhạt"],
+    colors: ["Xanh pastel", "Hồng nhạt", "Tím nhạt"],
   },
   {
     id: 7,
     slug: "vong-tay-ruby-whispers",
     images: {
-      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564841/ruby_erjtqj.jpg",
+      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
       gallery: [
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564840/ruby-1_jzslqy.jpg",
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1744564841/ruby-2_omdeij.jpg",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
       ],
     },
     alt: "Vòng tay ruby whispers",
     name: "Vòng Tay Ruby Whispers",
     description:
       "Chiếc vòng tay Ruby Bloom là biểu tượng của tình yêu rực cháy, cảm xúc nồng nàn và nét đẹp cổ điển đầy cuốn hút. Lấy cảm hứng từ sắc đỏ của hoa hồng, ánh hoàng hôn vội vã và dấu môi ngọt ngào, chiếc vòng kết hợp hài hòa giữa các charm hình hoa, lá và hạt đá màu đỏ – hồng – nâu sẫm. Nền dây nâu đậm tạo cảm giác ấm áp, trưởng thành và rất dễ phối đồ. Mỗi bông hoa đỏ rực như một nốt nhạc tình ca vang vọng trên cổ tay, dành riêng cho những tâm hồn đam mê, quyến rũ và luôn sống hết mình với cảm xúc. Đây là món phụ kiện lý tưởng cho những buổi hẹn hò, những outfit có tone trầm hoặc để làm nổi bật phong cách cá nhân.",
-    price: 35000,
+    price: 40000,
     star: 4.8,
-    percent: 15,
+    percent: 20,
     colors: ["Đỏ ruby", "Hồng phấn", "Nâu đất"],
   },
   {
@@ -182,7 +182,7 @@ export const products: Product[] = [
     alt: "Vòng tay đá ngũ sắc",
     name: "Vòng Tay Đá Ngũ Sắc",
     description:
-    "Sản phẩm vòng tay thủ công tinh tế, được chế tác tỉ mỉ từ 5 loại đá thiên nhiên đại diện cho ngũ hành: Kim, Mộc, Thủy, Hỏa, Thổ. Mỗi loại đá mang một nguồn năng lượng riêng, khi kết hợp lại tạo nên sự hài hòa và cân bằng trong phong thủy. Không chỉ tôn lên vẻ đẹp thẩm mỹ độc đáo, chiếc vòng còn giúp điều hòa sinh khí, hỗ trợ cải thiện sức khỏe, thu hút tài lộc và mang lại sự an yên trong tâm trí. Đây là món phụ kiện lý tưởng cho những ai yêu thích sự giao hòa giữa nghệ thuật và năng lượng tự nhiên.",
+      "Sản phẩm vòng tay thủ công tinh tế, được chế tác tỉ mỉ từ 5 loại đá thiên nhiên đại diện cho ngũ hành: Kim, Mộc, Thủy, Hỏa, Thổ. Mỗi loại đá mang một nguồn năng lượng riêng, khi kết hợp lại tạo nên sự hài hòa và cân bằng trong phong thủy. Không chỉ tôn lên vẻ đẹp thẩm mỹ độc đáo, chiếc vòng còn giúp điều hòa sinh khí, hỗ trợ cải thiện sức khỏe, thu hút tài lộc và mang lại sự an yên trong tâm trí. Đây là món phụ kiện lý tưởng cho những ai yêu thích sự giao hòa giữa nghệ thuật và năng lượng tự nhiên.",
     price: 100000,
     star: 4.9,
     percent: 15,

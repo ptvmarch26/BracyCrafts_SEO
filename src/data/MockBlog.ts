@@ -1355,290 +1355,492 @@ export const blogPosts: Blog[] = [
     ],
   },
   {
-    "slug": "6-y-nghia-sau-sac-cua-vong-tay-handmade-qua-tang-y-nghia",
-    "title": "6 Ý Nghĩa Sâu Sắc Của Vòng Tay Handmade - Món Quà Tặng Chạm Đến Trái Tim",
-    "description": "Vòng tay handmade không chỉ là một món đồ trang sức thông thường mà còn mang nhiều ý nghĩa tinh thần. Cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade và tại sao chúng là món quà tặng ý nghĩa.",
-    "image": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/2_a24fd0740d0144699333eb299703a055_1024x1024_khammk.png",
-    "altText": "Vòng tay handmade ý nghĩa",
-    "publishedAt": "2025-04-18T08:30:00Z",
-    "updatedAt": "2025-04-18T08:30:00Z",
-    "author": "Phạm Quang Vũ",
-    "category": ["Vòng Tay", "Quà Tặng"],
-    "tags": [
+    slug: "6-y-nghia-sau-sac-cua-vong-tay-handmade-qua-tang-y-nghia",
+    title:
+      "6 Ý Nghĩa Sâu Sắc Của Vòng Tay Handmade - Món Quà Tặng Chạm Đến Trái Tim",
+    description:
+      "Vòng tay handmade không chỉ là một món đồ trang sức thông thường mà còn mang nhiều ý nghĩa tinh thần. Cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade và tại sao chúng là món quà tặng ý nghĩa.",
+    image:
+      "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/2_a24fd0740d0144699333eb299703a055_1024x1024_khammk.png",
+    altText: "Vòng tay handmade ý nghĩa",
+    publishedAt: "2025-04-18T08:30:00Z",
+    updatedAt: "2025-04-18T08:30:00Z",
+    author: "Phạm Quang Vũ",
+    category: ["Vòng Tay", "Quà Tặng"],
+    tags: [
       "vòng tay handmade",
       "quà tặng ý nghĩa",
       "trang sức thủ công",
       "ý nghĩa vòng tay",
-      "món quà tình thân"
+      "món quà tình thân",
     ],
-    "readingTime": 8,
-    "canonicalUrl": "https://handilove.vn/blog/6-y-nghia-sau-sac-cua-vong-tay-handmade",
-    "structuredData": {
+    readingTime: 8,
+    canonicalUrl:
+      "https://handilove.vn/blog/6-y-nghia-sau-sac-cua-vong-tay-handmade",
+    structuredData: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "6 Ý Nghĩa Sâu Sắc Của Vòng Tay Handmade - Món Quà Tặng Chạm Đến Trái Tim",
-      "datePublished": "2025-04-18T08:30:00Z",
-      "dateModified": "2025-04-18T08:30:00Z",
-      "author": {
+      headline:
+        "6 Ý Nghĩa Sâu Sắc Của Vòng Tay Handmade - Món Quà Tặng Chạm Đến Trái Tim",
+      datePublished: "2025-04-18T08:30:00Z",
+      dateModified: "2025-04-18T08:30:00Z",
+      author: {
         "@type": "Person",
-        "name": "Phạm Quang Vũ"
-      }
+        name: "Phạm Quang Vũ",
+      },
     },
-    "sections": [
+    sections: [
       {
-        "id": "section-intro",
-        "type": "heading",
-        "content": "Vòng tay handmade - Món quà mang dấu ấn tình cảm",
-        "level": 2
+        id: "section-intro",
+        type: "heading",
+        content: "Vòng tay handmade - Món quà mang dấu ấn tình cảm",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Trong thời đại công nghệ phát triển mạnh mẽ với vô vàn sản phẩm được sản xuất hàng loạt, vòng tay handmade lại trở nên đặc biệt bởi sự độc đáo và tâm huyết của người làm. Mỗi chiếc vòng đều là một tác phẩm riêng biệt, không bao giờ có hai sản phẩm hoàn toàn giống nhau - điều mà những món đồ sản xuất công nghiệp không thể có được.",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Trong thời đại công nghệ phát triển mạnh mẽ với vô vàn sản phẩm được sản xuất hàng loạt, vòng tay handmade lại trở nên đặc biệt bởi sự độc đáo và tâm huyết của người làm. Mỗi chiếc vòng đều là một tác phẩm riêng biệt, không bao giờ có hai sản phẩm hoàn toàn giống nhau - điều mà những món đồ sản xuất công nghiệp không thể có được.",
+        parentId: "section-intro",
       },
       {
-        "type": "paragraph",
-        "content": "Nhưng điều gì khiến vòng tay handmade trở thành món quà tặng được yêu thích đến vậy? Tại sao ngày càng nhiều người chọn tặng và đeo những chiếc vòng này? Hãy cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade nhé!",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Nhưng điều gì khiến vòng tay handmade trở thành món quà tặng được yêu thích đến vậy? Tại sao ngày càng nhiều người chọn tặng và đeo những chiếc vòng này? Hãy cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade nhé!",
+        parentId: "section-intro",
       },
       {
-        "id": "section-1",
-        "type": "heading",
-        "content": "Ý nghĩa #1: Sự trân trọng thời gian và công sức",
-        "level": 2
+        id: "section-1",
+        type: "heading",
+        content: "Ý nghĩa #1: Sự trân trọng thời gian và công sức",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Một chiếc vòng tay handmade đẹp mắt có thể mất từ vài giờ đến vài ngày để hoàn thành, tùy vào độ phức tạp của thiết kế. Đây không đơn thuần là một món trang sức mà là kết tinh của thời gian và công sức:",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "Một chiếc vòng tay handmade đẹp mắt có thể mất từ vài giờ đến vài ngày để hoàn thành, tùy vào độ phức tạp của thiết kế. Đây không đơn thuần là một món trang sức mà là kết tinh của thời gian và công sức:",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Mỗi mũi đan, mỗi hạt gắn kết đều được thực hiện bằng tay một cách cẩn thận, tỉ mỉ.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Mỗi mũi đan, mỗi hạt gắn kết đều được thực hiện bằng tay một cách cẩn thận, tỉ mỉ.",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Người thợ phải có sự kiên nhẫn, tập trung cao độ khi làm việc với những chi tiết nhỏ.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Người thợ phải có sự kiên nhẫn, tập trung cao độ khi làm việc với những chi tiết nhỏ.",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Mỗi khâu từ chọn nguyên liệu, phối màu, tạo hình đều đòi hỏi sự tỉ mỉ và óc thẩm mỹ.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Mỗi khâu từ chọn nguyên liệu, phối màu, tạo hình đều đòi hỏi sự tỉ mỉ và óc thẩm mỹ.",
+        parentId: "section-1",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/anh-mo-ta_uaouyd.jpg",
-        "altText": "Quy trình làm vòng tay handmade tỉ mỉ",
-        "parentId": "section-1"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/anh-mo-ta_uaouyd.jpg",
+        altText: "Quy trình làm vòng tay handmade tỉ mỉ",
+        parentId: "section-1",
       },
       {
-        "id": "section-2",
-        "type": "heading",
-        "content": "Ý nghĩa #2: Biểu tượng của tình cảm và kỷ niệm",
-        "level": 2
+        id: "section-2",
+        type: "heading",
+        content: "Ý nghĩa #2: Biểu tượng của tình cảm và kỷ niệm",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay handmade thường được tặng trong những dịp đặc biệt, trở thành vật lưu giữ kỷ niệm và tình cảm bền lâu:",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "Vòng tay handmade thường được tặng trong những dịp đặc biệt, trở thành vật lưu giữ kỷ niệm và tình cảm bền lâu:",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay tình bạn: Là biểu tượng của tình bạn gắn bó, thường được làm và trao cho nhau giữa những người bạn thân.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay tình bạn: Là biểu tượng của tình bạn gắn bó, thường được làm và trao cho nhau giữa những người bạn thân.",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay cặp đôi: Thể hiện sự gắn kết, cam kết giữa hai người yêu nhau, thường được thiết kế đồng điệu hoặc bổ trợ cho nhau.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay cặp đôi: Thể hiện sự gắn kết, cam kết giữa hai người yêu nhau, thường được thiết kế đồng điệu hoặc bổ trợ cho nhau.",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay kỷ niệm: Đánh dấu một chặng đường, một sự kiện quan trọng như tốt nghiệp, kỷ niệm ngày cưới, sinh nhật tròn tuổi.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay kỷ niệm: Đánh dấu một chặng đường, một sự kiện quan trọng như tốt nghiệp, kỷ niệm ngày cưới, sinh nhật tròn tuổi.",
+        parentId: "section-2",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961915/vong-tay-phong-thuy-5_e0acd27f8253471bb8b34f1259e7f662_qyze9o.jpg",
-        "altText": "Vòng tay tình bạn handmade",
-        "parentId": "section-2"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961915/vong-tay-phong-thuy-5_e0acd27f8253471bb8b34f1259e7f662_qyze9o.jpg",
+        altText: "Vòng tay tình bạn handmade",
+        parentId: "section-2",
       },
       {
-        "id": "section-3",
-        "type": "heading",
-        "content": "Ý nghĩa #3: Thể hiện cá tính và phong cách riêng",
-        "level": 2
+        id: "section-3",
+        type: "heading",
+        content: "Ý nghĩa #3: Thể hiện cá tính và phong cách riêng",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Trong thế giới đồng phục và sản phẩm đại trà, vòng tay handmade là cách tuyệt vời để thể hiện cá tính:",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Trong thế giới đồng phục và sản phẩm đại trà, vòng tay handmade là cách tuyệt vời để thể hiện cá tính:",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Khả năng cá nhân hóa cao: Bạn có thể chọn màu sắc, chất liệu, kiểu dáng, thậm chí khắc tên hoặc thông điệp ý nghĩa.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "❤️ Khả năng cá nhân hóa cao: Bạn có thể chọn màu sắc, chất liệu, kiểu dáng, thậm chí khắc tên hoặc thông điệp ý nghĩa.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Mỗi phong cách đều có loại vòng tay phù hợp:",
-        "parentId": "section-3"
+        type: "paragraph",
+        content: "❤️ Mỗi phong cách đều có loại vòng tay phù hợp:",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "  • Phong cách bohemian: Vòng tay đan macramé nhiều màu sắc, kết hợp hạt gỗ, lông vũ.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "  • Phong cách bohemian: Vòng tay đan macramé nhiều màu sắc, kết hợp hạt gỗ, lông vũ.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "  • Phong cách tối giản: Vòng dây da đơn giản, vòng hạt một màu thanh lịch.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "  • Phong cách tối giản: Vòng dây da đơn giản, vòng hạt một màu thanh lịch.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "  • Phong cách vintage: Vòng tay đồng, đá cổ điển với charm hoài niệm.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "  • Phong cách vintage: Vòng tay đồng, đá cổ điển với charm hoài niệm.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "  • Phong cách hiện đại: Vòng tay kim loại kết hợp chất liệu mới như acrylic, nhựa tái chế.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "  • Phong cách hiện đại: Vòng tay kim loại kết hợp chất liệu mới như acrylic, nhựa tái chế.",
+        parentId: "section-3",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/maxresdefault_k0wknu.jpg",
-        "altText": "Vòng tay handmade độc đáo thể hiện cá tính",
-        "parentId": "section-3"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/maxresdefault_k0wknu.jpg",
+        altText: "Vòng tay handmade độc đáo thể hiện cá tính",
+        parentId: "section-3",
       },
       {
-        "id": "section-4",
-        "type": "heading",
-        "content": "Ý nghĩa #4: Kết nối với văn hóa và truyền thống",
-        "level": 2
+        id: "section-4",
+        type: "heading",
+        content: "Ý nghĩa #4: Kết nối với văn hóa và truyền thống",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay handmade không chỉ là món trang sức mà còn là cầu nối văn hóa, giúp chúng ta hiểu và trân trọng những giá trị truyền thống:",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Vòng tay handmade không chỉ là món trang sức mà còn là cầu nối văn hóa, giúp chúng ta hiểu và trân trọng những giá trị truyền thống:",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay từ các dân tộc thiểu số: Mỗi họa tiết, màu sắc đều mang ý nghĩa biểu tượng riêng, thể hiện văn hóa và lịch sử của cộng đồng.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay từ các dân tộc thiểu số: Mỗi họa tiết, màu sắc đều mang ý nghĩa biểu tượng riêng, thể hiện văn hóa và lịch sử của cộng đồng.",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay phong thủy: Được chế tác từ đá quý, kim loại với ý nghĩa thu hút may mắn, sức khỏe, tài lộc theo quan niệm dân gian.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay phong thủy: Được chế tác từ đá quý, kim loại với ý nghĩa thu hút may mắn, sức khỏe, tài lộc theo quan niệm dân gian.",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay tâm linh: Thường được làm từ hạt gỗ như trầm hương, bồ đề, gắn với tín ngưỡng tôn giáo.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay tâm linh: Thường được làm từ hạt gỗ như trầm hương, bồ đề, gắn với tín ngưỡng tôn giáo.",
+        parentId: "section-4",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744962298/aquamarine-x-ngoc-bich-4-scaled_kyehb0.jpg",
-        "altText": "Vòng tay handmade mang đậm văn hóa dân tộc",
-        "parentId": "section-4"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744962298/aquamarine-x-ngoc-bich-4-scaled_kyehb0.jpg",
+        altText: "Vòng tay handmade mang đậm văn hóa dân tộc",
+        parentId: "section-4",
       },
       {
-        "id": "section-5",
-        "type": "heading",
-        "content": "Ý nghĩa #5: Hỗ trợ cộng đồng và phát triển bền vững",
-        "level": 2
+        id: "section-5",
+        type: "heading",
+        content: "Ý nghĩa #5: Hỗ trợ cộng đồng và phát triển bền vững",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Khi bạn mua một chiếc vòng tay handmade, bạn không chỉ sở hữu một món đồ đẹp mà còn đóng góp cho nhiều giá trị xã hội:",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "Khi bạn mua một chiếc vòng tay handmade, bạn không chỉ sở hữu một món đồ đẹp mà còn đóng góp cho nhiều giá trị xã hội:",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Hỗ trợ nghệ nhân và làng nghề: Mỗi sản phẩm bạn mua là nguồn thu nhập trực tiếp cho người thợ thủ công, giúp duy trì nghề truyền thống.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Hỗ trợ nghệ nhân và làng nghề: Mỗi sản phẩm bạn mua là nguồn thu nhập trực tiếp cho người thợ thủ công, giúp duy trì nghề truyền thống.",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Thân thiện với môi trường: Nhiều vòng tay handmade sử dụng nguyên liệu tự nhiên, tái chế, giảm thiểu tác động đến môi trường so với sản xuất công nghiệp.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Thân thiện với môi trường: Nhiều vòng tay handmade sử dụng nguyên liệu tự nhiên, tái chế, giảm thiểu tác động đến môi trường so với sản xuất công nghiệp.",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Hỗ trợ các dự án cộng đồng: Nhiều cơ sở sản xuất vòng tay handmade là các dự án xã hội giúp đỡ người khuyết tật, phụ nữ khó khăn, trẻ em đường phố có việc làm và thu nhập ổn định.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Hỗ trợ các dự án cộng đồng: Nhiều cơ sở sản xuất vòng tay handmade là các dự án xã hội giúp đỡ người khuyết tật, phụ nữ khó khăn, trẻ em đường phố có việc làm và thu nhập ổn định.",
+        parentId: "section-5",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744958407/vong-tay-vang-nu-phoi-da-phong-thuy-hop-menh-kim-moc-thuy-hoa-tho-ma-ltvn95-1_tjpz4e.jpg",
-        "altText": "Vòng tay handmade từ các dự án cộng đồng",
-        "parentId": "section-5"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744958407/vong-tay-vang-nu-phoi-da-phong-thuy-hop-menh-kim-moc-thuy-hoa-tho-ma-ltvn95-1_tjpz4e.jpg",
+        altText: "Vòng tay handmade từ các dự án cộng đồng",
+        parentId: "section-5",
       },
       {
-        "id": "section-6",
-        "type": "heading",
-        "content": "Ý nghĩa #6: Liệu pháp sáng tạo và chữa lành",
-        "level": 2
+        id: "section-6",
+        type: "heading",
+        content: "Ý nghĩa #6: Liệu pháp sáng tạo và chữa lành",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Không chỉ người đeo mà cả người làm vòng tay handmade đều nhận được những giá trị tinh thần to lớn:",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "Không chỉ người đeo mà cả người làm vòng tay handmade đều nhận được những giá trị tinh thần to lớn:",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Nghệ thuật trị liệu: Quá trình làm vòng tay đòi hỏi sự tập trung cao độ, giúp người làm quên đi lo âu, căng thẳng, tương tự như hiệu quả của thiền định.",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "❤️ Nghệ thuật trị liệu: Quá trình làm vòng tay đòi hỏi sự tập trung cao độ, giúp người làm quên đi lo âu, căng thẳng, tương tự như hiệu quả của thiền định.",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Phát triển kỹ năng và sự kiên nhẫn: Làm vòng tay là cách rèn luyện sự tỉ mỉ, khéo léo và bền bỉ.",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "❤️ Phát triển kỹ năng và sự kiên nhẫn: Làm vòng tay là cách rèn luyện sự tỉ mỉ, khéo léo và bền bỉ.",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Niềm vui từ sáng tạo: Cảm giác hạnh phúc, thành tựu khi hoàn thành một sản phẩm bằng chính đôi tay mình.",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "❤️ Niềm vui từ sáng tạo: Cảm giác hạnh phúc, thành tựu khi hoàn thành một sản phẩm bằng chính đôi tay mình.",
+        parentId: "section-6",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744962297/vong-charm-tay-da-thach-anh-hong-8-li-mix-charm-bac-6242c4c8467c9-29032022153520_qrlon4.jpg",
-        "altText": "Quá trình làm vòng tay handmade như liệu pháp tinh thần",
-        "parentId": "section-6"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744962297/vong-charm-tay-da-thach-anh-hong-8-li-mix-charm-bac-6242c4c8467c9-29032022153520_qrlon4.jpg",
+        altText: "Quá trình làm vòng tay handmade như liệu pháp tinh thần",
+        parentId: "section-6",
       },
       {
-        "id": "section-conclusion",
-        "type": "heading",
-        "content": "Những chiếc vòng tay handmade - Kết nối trái tim con người",
-        "level": 2
+        id: "section-conclusion",
+        type: "heading",
+        content: "Những chiếc vòng tay handmade - Kết nối trái tim con người",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Những chiếc vòng tay handmade tưởng chừng đơn giản nhưng lại chứa đựng những giá trị tinh thần sâu sắc. Chúng không chỉ là món trang sức làm đẹp cho cổ tay mà còn là cầu nối tình cảm, sự trân trọng, và những câu chuyện ý nghĩa giữa con người với nhau.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Những chiếc vòng tay handmade tưởng chừng đơn giản nhưng lại chứa đựng những giá trị tinh thần sâu sắc. Chúng không chỉ là món trang sức làm đẹp cho cổ tay mà còn là cầu nối tình cảm, sự trân trọng, và những câu chuyện ý nghĩa giữa con người với nhau.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "Lần tới, khi bạn chọn mua hay tự tay làm một chiếc vòng handmade, hãy nghĩ đến những ý nghĩa tuyệt vời mà nó mang lại. Hoặc khi nhận được một chiếc vòng tay handmade từ ai đó, hãy hiểu rằng đó không chỉ là một món quà vật chất mà còn là thời gian, công sức và tình cảm mà người ấy dành cho bạn.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Lần tới, khi bạn chọn mua hay tự tay làm một chiếc vòng handmade, hãy nghĩ đến những ý nghĩa tuyệt vời mà nó mang lại. Hoặc khi nhận được một chiếc vòng tay handmade từ ai đó, hãy hiểu rằng đó không chỉ là một món quà vật chất mà còn là thời gian, công sức và tình cảm mà người ấy dành cho bạn.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "Cuộc sống hiện đại với nhịp độ nhanh và sự kỹ thuật số hóa đang khiến chúng ta dần mất đi những kết nối chân thành. Những chiếc vòng tay handmade, với sự không hoàn hảo đáng yêu và tính độc đáo của nó, nhắc nhở chúng ta về giá trị của sự chậm rãi, tỉ mỉ và kết nối thực sự.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Cuộc sống hiện đại với nhịp độ nhanh và sự kỹ thuật số hóa đang khiến chúng ta dần mất đi những kết nối chân thành. Những chiếc vòng tay handmade, với sự không hoàn hảo đáng yêu và tính độc đáo của nó, nhắc nhở chúng ta về giá trị của sự chậm rãi, tỉ mỉ và kết nối thực sự.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Khám phá bộ sưu tập vòng tay handmade đầy ý nghĩa tại: https://handilove.vn/",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "👉 Khám phá bộ sưu tập vòng tay handmade đầy ý nghĩa tại: https://handilove.vn/",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Tham gia workshop làm vòng tay handmade: https://handilove.vn/workshop",
-        "parentId": "section-conclusion"
-      }
-    ]
-  }  
+        type: "paragraph",
+        content:
+          "👉 Tham gia workshop làm vòng tay handmade: https://handilove.vn/workshop",
+        parentId: "section-conclusion",
+      },
+    ],
+  },
+  {
+    slug: "tai-sao-ban-nen-chon-mua-hang-o-bracycraft",
+    title:
+      "Tại Sao Bạn Nên Chọn Mua Hàng Ở BracyCraft – Cửa Hàng Phụ Kiện Handmade Siu Xinh? 💕",
+    description:
+      "Khám phá 6 lý do khiến BracyCraft trở thành điểm đến yêu thích của những tín đồ phụ kiện handmade: từ thiết kế xinh xắn, giá siêu yêu, đến đội ngũ nhân viên đầy tâm huyết.",
+    image:
+      "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241730/tai-sao-ban-nen-chon-mua-hang-o-bracycraft_zetay4.jpg",
+    altText: "Phụ kiện handmade tại BracyCraft cực kỳ dễ thương",
+    publishedAt: "2025-04-21T08:00:00Z",
+    updatedAt: "2025-04-21T08:00:00Z",
+    author: "Nguyễn Ngọc Thanh Tuyền",
+    category: ["Thời Trang", "Phụ Kiện", "Vòng Tay"],
+    tags: [
+      "bracycraft",
+      "phụ kiện handmade",
+      "quà tặng",
+      "đồ thủ công",
+      "vòng tay handmade",
+    ],
+    readingTime: 6,
+    canonicalUrl:
+      "https://bracycrafts.id.vn/blog/tai-sao-ban-nen-chon-mua-hang-o-bracycraft",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline:
+        "Tại Sao Bạn Nên Chọn Mua Hàng Ở BracyCraft – Cửa Hàng Phụ Kiện Handmade Siu Xinh? 💕",
+      datePublished: "2025-04-21T08:00:00Z",
+      dateModified: "2025-04-21T08:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Ngọc Thanh Tuyền",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Handmade 100% – Mỗi Món Đều Có Một Câu Chuyện Riêng 🧵",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content: `Không giống như các sản phẩm công nghiệp sản xuất hàng loạt, ở BracyCraft mỗi món phụ kiện đều được làm thủ công từ khâu chọn nguyên liệu, phối màu, đến hoàn thiện từng chi tiết nhỏ. Mỗi chiếc vòng tay, đôi bông tai hay móc khóa đều mang trong mình nét cá tính riêng biệt, không ai giống ai, độc nhất vô nhị!\n\n"Không chỉ là đồ vật, đó là những cảm xúc được kết lại bằng tay."`,
+        parentId: "section-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241730/tai-sao-ban-nen-chon-mua-hang-o-bracycraft_zetay4.jpg",
+        altText: "Câu chuyện riêng từ phụ kiện handmade",
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "2. Thiết Kế Cực Xinh – Cập Nhật Xu Hướng Liên Tục 💖",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content: `BracyCraft luôn "bắt trend" cực nhanh! Dù bạn thích phong cách nhẹ nhàng Hàn Quốc, cổ điển vintage, hay bánh bèo cute lạc lối – thì shop đều có đủ BST khiến bạn chỉ muốn... thêm vào giỏ ngay lập tức! Các bộ sưu tập mới thường xuyên được cập nhật theo mùa, theo lễ hội (Tết, Giáng Sinh, Valentine...) nên lúc nào ghé cũng có điều bất ngờ chờ đón bạn 🎉`,
+        parentId: "section-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241287/efca4b2aa541b227eaba6271cf7aa302_qgllqn.jpg",
+        altText: "Tại sao nên chọn mua hàng ở BracyCrafts",
+        parentId: "section-2",
+      },
+
+      {
+        id: "section-3",
+        type: "heading",
+        content: "3. Giá Cực Yêu Thương – Chất Lượng Thì Miễn Bàn 💸",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content: `Là một shop handmade nhưng giá ở BracyCraft lại cực kỳ phải chăng, phù hợp với cả các bạn học sinh, sinh viên. Dù là vòng tay, nhẫn resin, kẹp tóc hay móc khóa bạn đều sẽ cảm nhận được sự tỉ mỉ, chắc tay và bền đẹp qua từng sản phẩm. Không cần chi nhiều tiền vẫn có món phụ kiện "xịn sò" mang đậm dấu ấn cá nhân.`,
+        parentId: "section-3",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        content: "4. Gói Quà Siêu Dễ Thương – Gửi Yêu Thương Trọn Vẹn 🎁",
+        level: 2,
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241287/d41859191448fb4c9c53166be2fa52d3_ounr0f.jpg",
+        altText: "Vòng tay handmade đa dạng lựa chọn",
+        parentId: "section-4",
+      },
+      {
+        type: "paragraph",
+        content: `BracyCraft không chỉ bán sản phẩm, mà còn chăm chút cả cảm xúc của người nhận. Bạn có thể yêu cầu gói quà theo chủ đề (sinh nhật, kỷ niệm, Giáng Sinh,...) kèm thiệp xinh, sticker, hoặc lời nhắn tay. Khi người nhận mở món quà từ BracyCraft, tin mình đi họ sẽ "lụi tim" vì sự tinh tế và đáng yêu không lối thoát đó 🥰`,
+        parentId: "section-4",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        content: "5. Đội Ngũ Siêu Đáng Yêu – Làm Việc Bằng Cả Trái Tim 💼💓",
+        level: 2,
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241287/9fb46b875f2a63a00447f042498006e2_iwpksu.jpg",
+        altText: "Cửa hàng BracuCraft nơi lựa chọn phụ kiện handmade siu xinh",
+        parentId: "section-5",
+      },
+      {
+        type: "paragraph",
+        content: `BracyCraft là một team nhỏ gồm những bạn trẻ đam mê thủ công và yêu cái đẹp. Mỗi người trong team đều mang đến một "nét duyên" riêng:\n👩‍🎨 Người thiết kế là những "nghệ sĩ thầm lặng", luôn sáng tạo ra những mẫu mới độc – lạ – có gu.\n✋ Người làm sản phẩm luôn tỉ mỉ, khéo léo trong từng công đoạn: đổ resin, kết hạt, khâu may...\n📦 Bạn đóng gói và tư vấn khách luôn dễ thương, tận tình, sẵn sàng trò chuyện và giúp bạn chọn món quà phù hợp nhất.\n\nBracyCraft không phải là một "cỗ máy sản xuất" mà là một "ngôi nhà sáng tạo", nơi mọi thành viên làm việc bằng sự đam mê và niềm vui. Mỗi sản phẩm gửi đi, là một chút tình cảm chân thành từ tụi mình đến bạn đó!`,
+        parentId: "section-5",
+      },
+      {
+        id: "section-6",
+        type: "heading",
+        content: "6. Ủng Hộ Đam Mê – Mua Là Lan Tỏa Yêu Thương 🌈",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Mỗi đơn hàng bạn đặt không chỉ là một món quà cho chính mình hay người thân, mà còn là sự ủng hộ cho những người trẻ dám sống với đam mê handmade, sáng tạo và chân thành. BracyCraft không hướng đến sự hào nhoáng, mà hướng đến giá trị bền lâu và sự gắn kết thật sự với khách hàng 💕",
+        parentId: "section-6",
+      },
+      { id: "section-7", type: "heading", content: "💬 Kết Lại Nè:", level: 2 },
+      {
+        type: "paragraph",
+        content:
+          "Nếu bạn đang muốn tìm kiếm một cửa hàng phụ kiện handmade xinh xắn, chân thành, và đầy cảm hứng, thì BracyCraft chính là điểm đến bạn đang tìm kiếm. Còn chần chừ gì nữa, hãy ghé ngay BracyCraft để chọn cho mình (hoặc người bạn thương) một món đồ nhỏ xinh nhưng đong đầy yêu thương nha! 👉 Theo dõi BracyCraft ngay hôm nay để không bỏ lỡ những thiết kế mới siu xinh mỗi tuần nhaaaa~ 🌟🌷",
+        parentId: "section-7",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241589/Screenshot_2025-04-20_212550_jdoprz.png",
+        altText: "Mẹo chọn vòng tay handmade phù hợp",
+        parentId: "section-7",
+      },{
+        type: "paragraph",
+        content: "👉 Đặt thiết kế riêng tại đây: https://bracycrafts.id.vn/",
+        parentId: "section-7",
+      },
+      {
+        type: "paragraph",
+        content:
+          "👉 Nhắn tụi mình để tư vấn vòng “chính mình” nhất: https://www.facebook.com/bracycrafts.shop",
+        parentId: "section-7",
+      },
+    ],
+  },
 ];
