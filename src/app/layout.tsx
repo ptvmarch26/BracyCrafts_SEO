@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Pacifico } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from '@vercel/analytics/react';
 
 const nunito = Nunito({
   subsets: ["vietnamese"],
@@ -88,24 +89,23 @@ export default function RootLayout({
             }),
           }}
         />
-        <script
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-YK9MRE5R94"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-YK9MRE5R94');
-            `,
-          }}
         />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YK9MRE5R94');
+  `}
+        </Script>
         <link rel="icon" href="/favicon2.ico" />
       </head>
       <body className={`${nunito.className} ${pacifico.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
