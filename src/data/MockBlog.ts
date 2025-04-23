@@ -732,17 +732,6 @@ export const blogPosts: Blog[] = [
           "Một chiếc vòng tay handmade phù hợp mệnh không chỉ giúp bạn nổi bật hơn mà còn tạo ra nguồn năng lượng tích cực, hỗ trợ tinh thần và cuộc sống. Mỗi màu sắc, chất liệu đều mang theo một thông điệp và sức mạnh riêng. Hãy để BracyCrafts giúp bạn tìm thấy chiếc vòng phù hợp nhất với bản mệnh và phong cách của chính mình.",
         parentId: "section-3",
       },
-      {
-        type: "paragraph",
-        content: "👉 Đặt làm vòng theo mệnh tại: https://bracycrafts.id.vn/",
-        parentId: "section-3",
-      },
-      {
-        type: "paragraph",
-        content:
-          "👉 Inbox tư vấn miễn phí: https://www.facebook.com/bracycrafts.shop",
-        parentId: "section-3",
-      },
     ],
   },
   {
@@ -1671,18 +1660,6 @@ export const blogPosts: Blog[] = [
           "Cuộc sống hiện đại với nhịp độ nhanh và sự kỹ thuật số hóa đang khiến chúng ta dần mất đi những kết nối chân thành. Những chiếc vòng tay handmade, với sự không hoàn hảo đáng yêu và tính độc đáo của nó, nhắc nhở chúng ta về giá trị của sự chậm rãi, tỉ mỉ và kết nối thực sự.",
         parentId: "section-conclusion",
       },
-      {
-        type: "paragraph",
-        content:
-          "👉 Khám phá bộ sưu tập vòng tay handmade đầy ý nghĩa tại: https://handilove.vn/",
-        parentId: "section-conclusion",
-      },
-      {
-        type: "paragraph",
-        content:
-          "👉 Tham gia workshop làm vòng tay handmade: https://handilove.vn/workshop",
-        parentId: "section-conclusion",
-      },
     ],
   },
   {
@@ -1830,7 +1807,8 @@ export const blogPosts: Blog[] = [
           "https://res.cloudinary.com/dai92e7cq/image/upload/v1745241589/Screenshot_2025-04-20_212550_jdoprz.png",
         altText: "Mẹo chọn vòng tay handmade phù hợp",
         parentId: "section-7",
-      },{
+      },
+      {
         type: "paragraph",
         content: "👉 Đặt thiết kế riêng tại đây: https://bracycrafts.id.vn/",
         parentId: "section-7",
@@ -1842,5 +1820,187 @@ export const blogPosts: Blog[] = [
         parentId: "section-7",
       },
     ],
+  },
+  {
+    "slug": "vong-tay-uit",
+    "title": "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
+    "description": "Khám phá BracyCrafts - nơi thiết kế và sản xuất vòng tay handmade độc đáo dành cho sinh viên UIT và những người yêu thích phụ kiện handmade. Những thiết kế cá nhân hóa, mỗi sản phẩm đều là một tác phẩm nghệ thuật đầy tâm huyết.",
+    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745410909/logo-dai-hoc-cong-nghe-thong-tin-tp-hcm_kcae1b.png",
+    "altText": "Vòng tay UIT xanh dương – phụ kiện handmade cho sinh viên",
+    "publishedAt": "2025-04-23T08:00:00Z",
+    "updatedAt": "2025-04-23T08:00:00Z",
+    "author": "Võ Văn Phi Thông",
+    "category": ["Sinh Viên", "UIT", "Phụ Kiện", "Vòng Tay"],
+    "tags": [
+      "uit",
+      "vòng tay handmade",
+      "phụ kiện sinh viên",
+      "trường đại học",
+      "handmade design",
+      "bracycrafts"
+    ],
+    "readingTime": 5,
+    "canonicalUrl": "https://bracycrafts.id.vn/blog/vong-tay-uit",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
+      "datePublished": "2025-04-23T08:00:00Z",
+      "dateModified": "2025-04-23T08:00:00Z",
+      "author": {
+        "@type": "Person",
+        "name": "Võ Văn Phi Thông"
+      }
+    },
+    "sections": [
+      {
+        "id": "section-intro",
+        "type": "heading",
+        "content": "BracyCrafts - Nơi Lưu Giữ Kỷ Niệm Đại Học Qua Những Chiếc Vòng Tay",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Chào mừng bạn đến với BracyCrafts - shop handmade chuyên thiết kế và sản xuất những chiếc vòng tay độc đáo dành cho sinh viên Trường Đại học Công nghệ Thông tin (UIT) và tất cả những ai yêu thích phụ kiện handmade có ý nghĩa. Hãy cùng khám phá lý do vì sao những chiếc vòng tay của chúng mình đang trở thành món phụ kiện được yêu thích trong cộng đồng sinh viên.",
+        "parentId": "section-intro"
+      },
+      {
+        "id": "section-1",
+        "type": "heading",
+        "content": "1. Biểu Tượng Tự Hào Sinh Viên UIT 🎓💙",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Vòng tay tại BracyCrafts không chỉ đơn thuần là một món phụ kiện, mà còn là biểu tượng của tuổi trẻ, của niềm tự hào khi là sinh viên Công nghệ Thông tin. Được thiết kế thủ công với nhiều gam màu tinh tế, mỗi chiếc vòng là một thông điệp gắn kết, mang theo hơi thở của tinh thần UIT – trẻ trung, nhiệt huyết và sáng tạo.",
+        "parentId": "section-1"
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745410909/logo-dai-hoc-cong-nghe-thong-tin-tp-hcm_kcae1b.png",
+        altText: "Logo UIT",
+        parentId: "section-1",
+      },
+      {
+        "id": "section-2",
+        "type": "heading",
+        "content": "2. Đa Dạng Mẫu Mã Cho Mọi Phong Cách ✨",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Tại BracyCrafts, bạn sẽ tìm thấy đa dạng các mẫu vòng tay phù hợp với mọi phong cách cá nhân:",
+        "parentId": "section-2"
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Vòng tay dây dù với charm UIT.",
+          "Vòng hạt đá tự nhiên kết hợp logo trường.",
+          "Vòng tay khắc tên/mã số sinh viên cá nhân hóa và thiết kế đặc biệt cho từng khoa/ngành/lớp.",
+        ],
+        parentId: "section-2",
+      },
+      {
+        "type": "paragraph",
+        "content": "Dù bạn diện đồng phục, đi học, đi chơi hay tham gia các hoạt động ngoại khóa – chiếc vòng đều toát lên nét cá tính riêng.",
+        "parentId": "section-2"
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745411477/51531ea2-57b9-40ef-b5de-e114935cfeda_vwoyzu.jpg",
+        altText: "Các mẫu vòng tay handmade tại BracyCrafts",
+        parentId: "section-2",
+      },
+      {
+        "id": "section-3",
+        "type": "heading",
+        "content": "3. Chất Liệu Handmade – Mỗi Chiếc Vòng Là Một Tâm Huyết 💪",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Không qua dây chuyền máy móc, vòng tay tại BracyCrafts được chế tác hoàn toàn thủ công từ hạt charm khắc chữ, đá đủ sắc màu và dây cao cấp chắc chắn. Chúng mình chỉ chọn những chất liệu an toàn cho da, bền đẹp theo thời gian, không phai màu. Mỗi chiếc vòng là một phần tâm huyết, là lời gửi gắm của người làm đến người đeo – giản dị mà đầy ý nghĩa.",
+        "parentId": "section-3"
+      },
+      {
+        "id": "section-4",
+        "type": "heading",
+        "content": "4. Món Quà Ý Nghĩa Cho Mọi Dịp 🎁",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Vòng tay BracyCrafts là món quà hoàn hảo cho nhiều dịp đặc biệt:",
+        "parentId": "section-4"
+      },
+      {
+        type: "list",
+        listType: "ordered",
+        content: [
+          "Kỷ niệm ngày nhập học/tốt nghiệp.",
+          "Quà tặng đồng đội trong các dự án/CLB.",
+          "Kỷ niệm tình bạn và các sự kiện/hoạt động ngoại khóa của trường.",
+        ],
+        parentId: "section-4",
+      },
+      {
+        "type": "paragraph",
+        "content": "Hãy thử tưởng tượng cả nhóm cùng đeo một mẫu vòng – vibe 'đồng đội' sẽ ngầu hơn bao giờ hết!",
+        "parentId": "section-4"
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745411880/chuyen-qua-tai-hai-phong_jpifs4.jpg",
+        altText: "Tặng quà nhân dịp các kỷ niệm",
+        parentId: "section-4",
+      },
+      {
+        "id": "section-5",
+        "type": "heading",
+        "content": "5. Không Chỉ Dành Cho Sinh Viên UIT 🌍",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Mặc dù được thiết kế với tình yêu đặc biệt dành cho sinh viên UIT, nhưng các sản phẩm tại BracyCrafts còn phù hợp với tất cả mọi người: cựu sinh viên muốn lưu giữ kỷ niệm đẹp, bạn bè và người thân muốn tặng quà cho UITer, những người yêu thích phong cách phụ kiện handmade độc đáo, và các trường đại học/cao đẳng khác muốn đặt thiết kế riêng.",
+        "parentId": "section-5"
+      },
+      {
+        "id": "section-6",
+        "type": "heading",
+        "content": "💬 Lời Kết:",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "BracyCrafts không chỉ là nơi bán vòng tay handmade, mà còn là nơi lưu giữ những kỷ niệm đẹp của thời sinh viên. Mỗi chiếc vòng tay đều mang một câu chuyện, một ý nghĩa riêng, và chúng mình tin rằng đó sẽ là món phụ kiện đồng hành cùng bạn trong suốt quãng đời đại học và cả những năm tháng sau này.",
+        "parentId": "section-6"
+      },
+      {
+        "type": "paragraph",
+        "content": "👉 Đặt vòng tay UIT tại đây: https://bracycrafts.id.vn/",
+        "parentId": "section-6"
+      },
+      {
+        "type": "paragraph",
+        "content": "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.facebook.com/bracycrafts.shop",
+        "parentId": "section-6"
+      },
+      {
+        "type": "paragraph",
+        "content": "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.instagram.com/bracy.crafts",
+        "parentId": "section-6"
+      },
+      {
+        "type": "paragraph",
+        "content": "📧 Email: contact.bracycrafts@gmail.com | 📞 Hotline: 0932 345 510",
+        "parentId": "section-6"
+      }
+    ]
   },
 ];
