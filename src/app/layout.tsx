@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   },
   description:
     "Chào mừng bạn đến với BracyCrafts (hoặc BracyCraft) – Nơi mang lại trải nghiệm mua sắm tuyệt vời dành cho bạn. BracyCrafts cam kết cung cấp những sản phẩm chất lượng và dịch vụ tận tâm nhất dành cho khách hàng. Hãy khám phá ngay hôm nay!",
-    keywords: [
-      "BracyCrafts",
-      "BracyCraft",
-      "sản phẩm handmade",
-      "vòng tay handmade"
-    ],
-    icons: {
+  keywords: [
+    "BracyCrafts",
+    "BracyCraft",
+    "sản phẩm handmade",
+    "vòng tay handmade",
+  ],
+  icons: {
     icon: "/favicon2.ico",
   },
   metadataBase: new URL("https://bracycrafts.id.vn/"),
@@ -86,6 +86,20 @@ export default function RootLayout({
                 "https://www.instagram.com/bracy.crafts/",
               ],
             }),
+          }}
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-YK9MRE5R94"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YK9MRE5R94');
+            `,
           }}
         />
         <link rel="icon" href="/favicon2.ico" />
