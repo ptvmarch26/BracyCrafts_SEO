@@ -113,44 +113,6 @@ export const products: Product[] = [
     colors: ["Tím", "Hồng nhạt"],
   },
   {
-    id: 6,
-    slug: "vong-tay-ocean-bloom",
-    images: {
-      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
-      gallery: [
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
-      ],
-    },
-    alt: "Vòng tay ocean bloom",
-    name: "Vòng Tay Ocean Bloom",
-    description:
-      "Chiếc vòng tay Ocean Bloom là sự hòa quyện nhẹ nhàng giữa màu sắc của đại dương và sự trong trẻo của thiên nhiên. Lấy cảm hứng từ sắc xanh của sóng biển, sắc tím – hồng nhạt của san hô và ánh sáng lung linh trên mặt nước, chiếc vòng mang đến cảm giác dịu dàng và thanh khiết. Các hạt đá hình hoa và lá được xâu tỉ mỉ trên nền dây dù nâu nhạt chắc chắn, có thể điều chỉnh kích thước dễ dàng. Với tone màu pastel ngọt ngào như xanh mint, tím lavender, hồng phấn, chiếc vòng không chỉ là phụ kiện, mà còn như một mảnh ghép của biển cả dịu êm được gói gọn trên cổ tay. Phù hợp với những ai yêu phong cách nữ tính, bay bổng và yêu thiên nhiên, đại dương.",
-    price: 40000,
-    star: 4.9,
-    percent: 10,
-    colors: ["Xanh pastel", "Hồng nhạt", "Tím nhạt"],
-  },
-  {
-    id: 7,
-    slug: "vong-tay-ruby-whispers",
-    images: {
-      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
-      gallery: [
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
-        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
-      ],
-    },
-    alt: "Vòng tay ruby whispers",
-    name: "Vòng Tay Ruby Whispers",
-    description:
-      "Chiếc vòng tay Ruby Bloom là biểu tượng của tình yêu rực cháy, cảm xúc nồng nàn và nét đẹp cổ điển đầy cuốn hút. Lấy cảm hứng từ sắc đỏ của hoa hồng, ánh hoàng hôn vội vã và dấu môi ngọt ngào, chiếc vòng kết hợp hài hòa giữa các charm hình hoa, lá và hạt đá màu đỏ – hồng – nâu sẫm. Nền dây nâu đậm tạo cảm giác ấm áp, trưởng thành và rất dễ phối đồ. Mỗi bông hoa đỏ rực như một nốt nhạc tình ca vang vọng trên cổ tay, dành riêng cho những tâm hồn đam mê, quyến rũ và luôn sống hết mình với cảm xúc. Đây là món phụ kiện lý tưởng cho những buổi hẹn hò, những outfit có tone trầm hoặc để làm nổi bật phong cách cá nhân.",
-    price: 40000,
-    star: 4.8,
-    percent: 20,
-    colors: ["Đỏ ruby", "Hồng phấn", "Nâu đất"],
-  },
-  {
     id: 8,
     slug: "vong-tay-da-mat-ho-nau",
     images: {
@@ -231,5 +193,214 @@ export const products: Product[] = [
       "Anxiety (Cam cháy)",
       "Embarrassment (Hồng pastel)",
     ],
+  },
+  {
+    id: 6,
+    slug: "vong-tay-ocean-bloom",
+    images: {
+      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
+      gallery: [
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ocean-bloom_x8n5v8.png",
+      ],
+    },
+    alt: "Vòng tay ocean bloom",
+    name: "Vòng Tay Ocean Bloom",
+    description:
+      "Chiếc vòng tay Ocean Bloom là sự hòa quyện nhẹ nhàng giữa màu sắc của đại dương và sự trong trẻo của thiên nhiên. Lấy cảm hứng từ sắc xanh của sóng biển, sắc tím – hồng nhạt của san hô và ánh sáng lung linh trên mặt nước, chiếc vòng mang đến cảm giác dịu dàng và thanh khiết. Các hạt đá hình hoa và lá được xâu tỉ mỉ trên nền dây dù nâu nhạt chắc chắn, có thể điều chỉnh kích thước dễ dàng. Với tone màu pastel ngọt ngào như xanh mint, tím lavender, hồng phấn, chiếc vòng không chỉ là phụ kiện, mà còn như một mảnh ghép của biển cả dịu êm được gói gọn trên cổ tay. Phù hợp với những ai yêu phong cách nữ tính, bay bổng và yêu thiên nhiên, đại dương.",
+    price: 40000,
+    star: 4.9,
+    percent: 10,
+    colors: ["Xanh pastel", "Hồng nhạt", "Tím nhạt"],
+  },
+  {
+    id: 7,
+    slug: "vong-tay-ruby-whispers",
+    images: {
+      main: "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
+      gallery: [
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
+        "https://res.cloudinary.com/dai92e7cq/image/upload/v1745230024/vong-tay-ruby-whispers_y1iumo.png",
+      ],
+    },
+    alt: "Vòng tay ruby whispers",
+    name: "Vòng Tay Ruby Whispers",
+    description:
+      "Chiếc vòng tay Ruby Bloom là biểu tượng của tình yêu rực cháy, cảm xúc nồng nàn và nét đẹp cổ điển đầy cuốn hút. Lấy cảm hứng từ sắc đỏ của hoa hồng, ánh hoàng hôn vội vã và dấu môi ngọt ngào, chiếc vòng kết hợp hài hòa giữa các charm hình hoa, lá và hạt đá màu đỏ – hồng – nâu sẫm. Nền dây nâu đậm tạo cảm giác ấm áp, trưởng thành và rất dễ phối đồ. Mỗi bông hoa đỏ rực như một nốt nhạc tình ca vang vọng trên cổ tay, dành riêng cho những tâm hồn đam mê, quyến rũ và luôn sống hết mình với cảm xúc. Đây là món phụ kiện lý tưởng cho những buổi hẹn hò, những outfit có tone trầm hoặc để làm nổi bật phong cách cá nhân.",
+    price: 40000,
+    star: 4.8,
+    percent: 20,
+    colors: ["Đỏ ruby", "Hồng phấn", "Nâu đất"],
+  },
+  {
+    id: 12,
+    slug: "vong-tay-crystal-rainbow",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/20_jmxl9v.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/20_jmxl9v.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/20_jmxl9v.jpg",
+      ],
+    },
+    alt: "Vòng tay crystal rainbow",
+    name: "Vòng Tay Crystal  Rainbow",
+    description:
+      "Chiếc vòng tay Crystal Rainbow là sự kết hợp tuyệt vời của những viên đá tinh thể màu sắc rực rỡ, mang đến vẻ đẹp nổi bật và ấn tượng. Được làm từ những viên đá pha lê tinh xảo, chiếc vòng này không chỉ thu hút ánh nhìn mà còn đem lại sự tươi mới và sinh động cho cổ tay bạn. Mỗi màu sắc từ xanh dương, vàng, cam, xanh lá, tạo nên một dải cầu vồng lung linh, phản chiếu ánh sáng một cách tuyệt đẹp. Với thiết kế đơn giản, nhưng đầy tinh tế, chiếc vòng tay này có thể điều chỉnh dễ dàng, phù hợp với nhiều kích thước cổ tay. Vòng tay Crystal Rainbow sẽ là món phụ kiện không thể thiếu cho những ai yêu thích sự rực rỡ, tươi vui và mong muốn thể hiện cá tính sáng tạo của mình. Hãy để chiếc vòng này trở thành điểm nhấn thú vị cho mỗi ngày của bạn!",
+    price: 150000,
+    star: 4.9,
+    percent: 15,
+    colors: ["Cầu vồng tone nóng", "Cầu vồng tone lạnh"],
+  },
+  {
+    id: 13,
+    slug: "vong-tay-fairy-dew",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/21_xcgxr0.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/21_xcgxr0.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/21_xcgxr0.jpg",
+      ],
+    },
+    alt: "Vòng tay fairy dew",
+    name: "Vòng Tay Fairy Dew",
+    description:
+      "Chiếc vòng tay Fairy Dew mang đến vẻ đẹp nhẹ nhàng và thanh thoát như một làn sương mai trong sáng. Được làm từ những viên đá tinh thể trong suốt, pha lẫn màu pastel ngọt ngào như hồng phấn, xanh da trời và tím nhạt, chiếc vòng tạo nên một dải màu sắc dịu dàng, tươi tắn. Thiết kế thanh thoát với những viên đá được xâu chuỗi tinh tế, tạo cảm giác mềm mại và nữ tính. Với dây buộc có thể điều chỉnh, vòng tay dễ dàng vừa vặn với mọi kích thước cổ tay, giúp bạn thoải mái khi đeo. Vòng tay Fairy Dew không chỉ là món phụ kiện tuyệt vời cho những ai yêu thích phong cách nhẹ nhàng, trong sáng mà còn là một món quà ý nghĩa cho những ai muốn thêm chút lung linh vào cuộc sống của mình.",
+    price: 150000,
+    star: 4.8,
+    percent: 15,
+    colors: ["Dây đen", "Dây trắng", "Dây xanh nhạt"],
+  },
+  {
+    id: 14,
+    slug: "vong-tay-ca-con",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/10_ursjqr.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/10_ursjqr.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574760/10_ursjqr.jpg",
+      ],
+    },
+    alt: "Vòng tay cá con",
+    name: "Vòng Tay Cá Con",
+    description:
+      "Chiếc vòng tay Cá Con là một món phụ kiện đáng yêu và dễ thương, được thiết kế tinh xảo với hình dáng cá con dễ thương làm điểm nhấn chính. Các viên đá mịn màng, màu sắc nhẹ nhàng như trắng, hồng và xám tạo nên một sự kết hợp nhẹ nhàng, thanh thoát. Đặc biệt, hình cá con với đôi mắt đen láy càng làm tăng thêm vẻ ngộ nghĩnh, dễ thương cho chiếc vòng. Với dây thun có thể điều chỉnh, chiếc vòng tay dễ dàng vừa vặn với cổ tay của bạn, mang đến cảm giác thoải mái khi đeo. Vòng tay Cá Con là sự lựa chọn tuyệt vời cho những ai yêu thích sự nhẹ nhàng, dễ thương và có một chút gì đó tinh nghịch. Hãy để chiếc vòng này làm bạn thêm phần nổi bật với vẻ đáng yêu đầy cuốn hút!",
+    price: 25000,
+    star: 4.7,
+    percent: 10,
+    colors: ["Cam trắng", "Hồng trắng", "Xanh trắng"],
+  },
+  {
+    id: 15,
+    slug: "vong-tay-forest-blossom",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/19_u5yc6g.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/19_u5yc6g.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/19_u5yc6g.jpg",
+      ],
+    },
+    alt: "Vòng tay forest blossom",
+    name: "Vòng Tay Forest Blossom",
+    description:
+      "Chiếc vòng tay Forest Blossom mang vẻ đẹp ngọt ngào và tinh tế, như một khu rừng hoa đầy sắc màu tươi mới. Các viên đá được thiết kế thành hình hoa nhỏ, với đủ các sắc thái từ hồng phấn, xanh lá, đến tím và vàng nhạt, tạo nên một dải màu rực rỡ nhưng không kém phần dịu dàng. Hình ảnh những bông hoa mọc tựa như trong một khu vườn xinh đẹp, mang đến cảm giác thanh bình và dễ chịu. Với dây thun có thể điều chỉnh kích thước, vòng tay dễ dàng vừa vặn với cổ tay của bạn, giúp bạn thoải mái khi đeo. Vòng tay Forest Blossom là món phụ kiện lý tưởng cho những ai yêu thích sự nhẹ nhàng, nữ tính và hòa mình vào thiên nhiên. Hãy để chiếc vòng này trở thành điểm nhấn tuyệt vời cho phong cách của bạn!",
+    price: 150000,
+    star: 4.9,
+    percent: 15,
+    colors: ["Hồng xanh lá", "Tím xanh lá", "Cam xanh lá"],
+  },
+  {
+    id: 16,
+    slug: "vong-tay-ocean-mood",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/13_slmrk1.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/13_slmrk1.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/13_slmrk1.jpg",
+      ],
+    },
+    alt: "Vòng tay ocean mood",
+    name: "Vòng Tay Ocean Mood",
+    description:
+      "Chiếc vòng tay Ocean Mood mang đến cảm giác như làn sóng vỗ về nhẹ nhàng từ biển cả bao la. Với thiết kế lấy cảm hứng từ đại dương, chiếc vòng có các viên đá trong suốt pha lẫn màu xanh biển tươi mát, kết hợp với hình ngôi sao biển xinh xắn làm điểm nhấn. Mỗi viên đá, mỗi chi tiết nhỏ đều gợi lên hình ảnh của những làn sóng mát lành, của không gian biển cả rộng lớn và đầy sức sống. Với dây thun có thể điều chỉnh, chiếc vòng tay này dễ dàng phù hợp với mọi cổ tay, mang lại sự thoải mái khi đeo. Vòng tay Ocean Mood là món phụ kiện lý tưởng cho những ai yêu thích sự nhẹ nhàng, tươi mới và luôn mong muốn có một chút hơi thở của đại dương trong cuộc sống hàng ngày.",
+    price: 30000,
+    star: 4.8,
+    percent: 10,
+    colors: ["Xanh biển", "Hồng nhạt", "Tím nhạt"],
+  },
+  {
+    id: 17,
+    slug: "vong-tay-pinky-glow",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/18_okdmta.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/18_okdmta.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/18_okdmta.jpg",
+      ],
+    },
+    alt: "Vòng tay pinky glow",
+    name: "Vòng Tay Pinky Glow",
+    description:
+      "Chiếc vòng tay Pinky Glow là sự kết hợp tuyệt vời giữa sắc hồng ngọt ngào và sự tinh tế của những viên đá pha lê lấp lánh. Với thiết kế mềm mại, vòng tay này mang đến vẻ đẹp nữ tính, nhẹ nhàng và đầy quyến rũ. Các viên đá nhỏ hình hoa, kết hợp với màu sắc pastel như hồng phấn, tím nhạt và trắng, tạo nên một dải màu sắc hài hòa, dễ thương. Điểm nhấn đặc biệt là những chi tiết hoa nhỏ xinh, mang lại cảm giác tươi mới, rực rỡ. Với dây thun có thể điều chỉnh, vòng tay này dễ dàng vừa vặn với cổ tay của bạn, mang lại sự thoải mái và tự tin khi đeo. Vòng tay Pinky Glow là món phụ kiện lý tưởng cho những ai yêu thích vẻ đẹp ngọt ngào, nhẹ nhàng và luôn muốn thêm phần rực rỡ cho phong cách của mình. Hãy để chiếc vòng này là điểm nhấn ngọt ngào trong bộ sưu tập phụ kiện của bạn.",
+    price: 150000,
+    star: 4.9,
+    percent: 15,
+    colors: ["Hồng phấn", "Hồng cam", "Hồng sen"],
+  },
+  {
+    id: 18,
+    slug: "vong-tay-hoa-gom-nho",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/9_mbyifj.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/9_mbyifj.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/9_mbyifj.jpg",
+      ],
+    },
+    alt: "Vòng tay hoa gốm nhỏ",
+    name: "Vòng Tay Hoa Gốm Nhỏ",
+    description:
+      "Chiếc vòng tay Hoa Gốm Nhỏ mang đến vẻ đẹp dịu dàng, ngọt ngào và vô cùng tinh tế. Với những hạt charm gốm nhỏ xinh, màu sắc pastel nhẹ nhàng như hồng, xanh dương và trắng, chiếc vòng này dễ dàng chinh phục mọi ánh nhìn. Điểm nhấn nổi bật chính là hoa gốm nhỏ xinh ở giữa, tạo nên sự nổi bật và ấn tượng nhẹ nhàng, như một cánh hoa đọng lại giữa không gian. Với dây thun có thể điều chỉnh kích thước, vòng tay này mang lại sự thoải mái, dễ dàng vừa vặn với cổ tay của bạn. Vòng tay Hoa Gốm Nhỏ là lựa chọn tuyệt vời cho những ai yêu thích sự nữ tính, thanh thoát và muốn thêm phần ngọt ngào, dễ thương vào phong cách cá nhân. Hãy để chiếc vòng này là món quà tuyệt vời dành cho chính bạn hoặc người thân yêu.",
+    price: 30000,
+    star: 4.7,
+    percent: 10,
+    colors: ["Hoa xanh", "Hoa hồng", "Hoa trắng"],
+  },
+  {
+    id: 19,
+    slug: "vong-tay-winter-butterfly",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/12_ju2gwd.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/12_ju2gwd.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/12_ju2gwd.jpg",
+      ],
+    },
+    alt: "Vòng tay winter butterfly",
+    name: "Vòng Tay Winter Butterfly",
+    description:
+      "Chiếc vòng tay Winter Butterfly mang đến vẻ đẹp huyền bí và tinh tế, như một làn gió lạnh mùa đông mang theo sự nhẹ nhàng của cánh bướm lướt qua. Với các viên đá nhỏ xinh màu trắng, bạc và xám, vòng tay tạo ra một không gian vừa mơ màng vừa thanh thoát. Điểm nhấn đặc biệt là chiếc cánh bướm lấp lánh ở giữa, mang đến cảm giác tự do, bay bổng và đầy lôi cuốn. Với dây thun có thể điều chỉnh, chiếc vòng tay này dễ dàng vừa vặn với cổ tay của bạn, giúp bạn thoải mái khi đeo. Vòng tay Winter Butterfly là món phụ kiện lý tưởng cho những ai yêu thích sự nhẹ nhàng, thanh thoát và muốn thể hiện phong cách nữ tính, đầy lãng mạn. Hãy để chiếc vòng này trở thành điểm nhấn độc đáo cho phong cách của bạn.",
+    price: 35000,
+    star: 4.8,
+    percent: 10,
+    colors: ["Trắng", "Xanh", "Be"],
+  },
+  {
+    id: 20,
+    slug: "vong-tay-tiny-tulip",
+    images: {
+      main: "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/11_yohfc8.jpg",
+      gallery: [
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/11_yohfc8.jpg",
+        "https://res.cloudinary.com/dbr85jktp/image/upload/v1745574759/11_yohfc8.jpg",
+      ],
+    },
+    alt: "Vòng tay tiny tulip",
+    name: "Vòng Tay Tiny Tulip",
+    description:
+      "Chiếc vòng tay Tiny Tulip mang đến vẻ đẹp dịu dàng và dễ thương như những cánh hoa tulip nhỏ xinh. Các viên đá pastel nhẹ nhàng kết hợp với những chi tiết hoa và lá mềm mại, tạo ra một dải màu tươi tắn, từ hồng nhẹ, xanh lá cho đến trắng trong suốt, mang lại cảm giác thư giãn và tươi mới. Điểm nhấn đặc biệt chính là bông hoa tulip nhỏ xinh ở giữa, gợi lên sự dịu dàng và nữ tính. Với dây thun có thể điều chỉnh, chiếc vòng tay này dễ dàng vừa vặn với cổ tay của bạn, mang lại sự thoải mái và dễ chịu khi đeo. Vòng tay Tiny Tulip là món phụ kiện hoàn hảo cho những ai yêu thích sự nhẹ nhàng, ngọt ngào và muốn thêm phần tươi mới cho phong cách của mình. Hãy để chiếc vòng này là điểm nhấn tinh tế trong bộ sưu tập phụ kiện của bạn!",
+    price: 30000,
+    star: 4.8,
+    percent: 10,
+    colors: ["Trắng", "Xanh", "Hồng"],
   },
 ];

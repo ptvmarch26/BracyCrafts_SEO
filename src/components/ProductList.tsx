@@ -12,11 +12,11 @@ export default function ProductList({ products }: { products: Product[] }) {
     const updateProductLimit = () => {
       const width = window.innerWidth;
       if (width >= 1024) {
-        setProductLimit(8);
+        setProductLimit(12);
       } else if (width >= 768) {
-        setProductLimit(6);
+        setProductLimit(9);
       } else {
-        setProductLimit(4);
+        setProductLimit(6);
       }
     };
 

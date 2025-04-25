@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const socials = [
-    { src: shopee_logo, alt: "Shopee Logo", link: "https://shopee.vn" },
+    { src: shopee_logo, alt: "Shopee Logo", link: "https://shopee.vn/phithngvvn134" },
     { src: ins_logo, alt: "Instagram Logo", link: "https://www.instagram.com/bracy.crafts/" },
     { src: fb_logo, alt: "Facebook Logo", link: "https://www.facebook.com/bracycrafts.shop" },
   ];
