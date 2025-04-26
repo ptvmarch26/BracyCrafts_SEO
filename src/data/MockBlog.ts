@@ -2248,14 +2248,9 @@ export const blogPosts: Blog[] = [
       },
       {
         "type": "paragraph",
-        "content": "👉 Đặt làm vòng tay lớp/nhóm theo yêu cầu: https://bracycrafts.id.vn",
+        "content": "👉 Đặt làm vòng tay lớp/nhóm theo yêu cầu: https://www.facebook.com/bracycrafts.shop",
         "parentId": "section-conclusion"
       },
-      {
-        "type": "paragraph",
-        "content": "👉 Tham gia workshop làm vòng tay handmade tại trường học: https://handilove.vn/workshop-truong-hoc",
-        "parentId": "section-conclusion"
-      }
     ]
   }  
 ];
