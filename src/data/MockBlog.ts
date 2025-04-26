@@ -1348,7 +1348,7 @@ export const blogPosts: Blog[] = [
     title:
       "6 Ý Nghĩa Sâu Sắc Của Vòng Tay Handmade - Món Quà Tặng Chạm Đến Trái Tim",
     description:
-      "Vòng tay handmade không chỉ là một món đồ trang sức thông thường mà còn mang nhiều ý nghĩa tinh thần. Cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade và tại sao chúng là món quà tặng ý nghĩa.",
+      "Vòng tay handmade không chỉ là một món đồ trang sức thông thường mà còn mang nhiều ý nghĩa tinh thần. Cùng BracyCrafts khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade và tại sao chúng là món quà tặng ý nghĩa.",
     image:
       "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1744961913/2_a24fd0740d0144699333eb299703a055_1024x1024_khammk.png",
     altText: "Vòng tay handmade ý nghĩa",
@@ -1365,7 +1365,7 @@ export const blogPosts: Blog[] = [
     ],
     readingTime: 8,
     canonicalUrl:
-      "https://handilove.vn/blog/6-y-nghia-sau-sac-cua-vong-tay-handmade",
+      "https://bracycrafts.id.vn/blog/6-y-nghia-sau-sac-cua-vong-tay-handmade-qua-tang-y-nghia",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -1394,7 +1394,7 @@ export const blogPosts: Blog[] = [
       {
         type: "paragraph",
         content:
-          "Nhưng điều gì khiến vòng tay handmade trở thành món quà tặng được yêu thích đến vậy? Tại sao ngày càng nhiều người chọn tặng và đeo những chiếc vòng này? Hãy cùng HandiLove khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade nhé!",
+          "Nhưng điều gì khiến vòng tay handmade trở thành món quà tặng được yêu thích đến vậy? Tại sao ngày càng nhiều người chọn tặng và đeo những chiếc vòng này? Hãy cùng BracyCrafts khám phá 6 ý nghĩa sâu sắc đằng sau những chiếc vòng tay handmade nhé!",
         parentId: "section-intro",
       },
       {
@@ -2006,7 +2006,7 @@ export const blogPosts: Blog[] = [
   {
     "slug": "5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
     "title": "5 Ý Nghĩa Đặc Biệt Của Vòng Tay Học Đường - Biểu Tượng Kết Nối Tuổi Thanh Xuân",
-    "description": "Vòng tay học đường không chỉ là một món phụ kiện thời trang đơn thuần mà còn mang nhiều ý nghĩa tinh thần sâu sắc. Cùng HandiLove khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và tại sao chúng trở thành biểu tượng không thể thiếu của tuổi học trò.",
+    "description": "Vòng tay học đường không chỉ là một món phụ kiện thời trang đơn thuần mà còn mang nhiều ý nghĩa tinh thần sâu sắc. Cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và tại sao chúng trở thành biểu tượng không thể thiếu của tuổi học trò.",
     "image": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639086/z6013169695786_12cb1e99c0778e9e35d0a68549eeb1b2_owxufv.jpg",
     "altText": "Vòng tay học đường - Kết nối tuổi thanh xuân",
     "publishedAt": "2025-04-26T09:30:00Z",
@@ -2021,7 +2021,7 @@ export const blogPosts: Blog[] = [
       "phụ kiện học sinh"
     ],
     "readingTime": 7,
-    "canonicalUrl": "https://handilove.vn/blog/5-y-nghia-dac-biet-cua-vong-tay-hoc-duong",
+    "canonicalUrl": "https://bracycrafts.id.vn/blog/5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -2052,7 +2052,7 @@ export const blogPosts: Blog[] = [
       },
       {
         "type": "paragraph",
-        "content": "Hãy cùng HandiLove khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và lý do tại sao chúng trở thành xu hướng không thể thiếu trong môi trường học đường hiện nay!",
+        "content": "Hãy cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và lý do tại sao chúng trở thành xu hướng không thể thiếu trong môi trường học đường hiện nay!",
         "parentId": "section-intro"
       },
       {
