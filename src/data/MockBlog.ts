@@ -1822,58 +1822,64 @@ export const blogPosts: Blog[] = [
     ],
   },
   {
-    "slug": "vong-tay-uit",
-    "title": "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
-    "description": "Khám phá BracyCrafts - nơi thiết kế và sản xuất vòng tay handmade độc đáo dành cho sinh viên UIT và những người yêu thích phụ kiện handmade. Những thiết kế cá nhân hóa, mỗi sản phẩm đều là một tác phẩm nghệ thuật đầy tâm huyết.",
-    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745410909/logo-dai-hoc-cong-nghe-thong-tin-tp-hcm_kcae1b.png",
-    "altText": "Vòng tay UIT xanh dương – phụ kiện handmade cho sinh viên",
-    "publishedAt": "2025-04-23T08:00:00Z",
-    "updatedAt": "2025-04-23T08:00:00Z",
-    "author": "Võ Văn Phi Thông",
-    "category": ["Sinh Viên", "UIT", "Phụ Kiện", "Vòng Tay"],
-    "tags": [
+    slug: "vong-tay-uit",
+    title: "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
+    description:
+      "Khám phá BracyCrafts - nơi thiết kế và sản xuất vòng tay handmade độc đáo dành cho sinh viên UIT và những người yêu thích phụ kiện handmade. Những thiết kế cá nhân hóa, mỗi sản phẩm đều là một tác phẩm nghệ thuật đầy tâm huyết.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745410909/logo-dai-hoc-cong-nghe-thong-tin-tp-hcm_kcae1b.png",
+    altText: "Vòng tay UIT xanh dương – phụ kiện handmade cho sinh viên",
+    publishedAt: "2025-04-23T08:00:00Z",
+    updatedAt: "2025-04-23T08:00:00Z",
+    author: "Võ Văn Phi Thông",
+    category: ["Sinh Viên", "UIT", "Phụ Kiện", "Vòng Tay"],
+    tags: [
       "uit",
       "vòng tay handmade",
       "phụ kiện sinh viên",
       "trường đại học",
       "handmade design",
-      "bracycrafts"
+      "bracycrafts",
     ],
-    "readingTime": 5,
-    "canonicalUrl": "https://bracycrafts.id.vn/blog/vong-tay-uit",
-    "structuredData": {
+    readingTime: 5,
+    canonicalUrl: "https://bracycrafts.id.vn/blog/vong-tay-uit",
+    structuredData: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
-      "datePublished": "2025-04-23T08:00:00Z",
-      "dateModified": "2025-04-23T08:00:00Z",
-      "author": {
+      headline:
+        "Vòng Tay UIT – Phụ Kiện Handmade Dành Riêng Cho Sinh Viên UIT 💙",
+      datePublished: "2025-04-23T08:00:00Z",
+      dateModified: "2025-04-23T08:00:00Z",
+      author: {
         "@type": "Person",
-        "name": "Võ Văn Phi Thông"
-      }
+        name: "Võ Văn Phi Thông",
+      },
     },
-    "sections": [
+    sections: [
       {
-        "id": "section-intro",
-        "type": "heading",
-        "content": "BracyCrafts - Nơi Lưu Giữ Kỷ Niệm Đại Học Qua Những Chiếc Vòng Tay",
-        "level": 2
+        id: "section-intro",
+        type: "heading",
+        content:
+          "BracyCrafts - Nơi Lưu Giữ Kỷ Niệm Đại Học Qua Những Chiếc Vòng Tay",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Chào mừng bạn đến với BracyCrafts - shop handmade chuyên thiết kế và sản xuất những chiếc vòng tay độc đáo dành cho sinh viên Trường Đại học Công nghệ Thông tin (UIT) và tất cả những ai yêu thích phụ kiện handmade có ý nghĩa. Hãy cùng khám phá lý do vì sao những chiếc vòng tay của chúng mình đang trở thành món phụ kiện được yêu thích trong cộng đồng sinh viên.",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Chào mừng bạn đến với BracyCrafts - shop handmade chuyên thiết kế và sản xuất những chiếc vòng tay độc đáo dành cho sinh viên Trường Đại học Công nghệ Thông tin (UIT) và tất cả những ai yêu thích phụ kiện handmade có ý nghĩa. Hãy cùng khám phá lý do vì sao những chiếc vòng tay của chúng mình đang trở thành món phụ kiện được yêu thích trong cộng đồng sinh viên.",
+        parentId: "section-intro",
       },
       {
-        "id": "section-1",
-        "type": "heading",
-        "content": "1. Biểu Tượng Tự Hào Sinh Viên UIT 🎓💙",
-        "level": 2
+        id: "section-1",
+        type: "heading",
+        content: "1. Biểu Tượng Tự Hào Sinh Viên UIT 🎓💙",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay tại BracyCrafts không chỉ đơn thuần là một món phụ kiện, mà còn là biểu tượng của tuổi trẻ, của niềm tự hào khi là sinh viên Công nghệ Thông tin. Được thiết kế thủ công với nhiều gam màu tinh tế, mỗi chiếc vòng là một thông điệp gắn kết, mang theo hơi thở của tinh thần UIT – trẻ trung, nhiệt huyết và sáng tạo.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "Vòng tay tại BracyCrafts không chỉ đơn thuần là một món phụ kiện, mà còn là biểu tượng của tuổi trẻ, của niềm tự hào khi là sinh viên Công nghệ Thông tin. Được thiết kế thủ công với nhiều gam màu tinh tế, mỗi chiếc vòng là một thông điệp gắn kết, mang theo hơi thở của tinh thần UIT – trẻ trung, nhiệt huyết và sáng tạo.",
+        parentId: "section-1",
       },
       {
         type: "image",
@@ -1883,15 +1889,16 @@ export const blogPosts: Blog[] = [
         parentId: "section-1",
       },
       {
-        "id": "section-2",
-        "type": "heading",
-        "content": "2. Đa Dạng Mẫu Mã Cho Mọi Phong Cách ✨",
-        "level": 2
+        id: "section-2",
+        type: "heading",
+        content: "2. Đa Dạng Mẫu Mã Cho Mọi Phong Cách ✨",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Tại BracyCrafts, bạn sẽ tìm thấy đa dạng các mẫu vòng tay phù hợp với mọi phong cách cá nhân:",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "Tại BracyCrafts, bạn sẽ tìm thấy đa dạng các mẫu vòng tay phù hợp với mọi phong cách cá nhân:",
+        parentId: "section-2",
       },
       {
         type: "list",
@@ -1904,9 +1911,10 @@ export const blogPosts: Blog[] = [
         parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "Dù bạn diện đồng phục, đi học, đi chơi hay tham gia các hoạt động ngoại khóa – chiếc vòng đều toát lên nét cá tính riêng.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "Dù bạn diện đồng phục, đi học, đi chơi hay tham gia các hoạt động ngoại khóa – chiếc vòng đều toát lên nét cá tính riêng.",
+        parentId: "section-2",
       },
       {
         type: "image",
@@ -1916,26 +1924,28 @@ export const blogPosts: Blog[] = [
         parentId: "section-2",
       },
       {
-        "id": "section-3",
-        "type": "heading",
-        "content": "3. Chất Liệu Handmade – Mỗi Chiếc Vòng Là Một Tâm Huyết 💪",
-        "level": 2
+        id: "section-3",
+        type: "heading",
+        content: "3. Chất Liệu Handmade – Mỗi Chiếc Vòng Là Một Tâm Huyết 💪",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Không qua dây chuyền máy móc, vòng tay tại BracyCrafts được chế tác hoàn toàn thủ công từ hạt charm khắc chữ, đá đủ sắc màu và dây cao cấp chắc chắn. Chúng mình chỉ chọn những chất liệu an toàn cho da, bền đẹp theo thời gian, không phai màu. Mỗi chiếc vòng là một phần tâm huyết, là lời gửi gắm của người làm đến người đeo – giản dị mà đầy ý nghĩa.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Không qua dây chuyền máy móc, vòng tay tại BracyCrafts được chế tác hoàn toàn thủ công từ hạt charm khắc chữ, đá đủ sắc màu và dây cao cấp chắc chắn. Chúng mình chỉ chọn những chất liệu an toàn cho da, bền đẹp theo thời gian, không phai màu. Mỗi chiếc vòng là một phần tâm huyết, là lời gửi gắm của người làm đến người đeo – giản dị mà đầy ý nghĩa.",
+        parentId: "section-3",
       },
       {
-        "id": "section-4",
-        "type": "heading",
-        "content": "4. Món Quà Ý Nghĩa Cho Mọi Dịp 🎁",
-        "level": 2
+        id: "section-4",
+        type: "heading",
+        content: "4. Món Quà Ý Nghĩa Cho Mọi Dịp 🎁",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay BracyCrafts là món quà hoàn hảo cho nhiều dịp đặc biệt:",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Vòng tay BracyCrafts là món quà hoàn hảo cho nhiều dịp đặc biệt:",
+        parentId: "section-4",
       },
       {
         type: "list",
@@ -1948,9 +1958,10 @@ export const blogPosts: Blog[] = [
         parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "Hãy thử tưởng tượng cả nhóm cùng đeo một mẫu vòng – vibe 'đồng đội' sẽ ngầu hơn bao giờ hết!",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Hãy thử tưởng tượng cả nhóm cùng đeo một mẫu vòng – vibe 'đồng đội' sẽ ngầu hơn bao giờ hết!",
+        parentId: "section-4",
       },
       {
         type: "image",
@@ -1960,297 +1971,778 @@ export const blogPosts: Blog[] = [
         parentId: "section-4",
       },
       {
-        "id": "section-5",
-        "type": "heading",
-        "content": "5. Không Chỉ Dành Cho Sinh Viên UIT 🌍",
-        "level": 2
+        id: "section-5",
+        type: "heading",
+        content: "5. Không Chỉ Dành Cho Sinh Viên UIT 🌍",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Mặc dù được thiết kế với tình yêu đặc biệt dành cho sinh viên UIT, nhưng các sản phẩm tại BracyCrafts còn phù hợp với tất cả mọi người: cựu sinh viên muốn lưu giữ kỷ niệm đẹp, bạn bè và người thân muốn tặng quà cho UITer, những người yêu thích phong cách phụ kiện handmade độc đáo, và các trường đại học/cao đẳng khác muốn đặt thiết kế riêng.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "Mặc dù được thiết kế với tình yêu đặc biệt dành cho sinh viên UIT, nhưng các sản phẩm tại BracyCrafts còn phù hợp với tất cả mọi người: cựu sinh viên muốn lưu giữ kỷ niệm đẹp, bạn bè và người thân muốn tặng quà cho UITer, những người yêu thích phong cách phụ kiện handmade độc đáo, và các trường đại học/cao đẳng khác muốn đặt thiết kế riêng.",
+        parentId: "section-5",
       },
       {
-        "id": "section-6",
-        "type": "heading",
-        "content": "💬 Lời Kết:",
-        "level": 2
+        id: "section-6",
+        type: "heading",
+        content: "💬 Lời Kết:",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "BracyCrafts không chỉ là nơi bán vòng tay handmade, mà còn là nơi lưu giữ những kỷ niệm đẹp của thời sinh viên. Mỗi chiếc vòng tay đều mang một câu chuyện, một ý nghĩa riêng, và chúng mình tin rằng đó sẽ là món phụ kiện đồng hành cùng bạn trong suốt quãng đời đại học và cả những năm tháng sau này.",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "BracyCrafts không chỉ là nơi bán vòng tay handmade, mà còn là nơi lưu giữ những kỷ niệm đẹp của thời sinh viên. Mỗi chiếc vòng tay đều mang một câu chuyện, một ý nghĩa riêng, và chúng mình tin rằng đó sẽ là món phụ kiện đồng hành cùng bạn trong suốt quãng đời đại học và cả những năm tháng sau này.",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Đặt vòng tay UIT tại đây: https://bracycrafts.id.vn/",
-        "parentId": "section-6"
+        type: "paragraph",
+        content: "👉 Đặt vòng tay UIT tại đây: https://bracycrafts.id.vn/",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.facebook.com/bracycrafts.shop",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.facebook.com/bracycrafts.shop",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.instagram.com/bracy.crafts",
-        "parentId": "section-6"
+        type: "paragraph",
+        content:
+          "👉 Gửi yêu cầu thiết kế theo tên lớp hoặc nhóm tại: https://www.instagram.com/bracy.crafts",
+        parentId: "section-6",
       },
       {
-        "type": "paragraph",
-        "content": "📧 Email: contact.bracycrafts@gmail.com | 📞 Hotline: 0932 345 510",
-        "parentId": "section-6"
-      }
-    ]
+        type: "paragraph",
+        content:
+          "📧 Email: contact.bracycrafts@gmail.com | 📞 Hotline: 0932 345 510",
+        parentId: "section-6",
+      },
+    ],
   },
   {
-    "slug": "5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
-    "title": "5 Ý Nghĩa Đặc Biệt Của Vòng Tay Học Đường - Biểu Tượng Kết Nối Tuổi Thanh Xuân",
-    "description": "Vòng tay học đường không chỉ là một món phụ kiện thời trang đơn thuần mà còn mang nhiều ý nghĩa tinh thần sâu sắc. Cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và tại sao chúng trở thành biểu tượng không thể thiếu của tuổi học trò.",
-    "image": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639086/z6013169695786_12cb1e99c0778e9e35d0a68549eeb1b2_owxufv.jpg",
-    "altText": "Vòng tay học đường - Kết nối tuổi thanh xuân",
-    "publishedAt": "2025-04-26T09:30:00Z",
-    "updatedAt": "2025-04-26T09:30:00Z",
-    "author": "Phạm Quang Vũ·",
-    "category": ["Vòng Tay", "Học Đường"],
-    "tags": [
+    slug: "5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
+    title:
+      "5 Ý Nghĩa Đặc Biệt Của Vòng Tay Học Đường - Biểu Tượng Kết Nối Tuổi Thanh Xuân",
+    description:
+      "Vòng tay học đường không chỉ là một món phụ kiện thời trang đơn thuần mà còn mang nhiều ý nghĩa tinh thần sâu sắc. Cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và tại sao chúng trở thành biểu tượng không thể thiếu của tuổi học trò.",
+    image:
+      "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639086/z6013169695786_12cb1e99c0778e9e35d0a68549eeb1b2_owxufv.jpg",
+    altText: "Vòng tay học đường - Kết nối tuổi thanh xuân",
+    publishedAt: "2025-04-26T09:30:00Z",
+    updatedAt: "2025-04-26T09:30:00Z",
+    author: "Phạm Quang Vũ·",
+    category: ["Vòng Tay", "Học Đường"],
+    tags: [
       "vòng tay học đường",
       "vòng tay handmade",
       "quà tặng học sinh",
       "kỷ niệm thanh xuân",
-      "phụ kiện học sinh"
+      "phụ kiện học sinh",
     ],
-    "readingTime": 7,
-    "canonicalUrl": "https://bracycrafts.id.vn/blog/5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
-    "structuredData": {
+    readingTime: 7,
+    canonicalUrl:
+      "https://bracycrafts.id.vn/blog/5-y-nghia-dac-biet-cua-vong-tay-hoc-duong-bieu-tuong-ket-noi-tuoi-thanh-xuan",
+    structuredData: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "5 Ý Nghĩa Đặc Biệt Của Vòng Tay Học Đường - Biểu Tượng Kết Nối Tuổi Thanh Xuân",
-      "datePublished": "2025-04-26T09:30:00Z",
-      "dateModified": "2025-04-26T09:30:00Z",
-      "author": {
+      headline:
+        "5 Ý Nghĩa Đặc Biệt Của Vòng Tay Học Đường - Biểu Tượng Kết Nối Tuổi Thanh Xuân",
+      datePublished: "2025-04-26T09:30:00Z",
+      dateModified: "2025-04-26T09:30:00Z",
+      author: {
         "@type": "Person",
-        "name": "Phạm Quang Vũ"
-      }
+        name: "Phạm Quang Vũ",
+      },
     },
-    "sections": [
+    sections: [
       {
-        "id": "section-intro",
-        "type": "heading",
-        "content": "Vòng tay học đường - Biểu tượng không thể thiếu của tuổi học trò",
-        "level": 2
+        id: "section-intro",
+        type: "heading",
+        content:
+          "Vòng tay học đường - Biểu tượng không thể thiếu của tuổi học trò",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Trong không gian học đường sôi động, vòng tay handmade đã trở thành biểu tượng kết nối đặc biệt giữa những người bạn, những người bạn cùng lớp, cùng trường. Đây không chỉ là món phụ kiện thời trang đơn thuần mà còn là minh chứng cho những kỷ niệm thanh xuân đáng nhớ mà chúng ta đã cùng nhau trải qua.",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Trong không gian học đường sôi động, vòng tay handmade đã trở thành biểu tượng kết nối đặc biệt giữa những người bạn, những người bạn cùng lớp, cùng trường. Đây không chỉ là món phụ kiện thời trang đơn thuần mà còn là minh chứng cho những kỷ niệm thanh xuân đáng nhớ mà chúng ta đã cùng nhau trải qua.",
+        parentId: "section-intro",
       },
       {
-        "type": "paragraph",
-        "content": "Mỗi chiếc vòng tay học đường đều là một tác phẩm độc đáo, không bao giờ có hai sản phẩm hoàn toàn giống nhau - điều mà những món đồ sản xuất hàng loạt không thể có được. Đây chính là lý do tại sao chúng trở thành món quà được yêu thích trong các dịp đặc biệt như sinh nhật, kỷ niệm lớp, lễ tốt nghiệp hay đơn giản chỉ là món quà bạn bè tặng nhau trong những ngày thường nhật.",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Mỗi chiếc vòng tay học đường đều là một tác phẩm độc đáo, không bao giờ có hai sản phẩm hoàn toàn giống nhau - điều mà những món đồ sản xuất hàng loạt không thể có được. Đây chính là lý do tại sao chúng trở thành món quà được yêu thích trong các dịp đặc biệt như sinh nhật, kỷ niệm lớp, lễ tốt nghiệp hay đơn giản chỉ là món quà bạn bè tặng nhau trong những ngày thường nhật.",
+        parentId: "section-intro",
       },
       {
-        "type": "paragraph",
-        "content": "Hãy cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và lý do tại sao chúng trở thành xu hướng không thể thiếu trong môi trường học đường hiện nay!",
-        "parentId": "section-intro"
+        type: "paragraph",
+        content:
+          "Hãy cùng BracyCrafts khám phá 5 ý nghĩa đặc biệt đằng sau những chiếc vòng tay học đường và lý do tại sao chúng trở thành xu hướng không thể thiếu trong môi trường học đường hiện nay!",
+        parentId: "section-intro",
       },
       {
-        "id": "section-1",
-        "type": "heading",
-        "content": "Ý nghĩa #1: Minh chứng cho tình bạn học trò đáng nhớ",
-        "level": 2
+        id: "section-1",
+        type: "heading",
+        content: "Ý nghĩa #1: Minh chứng cho tình bạn học trò đáng nhớ",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay học đường trước hết là biểu tượng của tình bạn bền chặt được hình thành và phát triển trong môi trường học đường:",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "Vòng tay học đường trước hết là biểu tượng của tình bạn bền chặt được hình thành và phát triển trong môi trường học đường:",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay cặp bạn thân: Thường được làm với màu sắc bổ trợ hoặc thiết kế đồng điệu, đeo bởi những người bạn thân thiết, thể hiện mối quan hệ đặc biệt.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay cặp bạn thân: Thường được làm với màu sắc bổ trợ hoặc thiết kế đồng điệu, đeo bởi những người bạn thân thiết, thể hiện mối quan hệ đặc biệt.",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay nhóm: Khi một nhóm bạn cùng đeo vòng tay có chung một yếu tố thiết kế (như màu sắc, họa tiết hoặc charm đại diện), thể hiện sự gắn kết của cả nhóm.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay nhóm: Khi một nhóm bạn cùng đeo vòng tay có chung một yếu tố thiết kế (như màu sắc, họa tiết hoặc charm đại diện), thể hiện sự gắn kết của cả nhóm.",
+        parentId: "section-1",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay lớp: Được thiết kế đồng nhất cho toàn bộ học sinh trong lớp, thường có tên lớp, khóa học hoặc khẩu hiệu chung, tạo nên tinh thần đoàn kết và niềm tự hào lớp.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay lớp: Được thiết kế đồng nhất cho toàn bộ học sinh trong lớp, thường có tên lớp, khóa học hoặc khẩu hiệu chung, tạo nên tinh thần đoàn kết và niềm tự hào lớp.",
+        parentId: "section-1",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639192/z3457461069103_88d845b1ac4cf9c86cc7364b3cb9affc_feebafe86f124ccb8710bbde05c900b8_1024x1024_oak25v.webp",
-        "altText": "Vòng tay kỷ niệm tình bạn học trò",
-        "parentId": "section-1"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639192/z3457461069103_88d845b1ac4cf9c86cc7364b3cb9affc_feebafe86f124ccb8710bbde05c900b8_1024x1024_oak25v.webp",
+        altText: "Vòng tay kỷ niệm tình bạn học trò",
+        parentId: "section-1",
       },
       {
-        "id": "section-2",
-        "type": "heading",
-        "content": "Ý nghĩa #2: Lưu giữ kỷ niệm thanh xuân",
-        "level": 2
+        id: "section-2",
+        type: "heading",
+        content: "Ý nghĩa #2: Lưu giữ kỷ niệm thanh xuân",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Tuổi học trò là khoảng thời gian đẹp nhất trong cuộc đời mỗi người, và vòng tay học đường trở thành vật lưu giữ những kỷ niệm đáng nhớ đó:",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "Tuổi học trò là khoảng thời gian đẹp nhất trong cuộc đời mỗi người, và vòng tay học đường trở thành vật lưu giữ những kỷ niệm đáng nhớ đó:",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay kỷ niệm sự kiện: Được tạo ra nhân dịp những sự kiện đặc biệt như ngày hội trường, kỷ niệm thành lập lớp, chiến thắng trong các cuộc thi.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay kỷ niệm sự kiện: Được tạo ra nhân dịp những sự kiện đặc biệt như ngày hội trường, kỷ niệm thành lập lớp, chiến thắng trong các cuộc thi.",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay tốt nghiệp: Đánh dấu cột mốc quan trọng khi khép lại một chương học tập, thường kèm theo năm tốt nghiệp hoặc thông điệp ý nghĩa.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay tốt nghiệp: Đánh dấu cột mốc quan trọng khi khép lại một chương học tập, thường kèm theo năm tốt nghiệp hoặc thông điệp ý nghĩa.",
+        parentId: "section-2",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay kỷ yếu: Là một phần không thể thiếu trong bộ kỷ yếu lớp, thường được thiết kế đặc biệt để phản ánh tinh thần và đặc trưng của lớp/khóa học.",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay kỷ yếu: Là một phần không thể thiếu trong bộ kỷ yếu lớp, thường được thiết kế đặc biệt để phản ánh tinh thần và đặc trưng của lớp/khóa học.",
+        parentId: "section-2",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639407/istockphoto-1280383811-612x612_w20cjl.jpg",
-        "altText": "Vòng tay kỷ yếu lưu giữ kỷ niệm",
-        "parentId": "section-2"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639407/istockphoto-1280383811-612x612_w20cjl.jpg",
+        altText: "Vòng tay kỷ yếu lưu giữ kỷ niệm",
+        parentId: "section-2",
       },
       {
-        "id": "section-3",
-        "type": "heading",
-        "content": "Ý nghĩa #3: Thể hiện cá tính và phong cách tuổi học trò",
-        "level": 2
+        id: "section-3",
+        type: "heading",
+        content: "Ý nghĩa #3: Thể hiện cá tính và phong cách tuổi học trò",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Dù phải mặc đồng phục, học sinh vẫn luôn tìm cách thể hiện cá tính của mình, và vòng tay học đường chính là một trong những cách hiệu quả nhất:",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Dù phải mặc đồng phục, học sinh vẫn luôn tìm cách thể hiện cá tính của mình, và vòng tay học đường chính là một trong những cách hiệu quả nhất:",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Đa dạng phong cách: Từ vòng tay đơn giản với dây thừng nhiều màu, vòng tay hạt gỗ với charm ý nghĩa, đến vòng tay đan macramé phức tạp - mỗi loại đều phản ánh sở thích và tính cách riêng của người đeo.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "❤️ Đa dạng phong cách: Từ vòng tay đơn giản với dây thừng nhiều màu, vòng tay hạt gỗ với charm ý nghĩa, đến vòng tay đan macramé phức tạp - mỗi loại đều phản ánh sở thích và tính cách riêng của người đeo.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Thể hiện sở thích: Vòng tay với charm hoặc họa tiết liên quan đến âm nhạc, thể thao, sách, phim ảnh... giúp học sinh thể hiện đam mê cá nhân.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "❤️ Thể hiện sở thích: Vòng tay với charm hoặc họa tiết liên quan đến âm nhạc, thể thao, sách, phim ảnh... giúp học sinh thể hiện đam mê cá nhân.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Màu sắc biểu tượng: Nhiều học sinh chọn vòng tay với màu sắc tượng trưng cho tính cách hoặc mệnh của mình theo quan niệm phong thủy.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "❤️ Màu sắc biểu tượng: Nhiều học sinh chọn vòng tay với màu sắc tượng trưng cho tính cách hoặc mệnh của mình theo quan niệm phong thủy.",
+        parentId: "section-3",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639540/top-8-mau-lac-tay-bac-nu-ca-tinh-nang-dong-va-phong-cach-1-800x450_tnevu6.jpg",
-        "altText": "Vòng tay học đường thể hiện cá tính",
-        "parentId": "section-3"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639540/top-8-mau-lac-tay-bac-nu-ca-tinh-nang-dong-va-phong-cach-1-800x450_tnevu6.jpg",
+        altText: "Vòng tay học đường thể hiện cá tính",
+        parentId: "section-3",
       },
       {
-        "id": "section-4",
-        "type": "heading",
-        "content": "Ý nghĩa #4: Nguồn động lực và lời nhắc nhở ý nghĩa",
-        "level": 2
+        id: "section-4",
+        type: "heading",
+        content: "Ý nghĩa #4: Nguồn động lực và lời nhắc nhở ý nghĩa",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay học đường không chỉ là phụ kiện thời trang mà còn có thể trở thành nguồn động lực tinh thần trong hành trình học tập:",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Vòng tay học đường không chỉ là phụ kiện thời trang mà còn có thể trở thành nguồn động lực tinh thần trong hành trình học tập:",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay khắc câu châm ngôn: Nhiều học sinh chọn khắc những câu nói truyền cảm hứng, châm ngôn sống hoặc mục tiêu cá nhân lên vòng tay để tự nhắc nhở bản thân mỗi ngày.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay khắc câu châm ngôn: Nhiều học sinh chọn khắc những câu nói truyền cảm hứng, châm ngôn sống hoặc mục tiêu cá nhân lên vòng tay để tự nhắc nhở bản thân mỗi ngày.",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay đánh dấu thành tích: Một số trường học trao tặng vòng tay đặc biệt cho học sinh đạt thành tích cao trong học tập hoặc hoạt động ngoại khóa.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay đánh dấu thành tích: Một số trường học trao tặng vòng tay đặc biệt cho học sinh đạt thành tích cao trong học tập hoặc hoạt động ngoại khóa.",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Vòng tay hứa hẹn: Đôi khi là lời hứa với bản thân về một mục tiêu nào đó, chẳng hạn như đạt điểm cao trong kỳ thi quan trọng.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "❤️ Vòng tay hứa hẹn: Đôi khi là lời hứa với bản thân về một mục tiêu nào đó, chẳng hạn như đạt điểm cao trong kỳ thi quan trọng.",
+        parentId: "section-4",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639183/O1CN01dWj5WF1mdyUD0kSrb__2211075024978-0-cib_wozdgu.jpg",
-        "altText": "Vòng tay động viên tinh thần học tập",
-        "parentId": "section-4"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639183/O1CN01dWj5WF1mdyUD0kSrb__2211075024978-0-cib_wozdgu.jpg",
+        altText: "Vòng tay động viên tinh thần học tập",
+        parentId: "section-4",
       },
       {
-        "id": "section-5",
-        "type": "heading",
-        "content": "Ý nghĩa #5: Hoạt động sáng tạo và phát triển kỹ năng",
-        "level": 2
+        id: "section-5",
+        type: "heading",
+        content: "Ý nghĩa #5: Hoạt động sáng tạo và phát triển kỹ năng",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Việc tự làm vòng tay handmade không chỉ tạo ra sản phẩm đẹp mà còn giúp học sinh phát triển nhiều kỹ năng quan trọng:",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "Việc tự làm vòng tay handmade không chỉ tạo ra sản phẩm đẹp mà còn giúp học sinh phát triển nhiều kỹ năng quan trọng:",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Rèn luyện sự khéo léo: Làm vòng tay đòi hỏi sự tỉ mỉ, chính xác và khéo léo của đôi tay.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Rèn luyện sự khéo léo: Làm vòng tay đòi hỏi sự tỉ mỉ, chính xác và khéo léo của đôi tay.",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Phát triển tư duy sáng tạo: Thiết kế và phối màu vòng tay giúp học sinh phát huy óc thẩm mỹ và sáng tạo.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Phát triển tư duy sáng tạo: Thiết kế và phối màu vòng tay giúp học sinh phát huy óc thẩm mỹ và sáng tạo.",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Học cách kiên nhẫn: Một chiếc vòng tay đẹp đòi hỏi thời gian và sự kiên nhẫn - bài học quý giá cho cuộc sống.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Học cách kiên nhẫn: Một chiếc vòng tay đẹp đòi hỏi thời gian và sự kiên nhẫn - bài học quý giá cho cuộc sống.",
+        parentId: "section-5",
       },
       {
-        "type": "paragraph",
-        "content": "❤️ Kỹ năng làm việc nhóm: Khi cùng nhau làm vòng tay lớp hoặc nhóm, học sinh học được cách phối hợp, lắng nghe và tôn trọng ý kiến của nhau.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "❤️ Kỹ năng làm việc nhóm: Khi cùng nhau làm vòng tay lớp hoặc nhóm, học sinh học được cách phối hợp, lắng nghe và tôn trọng ý kiến của nhau.",
+        parentId: "section-5",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639650/vong-tay-handmade-nu-3_y84whd.jpg",
-        "altText": "Workshop làm vòng tay handmade tại trường học",
-        "parentId": "section-5"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1745639650/vong-tay-handmade-nu-3_y84whd.jpg",
+        altText: "Workshop làm vòng tay handmade tại trường học",
+        parentId: "section-5",
       },
       {
-        "id": "section-conclusion",
-        "type": "heading",
-        "content": "Vòng tay học đường - Kết nối những năm tháng rực rỡ",
-        "level": 2
+        id: "section-conclusion",
+        type: "heading",
+        content: "Vòng tay học đường - Kết nối những năm tháng rực rỡ",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Vòng tay học đường tưởng chừng chỉ là một món phụ kiện nhỏ bé, nhưng lại mang trong mình giá trị tinh thần to lớn. Chúng không chỉ làm đẹp cho cổ tay mà còn là cầu nối tình bạn, là vật lưu giữ kỷ niệm và là biểu tượng của một thời học sinh đáng nhớ.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Vòng tay học đường tưởng chừng chỉ là một món phụ kiện nhỏ bé, nhưng lại mang trong mình giá trị tinh thần to lớn. Chúng không chỉ làm đẹp cho cổ tay mà còn là cầu nối tình bạn, là vật lưu giữ kỷ niệm và là biểu tượng của một thời học sinh đáng nhớ.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "Trong thời đại số hóa khi mọi thứ đều có thể được lưu trữ trên điện thoại hay máy tính, những chiếc vòng tay handmade - với sự không hoàn hảo đáng yêu và tính độc đáo của chúng - lại trở nên đặc biệt hơn bao giờ hết. Chúng là những kỷ vật hữu hình, những minh chứng cho tình bạn học trò trong sáng và những năm tháng thanh xuân rực rỡ mà ai cũng chỉ được trải qua một lần trong đời.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Trong thời đại số hóa khi mọi thứ đều có thể được lưu trữ trên điện thoại hay máy tính, những chiếc vòng tay handmade - với sự không hoàn hảo đáng yêu và tính độc đáo của chúng - lại trở nên đặc biệt hơn bao giờ hết. Chúng là những kỷ vật hữu hình, những minh chứng cho tình bạn học trò trong sáng và những năm tháng thanh xuân rực rỡ mà ai cũng chỉ được trải qua một lần trong đời.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "Khi nhìn lại những chiếc vòng tay học đường nhiều năm sau, chúng ta không chỉ thấy một món đồ trang sức đơn thuần mà còn nhìn thấy cả tuổi trẻ của mình, những kỷ niệm vui buồn và những người bạn đã cùng ta viết nên những trang thanh xuân đẹp đẽ.",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "Khi nhìn lại những chiếc vòng tay học đường nhiều năm sau, chúng ta không chỉ thấy một món đồ trang sức đơn thuần mà còn nhìn thấy cả tuổi trẻ của mình, những kỷ niệm vui buồn và những người bạn đã cùng ta viết nên những trang thanh xuân đẹp đẽ.",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Khám phá bộ sưu tập vòng tay học đường độc đáo tại: https://bracycrafts.id.vn/product",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "👉 Khám phá bộ sưu tập vòng tay học đường độc đáo tại: https://bracycrafts.id.vn/product",
+        parentId: "section-conclusion",
       },
       {
-        "type": "paragraph",
-        "content": "👉 Đặt làm vòng tay lớp/nhóm theo yêu cầu: https://www.facebook.com/bracycrafts.shop",
-        "parentId": "section-conclusion"
+        type: "paragraph",
+        content:
+          "👉 Đặt làm vòng tay lớp/nhóm theo yêu cầu: https://www.facebook.com/bracycrafts.shop",
+        parentId: "section-conclusion",
       },
-    ]
-  }  
+    ],
+  },
+  {
+    slug: "vong-tay-lang-dai-hoc",
+    title:
+      "Vòng Tay Làng Đại Học – Món Phụ Kiện Handmade Mang Dấu Ấn Cá Nhân Tuổi Sinh Viên",
+    description:
+      "Vòng tay Làng Đại Học không chỉ là phụ kiện thời trang mà còn là kỷ niệm gắn liền với thanh xuân sinh viên. Khám phá các mẫu vòng tay handmade độc đáo, cá nhân hóa và giá thành hợp lý tại Làng Đại Học. Chọn ngay chiếc vòng tay Làng Đại Học làm món quà đầy ý nghĩa!",
+    image:
+      "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745807750/lang-dai-hoc-thu-duc-3_lwhdsc.jpg",
+    altText: "Vòng tay Làng Đại Học",
+    publishedAt: "2025-04-26T08:00:00Z",
+    updatedAt: "2025-04-26T08:00:00Z",
+    author: "Nguyễn Lê Thanh Huyền",
+    category: ["Vòng Tay", "Phong Thủy", "Handmade"],
+    tags: [
+      "vòng tay handmade",
+      "vòng tay Làng Đại Học",
+      "phụ kiện sinh viên",
+      "vòng tay custom",
+      "kỷ niệm sinh viên",
+      "vòng tay handmade sinh viên",
+    ],
+    readingTime: 7,
+    canonicalUrl:
+      "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745807750/lang-dai-hoc-thu-duc-3_lwhdsc.jpg",
+
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline:
+        "Vòng Tay Làng Đại Học – Món Phụ Kiện Handmade Mang Dấu Ấn Cá Nhân Tuổi Sinh Viên",
+      datePublished: "2025-04-26T08:00:00Z",
+      dateModified: "2025-04-26T08:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Lê Thanh Huyền",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "Vòng tay Làng Đại Học – Không chỉ là phụ kiện, mà là kỷ niệm",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Làng Đại Học không chỉ nổi tiếng bởi những dãy phòng ký túc, quán trà sữa rẻ, chợ đêm tấp nập hay những mùa hoa vàng lặng lẽ, mà còn là nơi sinh ra những chiếc vòng tay handmade nhỏ xinh – phụ kiện gắn liền với tuổi trẻ sinh viên. Với giá cả “sinh viên”, thiết kế đa dạng và khả năng custom đậm chất cá nhân, Vòng Tay Làng Đại Học đã trở thành một phần không thể thiếu trong đời sống của nhiều bạn trẻ. Những chiếc vòng tay này không chỉ đơn giản là phụ kiện, mà còn là dấu ấn ghi nhớ những kỷ niệm đẹp trong thời gian học đại học.",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745807749/vong-tay-handmade-vintage-mo-ta-5_mu0a01.webp",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content:
+          "1, Vì sao giới trẻ yêu thích vòng tay handmade tại Làng Đại Học?",
+        level: 2,
+      },
+      {
+        id: "section-2-1",
+        type: "heading",
+        content: "1.1 Mỗi chiếc vòng là một câu chuyện riêng",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Không giống như các sản phẩm vòng tay công nghiệp sản xuất đại trà, vòng tay handmade ở Làng Đại Học được làm thủ công, từ khâu phối màu, chọn dây, đến việc lựa chọn charm (vật trang trí nhỏ) theo sở thích cá nhân. Mỗi chiếc vòng tay là một tác phẩm nghệ thuật độc đáo, mang đậm dấu ấn cá nhân. Bạn có thể chọn vòng theo tên, biệt danh, phong cách cá nhân hoặc chọn màu sắc phù hợp với mệnh hoặc cảm xúc. Chính vì thế, vòng tay Làng Đại Học không chỉ là món phụ kiện, mà còn là kỷ niệm gắn liền với những khoảnh khắc quý giá của cuộc đời sinh viên.",
+        parentId: "section-2-1",
+      },
+      {
+        id: "section-2-2",
+        type: "heading",
+        content: "1.2 Giá thành hợp lý – phù hợp với sinh viên",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Một trong những lý do lớn khiến vòng tay Làng Đại Học trở thành lựa chọn yêu thích của giới trẻ chính là giá thành phải chăng. Chỉ từ 20.000 – 60.000đ, bạn có thể sở hữu một chiếc vòng tay handmade độc đáo, bền đẹp và mang đậm dấu ấn cá nhân. Mức giá này hoàn toàn phù hợp với túi tiền của các bạn sinh viên. Nếu bạn muốn tìm một món quà đặc biệt nhưng không quá tốn kém, vòng tay tại Làng Đại Học là sự lựa chọn lý tưởng.",
+        parentId: "section-2-2",
+      },
+      {
+        id: "section-2-3",
+        type: "heading",
+        content: "1.3 Gắn liền với thanh xuân ở Làng Đại Học",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay Làng Đại Học không chỉ đơn giản là món phụ kiện thời trang, mà còn là vật kỷ niệm gắn liền với những khoảnh khắc quan trọng trong đời sinh viên. Một chiếc vòng tay có thể đại diện cho tình bạn thân thiết, ký ức mùa hè vui vẻ, lời tỏ tình dễ thương hoặc những khoảnh khắc chia tay, tốt nghiệp. Đối với nhiều bạn, vòng tay là món quà không thể thiếu trong những dịp đặc biệt và là biểu tượng của tình bạn, tình yêu hay những kỷ niệm khó quên.",
+        parentId: "section-2-3",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "2, Các kiểu vòng tay custom được ưa chuộng tại Làng Đại Học",
+        level: 2,
+      },
+      {
+        id: "section-3-1",
+        type: "heading",
+        content: "✨ Vòng tay cá nhân hóa tên",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay cá nhân hóa tên là một trong những mẫu vòng tay được yêu thích nhất tại Làng Đại Học. Bạn có thể thêm tên của bạn thân, người yêu, hoặc nhóm bạn cùng lớp để tạo ra một chiếc vòng tay mang tính cá nhân cao. Những chiếc vòng tay này có thể được khắc với tên, biệt danh, ngày tháng kỷ niệm hoặc thậm chí là những hình ảnh, biểu tượng yêu thích.",
+        parentId: "section-3-1",
+      },
+      {
+        type: "image",
+        parentId: "section-3-1",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745807749/lac-bac-khac-chu-theo-ten-cho-be-te023-237-2_j7kvjb.jpg",
+      },
+      {
+        id: "section-3-2",
+        type: "heading",
+        content: "🌈 Vòng tay phối màu cảm xúc",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-2",
+        content:
+          "Vòng tay phối màu cảm xúc cho phép bạn lựa chọn màu sắc theo tâm trạng hoặc phong cách cá nhân. Ví dụ, bạn có thể chọn vòng tay màu vàng để thể hiện sự vui vẻ, màu xanh pastel cho cảm giác nhẹ nhàng, hay màu đen đỏ để thể hiện sự mạnh mẽ. Bên cạnh đó, bạn cũng có thể phối màu theo các dịp đặc biệt như sinh nhật, lễ hội hay những khoảnh khắc đáng nhớ trong cuộc sống.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-2",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1744535667/4_qi3ruu.png",
+      },
+      {
+        id: "section-3-3",
+        type: "heading",
+        content: "🎶 Vòng tay âm nhạc – nghệ thuật",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-3",
+        content:
+          "Với những bạn yêu thích âm nhạc và sáng tạo, vòng tay âm nhạc với charm nốt nhạc, máy ảnh hay cọ vẽ sẽ là lựa chọn lý tưởng. Đây là món quà tuyệt vời để thể hiện đam mê nghệ thuật của bạn, đồng thời tạo ra một chiếc vòng tay thật sự độc đáo và đầy ý nghĩa.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-3",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745807748/99ab36e5c86972ae0d839c989b65bcec.jpg_360x360q75.jpg__xm9d15.webp",
+      },
+      {
+        id: "section-3-4",
+        type: "heading",
+        content: "💫 Vòng nhóm – tình bạn / CLB / team lớp",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-4",
+        content:
+          "Vòng tay nhóm là lựa chọn tuyệt vời khi bạn muốn gắn kết tình bạn hoặc đội nhóm. Bạn có thể đặt vòng tay cho cả nhóm với màu sắc và kiểu dáng tương tự, kèm theo tên nhóm hoặc biểu tượng đặc trưng. Điều này không chỉ giúp nhóm bạn có dấu hiệu nhận diện riêng mà còn là món quà đầy ý nghĩa.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-4",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1744549638/vn-11134207-7r98o-lwvm8l79kfrv8d_resize_w450_nl_jmw8z7.webp",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        content: "3, Mua vòng tay handmade ở đâu tại Làng Đại Học?",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Với sự phổ biến của vòng tay Làng Đại Học, bạn có thể dễ dàng bắt gặp các bạn sinh viên bán vòng tay handmade tại nhiều địa điểm trong khuôn viên Làng Đại Học, như trước ký túc xá, khu A, khu B hay dọc các con phố gần chợ đêm. Ngoài ra, BracyCrafts cũng là một địa chỉ uy tín chuyên nhận thiết kế vòng tay handmade theo yêu cầu và giao tận nơi. Nếu bạn muốn sở hữu một chiếc vòng tay độc đáo và mang đậm dấu ấn cá nhân, BracyCrafts sẽ là sự lựa chọn hoàn hảo.",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        content: "Tại sao bạn nên thử ít nhất một lần?",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay Làng Đại Học có thể không đắt tiền, không xa xỉ, nhưng lại là món quà chứa đựng nhiều cảm xúc. Nó là vật kỷ niệm lưu giữ những ngày tháng tươi đẹp của tuổi trẻ – nhẹ nhàng, chân thành và tràn đầy màu sắc. Vậy tại sao không thử ngay hôm nay?",
+      },
+      {
+        id: "section-6",
+        type: "heading",
+        content:
+          "4, Vòng Tay Làng Đại Học – Một phần thanh xuân, một dấu ấn riêng",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Dù bạn đang tìm kiếm một món quà handmade, một chiếc vòng tay phong cách cá nhân, hay chỉ đơn giản là muốn lưu giữ một phần kỷ niệm về Làng Đại Học, đừng bỏ qua chiếc vòng tay độc đáo này. Vòng tay Làng Đại Học không chỉ là món quà, mà là một dấu ấn không thể quên của tuổi sinh viên.",
+      },
+    ],
+  },
+  {
+    slug: "vong-tay-phong-thuy",
+    title: "Vòng Tay Phong Thủy – Bí Quyết Mang Lại Bình An Và May Mắn",
+    description:
+      "Vòng tay phong thủy không chỉ là món trang sức mà còn là lá bùa hộ mệnh giúp thu hút tài lộc, bảo vệ sức khỏe và cân bằng năng lượng. Khám phá các mẫu vòng tay phong thủy chất lượng tại BracyCrafts để mang lại may mắn cho cuộc sống.",
+    image:
+      "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745808935/9_dpxpf2_ibg3iw.webp",
+    altText: "Vòng tay phong thủy",
+    publishedAt: "2025-04-26T08:00:00Z",
+    updatedAt: "2025-04-26T08:00:00Z",
+    author: "Nguyễn Lê Thanh Huyền",
+    category: ["Vòng Tay", "Phong Thủy", "Handmade"],
+    tags: [
+      "vòng tay phong thủy",
+      "vòng tay may mắn",
+      "vòng tay tài lộc",
+      "vòng tay đá tự nhiên",
+      "vòng tay sức khỏe",
+      "vòng tay bảo vệ",
+    ],
+    readingTime: 8,
+    canonicalUrl: "https://bracycrafts.id.vn/vong-tay-phong-thuy",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "Vòng Tay Phong Thủy – Bí Quyết Mang Lại Bình An Và May Mắn",
+      datePublished: "2025-04-26T08:00:00Z",
+      dateModified: "2025-04-26T08:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Lê Thanh Huyền",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1, Vòng Tay Phong Thủy – Phụ Kiện Mang Năng Lượng Tích Cực",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay phong thủy đang trở thành món phụ kiện không thể thiếu đối với những ai yêu thích phong thủy và mong muốn thu hút bình an, tài lộc trong cuộc sống. Không chỉ đơn thuần là món trang sức, vòng tay phong thủy còn được xem là lá bùa hộ mệnh giúp cân bằng năng lượng và cải thiện chất lượng sống mỗi ngày.",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "2, Ý Nghĩa Và Công Dụng Của Vòng Tay Phong Thủy",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        parentId: "section-2",
+        content:
+          "Vòng tay phong thủy thường được chế tác từ các loại đá tự nhiên như thạch anh, mắt hổ, ngọc bích, mã não… mang lại nhiều lợi ích về mặt tâm linh và sức khỏe.",
+      },
+      {
+        id: "section-2-1",
+        type: "heading",
+        content: "Công dụng nổi bật của vòng tay phong thủy:",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "list",
+        listType: "unordered",
+        content: [
+          "Thu hút tài lộc và may mắn: Các loại đá phong thủy trong vòng tay giúp kích hoạt nguồn năng lượng tích cực, mang lại thuận lợi trong công việc, học tập và cuộc sống.",
+          "Bảo vệ sức khỏe: Đeo vòng tay phong thủy giúp cân bằng luân xa, giảm căng thẳng, gia tăng sức đề kháng.",
+          "Cân bằng cảm xúc: Tùy theo loại đá, mỗi vòng tay phong thủy sẽ hỗ trợ điều chỉnh cảm xúc, hóa giải năng lượng tiêu cực và nâng cao tinh thần lạc quan.",
+        ],
+        parentId: "section-2-1",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "3, Cách Chọn Vòng Tay Phong Thủy Hợp Mệnh",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3",
+        content:
+          "Để vòng tay phong thủy phát huy tối đa công dụng, bạn cần lựa chọn mẫu đá phù hợp với bản mệnh.",
+      },
+      {
+        id: "section-3-1",
+        type: "heading",
+        content: "Mệnh Kim: Đá thạch anh trắng, mã não trắng",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-1",
+        content:
+          "Mệnh Kim: Nên chọn đá thạch anh trắng, mã não trắng với sắc trắng, bạc, vàng nhạt để thu hút vượng khí.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-1",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745809990/t%E1%BA%A3i_xu%E1%BB%91ng_nebjwv.jpg",
+      },
+      {
+        id: "section-3-2",
+        type: "heading",
+        content: "Mệnh Mộc: Đá ngọc bích, aventurine màu xanh lá cây",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-2",
+        content:
+          "Mệnh Mộc: Đá ngọc bích, aventurine màu xanh lá cây, xanh rêu sẽ tương hợp với người mệnh Mộc.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-2",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745809990/t%E1%BA%A3i_xu%E1%BB%91ng_1_nwsw0f.jpg",
+      },
+      {
+        id: "section-3-3",
+        type: "heading",
+        content:
+          "Mệnh Thủy: Thạch anh xanh, đá obsidian màu xanh biển hoặc đen",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-3",
+        content:
+          "Mệnh Thủy: Thạch anh xanh, đá obsidian màu xanh biển hoặc đen sẽ mang lại may mắn cho người mệnh Thủy.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-3",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745809990/t%E1%BA%A3i_xu%E1%BB%91ng_2_ldaen5.jpg",
+      },
+      {
+        id: "section-3-4",
+        type: "heading",
+        content: "Mệnh Hỏa: Thạch anh tím, đá garnet sắc đỏ",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-4",
+        content:
+          "Mệnh Hỏa: Thạch anh tím, đá garnet sắc đỏ, hồng, tím rất phù hợp cho người mệnh Hỏa.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-4",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745809990/t%E1%BA%A3i_xu%E1%BB%91ng_3_upjr5p.jpg",
+      },
+      {
+        id: "section-3-5",
+        type: "heading",
+        content: "Mệnh Thổ: Đá mắt hổ, thạch anh vàng",
+        level: 3,
+        parentId: "section-3",
+      },
+      {
+        type: "paragraph",
+        parentId: "section-3-5",
+        content:
+          "Mệnh Thổ: Đá mắt hổ, thạch anh vàng với gam màu vàng, nâu đất sẽ tiếp thêm năng lượng cho người mệnh Thổ.",
+      },
+      {
+        type: "image",
+        parentId: "section-3-5",
+        content:
+          "https://res.cloudinary.com/dwaphvnp3/image/upload/v1745809989/t%E1%BA%A3i_xu%E1%BB%91ng_4_vpv0py.jpg",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        content: "4, Vì Sao Nên Mua Vòng Tay Phong Thủy Tại BracyCrafts?",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Nếu bạn đang tìm kiếm một địa chỉ uy tín để mua vòng tay phong thủy, hãy đến với BracyCrafts:",
+        parentId: "section-4",
+      },
+      {
+        type: "list",
+        listType: "unordered",
+        content: [
+          "Đá tự nhiên 100%: Tất cả các vòng tay phong thủy tại BracyCrafts đều sử dụng đá tự nhiên chất lượng cao, có nguồn gốc rõ ràng.",
+          "Thiết kế đẹp, tinh tế: Các mẫu vòng tay phong thủy tại đây được thiết kế hiện đại, phù hợp với nhiều đối tượng khách hàng khác nhau.",
+          "Tư vấn chọn đá theo mệnh: Đội ngũ tư vấn chuyên nghiệp sẽ giúp bạn chọn vòng tay phong thủy hợp mệnh, hợp tuổi.",
+          "Giao hàng nhanh, đảm bảo: Cam kết giao hàng nhanh chóng, sản phẩm đúng mô tả, đúng chất lượng.",
+        ],
+        parentId: "section-4",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        content: "5, Kết Luận",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay phong thủy không chỉ làm đẹp cho cổ tay bạn, mà còn là biểu tượng của sự bảo vệ, may mắn và bình an. Hãy lựa chọn một chiếc vòng tay phong thủy phù hợp với bản mệnh để gia tăng tài lộc, sức khỏe và hạnh phúc cho chính mình.",
+      },
+    ],
+  },
 ];
