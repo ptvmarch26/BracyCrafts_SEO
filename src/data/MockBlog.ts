@@ -2529,7 +2529,7 @@ export const blogPosts: Blog[] = [
   },
   {
     slug: "vong-tay-phong-thuy",
-    title: "Vòng Tay Phong Thủy – Bí Quyết Mang Lại Bình An Và May Mắn",
+    title: "Vòng Tay Phong Thủy Làng Đại Học",
     description:
       "Vòng tay phong thủy không chỉ là món trang sức mà còn là lá bùa hộ mệnh giúp thu hút tài lộc, bảo vệ sức khỏe và cân bằng năng lượng. Khám phá các mẫu vòng tay phong thủy chất lượng tại BracyCrafts để mang lại may mắn cho cuộc sống.",
     image:
@@ -2742,6 +2742,590 @@ export const blogPosts: Blog[] = [
         type: "paragraph",
         content:
           "Vòng tay phong thủy không chỉ làm đẹp cho cổ tay bạn, mà còn là biểu tượng của sự bảo vệ, may mắn và bình an. Hãy lựa chọn một chiếc vòng tay phong thủy phù hợp với bản mệnh để gia tăng tài lộc, sức khỏe và hạnh phúc cho chính mình.",
+      },
+    ],
+  },
+  {
+    slug: "vong-tay-handmade-gia-sinh-vien-phu-kien-xinh-gia-hat-de-cho-hoc-sinh-sinh-vien",
+    title:
+      "Vòng Tay Handmade Giá Sinh Viên – Phụ Kiện Xinh, Giá Hạt Dẻ Cho Học Sinh – Sinh Viên",
+    description:
+      "Khám phá lý do tại sao vòng tay handmade lại được giới trẻ ưa chuộng: từ sự độc đáo, giá cả hợp lý đến ý nghĩa tinh thần khi tự tay làm quà tặng.",
+    image:
+      "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/e4f724b0d51e7b5e7dfcb47a24ad3e93_ffaga6.jpg",
+    altText: "Vòng tay handmade xinh xắn và độc đáo",
+    publishedAt: "2025-04-23T08:00:00Z",
+    updatedAt: "2025-04-23T08:00:00Z",
+    author: "Nguyễn Ngọc Thanh Tuyền",
+    category: ["Phụ Kiện", "Handmade"],
+    tags: [
+      "vòng tay handmade giá sinh viên",
+      "phụ kiện giá rẻ",
+      "tự làm quà tặng",
+      "giới trẻ",
+      "đồ thủ công",
+    ],
+    readingTime: 5,
+    canonicalUrl:
+      "https://bracycrafts.id.vn/blog/vong-tay-handmade-gia-sinh-vien-phu-kien-xinh-gia-hat-de-cho-hoc-sinh-sinh-vien",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline:
+        "Vòng Tay Handmade Giá Sinh Viên – Phụ Kiện Xinh, Giá Hạt Dẻ Cho Học Sinh – Sinh Viên",
+      datePublished: "2025-04-23T08:00:00Z",
+      dateModified: "2025-04-23T08:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Nguyễn Ngọc Thanh Tuyền",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Giới thiệu chung",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Trong thời đại mà ai cũng muốn thể hiện cá tính riêng, việc sở hữu những món phụ kiện độc đáo là cách đơn giản nhất để "nâng tầm" phong cách cá nhân. Đặc biệt với các bạn học sinh – sinh viên, vòng tay handmade đang trở thành lựa chọn phổ biến không chỉ vì vẻ đẹp riêng biệt mà còn bởi mức giá "siêu mềm".',
+        parentId: "section-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/e4f724b0d51e7b5e7dfcb47a24ad3e93_ffaga6.jpg",
+        altText: "Vòng tay handmade xinh xắn và độc đáo",
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "2. Vì sao vòng tay handmade lại hot trong giới trẻ?",
+        level: 2,
+      },
+      {
+        id: "section-2-1",
+        type: "heading",
+        content: "2.1. Cá tính – độc lạ – không đụng hàng",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Mỗi chiếc vòng tay handmade đều được làm thủ công, tỉ mỉ từng chi tiết. Dù là cùng một mẫu, nhưng hầu như không có chiếc nào giống hoàn toàn nhau. Đây chính là điểm cộng lớn với những bạn trẻ yêu thích sự khác biệt và muốn tạo dấu ấn riêng.",
+        parentId: "section-2-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/7463f77ae49edc65cc824ae3d471f092_oq0xra.jpg",
+        altText: "Vòng tay cá tính độc lạ, không đụng hàng",
+        parentId: "section-2-1",
+      },
+      {
+        id: "section-2-2",
+        type: "heading",
+        content: "2.2. Giá cả siêu hợp lý",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khác với các loại phụ kiện thời trang bán đại trà, vòng tay handmade thường có giá từ 15.000đ đến 50.000đ, tùy vào chất liệu và độ kỳ công. So với túi tiền eo hẹp của sinh viên, đây là món đầu tư quá hời cho một món đồ vừa đẹp vừa ý nghĩa.",
+        parentId: "section-2-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/8208e5ca91b5c1113287edc476b88df2_1_ieceyh.jpg",
+        altText: "Vòng tay với giá cả siêu hợp lý",
+        parentId: "section-2-2",
+      },
+      {
+        id: "section-2-3",
+        type: "heading",
+        content: "2.3. Tự tay làm – Tự tay tặng",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Nhiều bạn còn chọn cách tự tay làm vòng tay handmade để tặng bạn bè, người yêu vào những dịp đặc biệt như sinh nhật, lễ tốt nghiệp hay đơn giản là ngày bình thường để thể hiện sự quan tâm. Một món quà mang giá trị tinh thần còn quý giá hơn vật chất rất nhiều.",
+        parentId: "section-2-3",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "3. Gợi ý các loại vòng tay handmade được yêu thích",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "unordered",
+        content: [
+          "Vòng tay chỉ đỏ may mắn – đơn giản nhưng mang lại ý nghĩa phong thủy, cầu bình an.",
+          "Vòng đá mix charm – thanh lịch, dễ phối đồ và có nhiều kiểu đá mang lại năng lượng tích cực.",
+          "Vòng tay da bện thủ công – phong cách unisex, cá tính và rất hợp với những bạn yêu phong cách bụi bặm, năng động.",
+          "Vòng tay vải thêu tên/biểu tượng – mang đậm dấu ấn cá nhân, có thể đặt làm theo yêu cầu.",
+        ],
+        parentId: "section-3",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423318/4e9d3fb23790d2cd6b98c1a4920f4bc2_mpaka9.jpg",
+        altText: "Gợi ý các loại vòng tay handmade được yêu thích",
+        parentId: "section-3",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        content: "4. Mua vòng tay handmade giá sinh viên ở đâu?",
+        level: 2,
+      },
+      {
+        id: "section-4-1",
+        type: "heading",
+        content: "4.1. BracyCrafts",
+        level: 3,
+        parentId: "section-4",
+      },
+      {
+        type: "paragraph",
+        content:
+          "BracyCrafts là một địa chỉ uy tín chuyên cung cấp vòng tay handmade với thiết kế độc đáo, phù hợp với giới trẻ. Sản phẩm tại đây thường mang phong cách dễ thương, nhẹ nhàng, rất phù hợp với học sinh – sinh viên. Ngoài ra, BracyCrafts còn chia sẻ nhiều bài viết hữu ích về cách chọn và phối vòng tay trên blog của mình.",
+        parentId: "section-4-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1744566031/Screenshot_2025-04-14_003936_dw7q1d.png",
+        altText: "Vòng tay handmade giá sinh viên tại BracyCrafts",
+        parentId: "section-4-1",
+      },
+      {
+        id: "section-4-2",
+        type: "heading",
+        content: "4.2. Bulla_handmade",
+        level: 3,
+        parentId: "section-4",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Bulla_handmade chuyên cung cấp sỉ và lẻ vòng tay handmade với số lượng lớn trên toàn quốc. Sản phẩm đa dạng có nhận thiết kế vòng theo yêu cầu mà giá cả phải chăng, phù hợp với túi tiền của sinh viên.",
+        parentId: "section-4-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/483800048_1798690380976393_5309830888694351473_n_dhkf37.jpg",
+        altText: "Vòng tay nhà Bulla_handmade",
+        parentId: "section-4-2",
+      },
+      {
+        id: "section-4-3",
+        type: "heading",
+        content: "4.3. Dâu ngọt",
+        level: 3,
+        parentId: "section-4",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Tại Dâu ngọt có cung cấp các sản phẩm vòng tay thủ công, độc đáo và chất lượng. Các mẫu vòng tay tại đây được hoàn thiện một cách công phu, phù hợp làm quà cho người thân và bạn bè.",
+        parentId: "section-4-3",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/aa9473418582412db13017320597583e_toytue.jpg",
+        altText: "Vòng tay giá rẻ nhà Dâu ngọt",
+        parentId: "section-4-3",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        content: "5. Lời kết",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Vòng tay handmade không chỉ là một món phụ kiện xinh xắn mà còn là cách để thể hiện cá tính và tình cảm. Với mức giá sinh viên dễ chịu, ai cũng có thể sở hữu một chiếc vòng "xịn sò" cho riêng mình. Còn chần chừ gì mà không sắm ngay một em để làm điểm nhấn cho outfit hôm nay?',
+        parentId: "section-5",
+      },
+    ],
+  },
+  {
+    "slug": "vong-tay-thiet-ke-rieng",
+    "title": "Vòng Tay Thiết Kế Riêng BracyCrafts",
+    "description": "Khám phá BracyCrafts – nơi bạn có thể sở hữu những chiếc vòng tay handmade thiết kế riêng theo tên, màu sắc, ý nghĩa và phong cách cá nhân. Không còn giới hạn bởi mẫu mã có sẵn, hãy tự tạo dấu ấn cho riêng bạn!",
+    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746201058/hwot6bgfzcjplsgapzki.png",
+    "altText": "Vòng tay thiết kế riêng từ BracyCrafts",
+    "publishedAt": "2025-05-02T08:00:00Z",
+    "updatedAt": "2025-05-02T08:00:00Z",
+    "author": "Võ Văn Phi Thông",
+    "category": ["Vòng Tay", "Thiết Kế Riêng", "Handmade"],
+    "tags": [
+      "vòng tay custom",
+      "vòng tay thiết kế riêng",
+      "bracycrafts handmade",
+      "phụ kiện cá nhân hóa",
+      "vòng tay cá tính",
+      "quà tặng handmade"
+    ],
+    "readingTime": 6,
+    "canonicalUrl": "https://bracycrafts.vn/vong-tay-thiet-ke-rieng",
+  
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Vòng Tay Thiết Kế Riêng BracyCrafts",
+      "datePublished": "2025-05-02T08:00:00Z",
+      "dateModified": "2025-05-02T08:00:00Z",
+      "author": {
+        "@type": "Person",
+        "name": "Võ Văn Phi Thông"
+      }
+    },
+  
+    "sections": [
+      {
+        "id": "section-1",
+        "type": "heading",
+        "content": "BracyCrafts – Nơi Vòng Tay Là Một Phần Của Bạn",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Giữa hàng ngàn mẫu vòng tay đại trà ngoài thị trường, BracyCrafts mang đến một lựa chọn khác biệt: vòng tay được thiết kế riêng theo yêu cầu của bạn. Không còn rập khuôn, không còn giới hạn – tại BracyCrafts, mỗi chiếc vòng tay đều mang đậm dấu ấn cá nhân, là cách bạn kể câu chuyện của mình bằng phụ kiện."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1745411477/51531ea2-57b9-40ef-b5de-e114935cfeda_vwoyzu.jpg",
+        "altText": "Các mẫu vòng tay tại BracyCrafts"
+      },
+      {
+        "id": "section-2",
+        "type": "heading",
+        "content": "1. Thiết kế riêng – Cá nhân hóa không giới hạn",
+        "level": 2
+      },
+      {
+        "id": "section-2-1",
+        "type": "heading",
+        "content": "1.1. Bạn chọn – Chúng tôi làm",
+        "level": 3,
+        "parentId": "section-2"
+      },
+      {
+        "type": "paragraph",
+        "content": "Từ việc chọn màu dây, loại chất liệu, charm trang trí đến khắc tên hoặc thông điệp đặc biệt – BracyCrafts cho phép bạn tham gia vào toàn bộ quá trình thiết kế. Dù là một chiếc vòng đơn giản mang tên người yêu, hay một món quà mang đầy cảm xúc, chúng tôi luôn đảm bảo mỗi sản phẩm là duy nhất – như chính bạn.",
+        "parentId": "section-2-1"
+      },
+      {
+        "id": "section-2-2",
+        "type": "heading",
+        "content": "1.2. Phong cách nào cũng có thể tạo dấu ấn",
+        "level": 3,
+        "parentId": "section-2"
+      },
+      {
+        "type": "paragraph",
+        "content": "Bạn theo đuổi sự tối giản, phong cách vintage, năng động hay cá tính? BracyCrafts có thể đáp ứng tất cả. Đội ngũ nghệ nhân không chỉ khéo tay mà còn hiểu gu thời trang, sẵn sàng tư vấn và biến ý tưởng của bạn thành sản phẩm thực tế.",
+        "parentId": "section-2-2"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746200303/vong-tay-handmade-vintage-3_pqpa5d.jpg",
+        "altText": "Vòng tay vintage",
+        "parentId": "section-2-2"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746200342/vn-11134207-7r98o-lsc9hlwd12mx4f_fjnie3.jpg",
+        "altText": "Vòng tay tối giản",
+        "parentId": "section-2-2"
+      },
+      {
+        "id": "section-3",
+        "type": "heading",
+        "content": "2. Gợi ý những mẫu thiết kế được yêu thích tại BracyCrafts",
+        "level": 2
+      },
+      {
+        "id": "section-3-1",
+        "type": "heading",
+        "content": "🧡 Vòng tay chữ khắc tên riêng",
+        "level": 3,
+        "parentId": "section-3"
+      },
+      {
+        "type": "paragraph",
+        "content": "Không gì cá nhân hơn chiếc vòng khắc tên bạn hoặc người thương. Đây luôn là món quà được lựa chọn nhiều nhất mỗi dịp sinh nhật, kỷ niệm hay lễ tình nhân. Đặc biệt, bạn có thể khắc thêm biểu tượng nhỏ như trái tim, ngôi sao hoặc hình cung hoàng đạo.",
+        "parentId": "section-3-1"
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746200615/4001699fce34c697a1bc401a3fb6442b_b2zeeu.jpg",
+        "altText": "Vòng tay chữ khắc tên riêng",
+        "parentId": "section-3-1"
+      },
+      {
+        "id": "section-3-2",
+        "type": "heading",
+        "content": "🌿 Vòng tay theo mệnh – Phong thủy may mắn",
+        "level": 3,
+        "parentId": "section-3"
+      },
+      {
+        "type": "paragraph",
+        "content": "Bạn có thể chọn màu dây hoặc charm hợp mệnh để thu hút may mắn và năng lượng tích cực. Vòng tay phong thủy thiết kế riêng tại BracyCrafts không chỉ đẹp mà còn có ý nghĩa tinh thần sâu sắc, phù hợp để đeo hàng ngày hoặc làm quà tặng.",
+        "parentId": "section-3-2"
+      },
+      {
+        "type": "image",
+        "parentId": "section-3-2",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746200713/Lac-tay-bac-nu-dinh-da-CZ-hinh-co-4-la-Julie-LILI_096698_6-400x400_wgimq4.jpg",
+        "altText": "Vòng tay phong thủy",
+      },
+      {
+        "id": "section-3-3",
+        "type": "heading",
+        "content": "👯 Vòng tay cặp đôi",
+        "level": 3,
+        "parentId": "section-3"
+      },
+      {
+        "type": "paragraph",
+        "parentId": "section-3-3",
+        "content": "Thiết kế vòng đôi chưa bao giờ lỗi thời. BracyCrafts nhận làm vòng tay cho cặp đôi yêu nhau hoặc nhóm bạn thân, với biểu tượng riêng như ngày gặp nhau, câu quote yêu thích hoặc charm đôi."
+      },
+      {
+        "type": "image",
+        "parentId": "section-3-3",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746200870/e5d28f451440bc5bc7c9ddde05827e5e_ckidce.jpg",
+        "altText": "Vòng tay cặp đôi",
+      },
+      {
+        "id": "section-4",
+        "type": "heading",
+        "content": "3. Cách đặt hàng vòng tay thiết kế riêng tại BracyCrafts",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        parentId: "section-4",
+        "content": "Chỉ cần bạn gửi ý tưởng (hoặc mô tả mong muốn), BracyCrafts sẽ tư vấn mẫu mã phù hợp, báo giá và bắt tay thực hiện. Bạn có thể đặt hàng qua Fanpage, Instagram hoặc trực tiếp tại các sự kiện, hội chợ sinh viên. Sản phẩm sẽ được giao tận nơi, kèm theo hộp quà xinh xắn."
+      },
+      {
+        type: "paragraph",
+        content: "👉 Đặt thiết kế riêng tại đây: https://bracycrafts.id.vn/",
+        parentId: "section-4",
+      },
+      {
+        type: "paragraph",
+        content:
+          "👉 Nhắn tụi mình để tư vấn vòng “chính mình” nhất: https://www.facebook.com/bracycrafts.shop",
+        parentId: "section-4",
+      },
+      {
+        "id": "section-5",
+        "type": "heading",
+        "content": "Tại sao nên thử thiết kế vòng tay cho riêng mình?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Vòng tay thiết kế riêng không chỉ là phụ kiện mà là tuyên ngôn phong cách, là món quà mang nhiều ý nghĩa hơn cả vật chất. Một chiếc vòng đơn giản nhưng chứa đựng sự quan tâm, tinh tế và cá tính của người tặng lẫn người đeo. Đừng chờ dịp đặc biệt – hãy tạo dấu ấn riêng ngay hôm nay!"
+      },
+      {
+        "type": "paragraph",
+        "content": "Tại BracyCrafts, mỗi chiếc vòng tay là một câu chuyện. Hãy để chúng tôi đồng hành cùng bạn trên hành trình tạo nên những món phụ kiện độc đáo, mang đậm dấu ấn cá nhân. Vì bạn xứng đáng có một sản phẩm phản ánh đúng con người bạn – tinh tế, duy nhất và đầy cảm hứng."
+      }
+    ]
+  },
+  {
+    slug: "charm-vong-tay-doc-quyen-tai-lang-dai-hoc-phu-kien-dang-gay-sot-trong-gioi-tre",
+    title:
+      "Charm Vòng Tay Độc Quyền Tại Làng Đại Học - Phụ Kiện Đang Gây Sốt Trong Giới Trẻ",
+    description:
+      "Khám phá trào lưu charm vòng tay độc quyền đang làm mưa làm gió tại các khu vực làng đại học: thiết kế độc đáo, ý nghĩa tinh thần và cách sở hữu những món phụ kiện cực chất này.",
+    image:
+      "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746201878/3e51696744315_7035_i5a9mz.jpg",
+    altText: "Charm vòng tay độc quyền tại làng đại học",
+    publishedAt: "2025-05-02T08:00:00Z",
+    updatedAt: "2025-05-02T08:00:00Z",
+    author: "Võ Văn Phi Thông",
+    category: ["Phụ Kiện", "Thời Trang Sinh Viên"],
+    tags: [
+      "charm vòng tay độc quyền",
+      "làng đại học",
+      "phụ kiện sinh viên",
+      "giới trẻ",
+      "phụ kiện trendy",
+    ],
+    readingTime: 5,
+    canonicalUrl:
+      "https://bracycrafts.id.vn/blog/charm-vong-tay-doc-quyen-tai-lang-dai-hoc-phu-kien-dang-gay-sot-trong-gioi-tre",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline:
+        "Charm Vòng Tay Độc Quyền Tại Làng Đại Học - Phụ Kiện Đang Gây Sốt Trong Giới Trẻ",
+      datePublished: "2025-04-23T08:00:00Z",
+      dateModified: "2025-04-23T08:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Võ Văn Phi Thông",
+      },
+    },
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        content: "1. Trào lưu charm vòng tay tại làng đại học",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Những khu vực làng đại học luôn là nơi khởi nguồn cho nhiều xu hướng mới trong giới trẻ. Năm 2025, một trào lưu mới đang chiếm sóng cộng đồng sinh viên - đó chính là "charm vòng tay độc quyền". Không chỉ là phụ kiện thời trang, những chiếc charm này còn là biểu tượng văn hóa và dấu ấn riêng của từng trường đại học.',
+        parentId: "section-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423317/e4f724b0d51e7b5e7dfcb47a24ad3e93_ffaga6.jpg",
+        altText: "Charm vòng tay độc quyền tại làng đại học",
+        parentId: "section-1",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        content: "2. Tại sao charm vòng tay làng đại học lại thu hút giới trẻ?",
+        level: 2,
+      },
+      {
+        id: "section-2-1",
+        type: "heading",
+        content: "2.1. Biểu tượng độc quyền cho từng trường",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Mỗi trường đại học đều có những charm riêng biệt với logo, biểu tượng hoặc màu sắc đặc trưng. Điều này tạo nên sự độc quyền và tự hào khi sinh viên đeo những món phụ kiện mang dấu ấn của ngôi trường mình đang theo học. Từ charm hình tòa nhà trung tâm của ĐH Quốc Gia đến màu xanh lá cây của ĐH CNTT - mỗi thiết kế đều mang một câu chuyện riêng.",
+        parentId: "section-2-1",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746201613/Dai_hoc_Quoc_gia_Thanh_pho_Ho_Chi_Minh-171520_jcdqqk.png",
+        altText: "Charm với biểu tượng các trường đại học",
+        parentId: "section-2-1",
+      },
+      {
+        id: "section-2-2",
+        type: "heading",
+        content: "2.2. Giá thành phù hợp với sinh viên",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Dù là sản phẩm độc quyền nhưng các charm vòng tay làng đại học lại có mức giá cực kỳ phải chăng, dao động từ 35.000đ tùy theo loại vòng tay.",
+        parentId: "section-2-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Tại BracyCrafts còn áp dụng chương trình giảm giá đặc biệt cho sinh viên của chính trường đó, càng khuyến khích việc sưu tầm nhiều charm khác nhau.",
+        parentId: "section-2-2",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746201957/z6013169701691_2d9feaf3411f980fce0c6fc0cab85477_mkxcio.jpg",
+        altText: "Charm vòng tay với giá cả hợp lý cho sinh viên",
+        parentId: "section-2-2",
+      },
+      {
+        id: "section-2-3",
+        type: "heading",
+        content: "2.3. Kỷ niệm và tình bạn đại học",
+        level: 3,
+        parentId: "section-2",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Nhiều sinh viên chọn tặng charm vòng tay làm quà lưu niệm cho nhau trong những dịp đặc biệt như tân sinh viên, kỷ niệm ngày thành lập trường hay lễ tốt nghiệp. Mỗi charm như một mảnh ghép kỷ niệm, ghi dấu những năm tháng tuổi trẻ đáng nhớ tại giảng đường đại học.",
+        parentId: "section-2-3",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        content: "3. Những mẫu charm vòng tay đang thịnh hành",
+        level: 2,
+      },
+      {
+        type: "list",
+        listType: "unordered",
+        content: [
+          "Charm logo trường - thiết kế tinh tế với logo chính thức của các trường ĐH lớn như ĐHQG, CNTT, Bách Khoa...",
+          "Charm khoa chuyên ngành - dành riêng cho sinh viên các khoa với biểu tượng đặc trưng như máy tính (Công nghệ thông tin), ống nghiệm (Khoa học), cọ vẽ (Mỹ thuật)...",
+          "Charm kỷ niệm sự kiện - được phát hành giới hạn trong các lễ hội lớn như Mùa hè xanh, Xuân tình nguyện hay Festival sinh viên.",
+          "Charm cá nhân hóa - có thể khắc tên, MSSV hoặc khẩu hiệu cá nhân, cực kỳ độc đáo.",
+        ],
+        parentId: "section-3",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dai92e7cq/image/upload/v1745423318/4e9d3fb23790d2cd6b98c1a4920f4bc2_mpaka9.jpg",
+        altText: "Các mẫu charm vòng tay đang thịnh hành tại làng đại học",
+        parentId: "section-3",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        content: "4. BracyCrafts - Chuỗi cửa hàng chính thức bánbán charm vòng tay độc quyền tại làng đại học",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "BracyCrafts là đơn vị tiên phong trong việc sản xuất các dòng charm vòng tay độc quyền cho làng đại học. Với các chi nhánh đặt tại khuôn viên hoặc cổng các trường lớn, BracyCrafts cung cấp đầy đủ các mẫu charm chính thức được cấp phép từ nhà trường. Đặc biệt, cửa hàng còn tổ chức các workshop dạy làm charm cá nhân hóa cho sinh viên vào cuối tuần.",
+        parentId: "section-4",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746202172/6e9d424a-d35d-4978-aaa0-746a2df6878e_jzr800.jpg",
+        altText: "Cửa hàng BracyCrafts tại làng đại học",
+        parentId: "section-4",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        content: "5. Lời kết",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Charm vòng tay độc quyền tại làng đại học không chỉ là món phụ kiện thời trang mà còn là biểu tượng văn hóa, kết nối sinh viên với ngôi trường của mình. Sở hữu một bộ sưu tập charm đã trở thành "đặc sản" của giới sinh viên hiện đại - vừa thể hiện cá tính, vừa lưu giữ kỷ niệm đẹp thời sinh viên. Hãy ghé thăm các cửa hàng trong làng đại học và bắt đầu bộ sưu tập của riêng bạn ngay từ hôm nay!',
+        parentId: "section-5",
       },
     ],
   },
