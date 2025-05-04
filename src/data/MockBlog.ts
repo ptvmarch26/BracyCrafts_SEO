@@ -4378,133 +4378,453 @@ export const blogPosts: Blog[] = [
     ],
   },
   {
-    "slug": "phong-cach-boho-chic-khi-vong-tay-thiet-ke-rieng-tro-thanh-diem-nhan",
-    "title": "Phong Cách Boho Chic – Khi Vòng Tay Thiết Kế Riêng Trở Thành Điểm Nhấn",
-    "description": "Phối đồ theo phong cách Boho Chic cùng vòng tay thiết kế riêng từ BracyCrafts",
-    "image": "https://res.cloudinary.com/dbr85jktp/image/upload/v1745751188/5_c6wkxd.png",
-    "altText": "Phong cách Boho Chic đầy cá tính",
-    "publishedAt": "2025-04-27T08:00:00Z",
-    "updatedAt": "2025-04-27T08:00:00Z",
-    "author": "Võ Thị Phương Uyên",
-    "category": ["Vòng Tay", "Thời Trang"],
-    "tags": ["vòng tay handmade", "phối đồ", "phong cách cá nhân", "xu hướng thời trang"],
-    "readingTime": 8,
-    "canonicalUrl": "https://bracycrafts.id.vn/blog/phong-cach-boho-chic-khi-vong-tay-thiet-ke-rieng-tro-thanh-diem-nhan",
-    "structuredData": {
+    slug: "phong-cach-boho-chic-khi-vong-tay-thiet-ke-rieng-tro-thanh-diem-nhan",
+    title:
+      "Phong Cách Boho Chic – Khi Vòng Tay Thiết Kế Riêng Trở Thành Điểm Nhấn",
+    description:
+      "Phối đồ theo phong cách Boho Chic cùng vòng tay thiết kế riêng từ BracyCrafts",
+    image:
+      "https://res.cloudinary.com/dbr85jktp/image/upload/v1745751188/5_c6wkxd.png",
+    altText: "Phong cách Boho Chic đầy cá tính",
+    publishedAt: "2025-04-27T08:00:00Z",
+    updatedAt: "2025-04-27T08:00:00Z",
+    author: "Võ Thị Phương Uyên",
+    category: ["Vòng Tay", "Thời Trang"],
+    tags: [
+      "vòng tay handmade",
+      "phối đồ",
+      "phong cách cá nhân",
+      "xu hướng thời trang",
+    ],
+    readingTime: 8,
+    canonicalUrl:
+      "https://bracycrafts.id.vn/blog/phong-cach-boho-chic-khi-vong-tay-thiet-ke-rieng-tro-thanh-diem-nhan",
+    structuredData: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Phong Cách Boho Chic – Khi Vòng Tay Thiết Kế Riêng Trở Thành Điểm Nhấn",
-      "datePublished": "2025-04-27T08:00:00Z",
-      "dateModified": "2025-04-27T08:00:00Z",
-      "author": {
+      headline:
+        "Phong Cách Boho Chic – Khi Vòng Tay Thiết Kế Riêng Trở Thành Điểm Nhấn",
+      datePublished: "2025-04-27T08:00:00Z",
+      dateModified: "2025-04-27T08:00:00Z",
+      author: {
         "@type": "Person",
-        "name": "Võ Thị Phương Uyên"
-      }
+        name: "Võ Thị Phương Uyên",
+      },
     },
-    "sections": [
+    sections: [
       {
-        "id": "section-1",
-        "type": "heading",
-        "content": "1. BracyCrafts Nói Về Boho Chic",
-        "level": 2
+        id: "section-1",
+        type: "heading",
+        content: "1. BracyCrafts Nói Về Boho Chic",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Không còn nỗi lo “vòng rộng quá”, “vòng bó quá”! Hãy để BracyCrafts hướng dẫn bạn đo cổ tay và chọn vòng tay phù hợp nhất – chuẩn từng milimet, đẹp từng chi tiết.",
-        "parentId": "section-1"
+        type: "paragraph",
+        content:
+          "Không còn nỗi lo “vòng rộng quá”, “vòng bó quá”! Hãy để BracyCrafts hướng dẫn bạn đo cổ tay và chọn vòng tay phù hợp nhất – chuẩn từng milimet, đẹp từng chi tiết.",
+        parentId: "section-1",
       },
       {
-        "id": "section-2",
-        "type": "heading",
-        "content": "2. Boho Chic - Vẻ Đẹp Của Sự Tự Do Và Nghệ Thuật",
-        "level": 2
+        id: "section-2",
+        type: "heading",
+        content: "2. Boho Chic - Vẻ Đẹp Của Sự Tự Do Và Nghệ Thuật",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Boho (Bohemian) không chỉ là một phong cách thời trang, mà còn là một tuyên ngôn sống. Phong cách này đề cao:",
-        "parentId": "section-2"
+        type: "paragraph",
+        content:
+          "Boho (Bohemian) không chỉ là một phong cách thời trang, mà còn là một tuyên ngôn sống. Phong cách này đề cao:",
+        parentId: "section-2",
       },
       {
-        "type": "list",
-        "listType": "unordered",
-        "content": [
+        type: "list",
+        listType: "unordered",
+        content: [
           "Sự tự do trong cách phối đồ",
           "Màu sắc ấm áp, chất liệu thiên nhiên",
-          "Phụ kiện thủ công, cầu kỳ, nhiều lớp"
+          "Phụ kiện thủ công, cầu kỳ, nhiều lớp",
         ],
-        "parentId": "section-2"
+        parentId: "section-2",
       },
       {
-        "id": "section-3",
-        "type": "heading",
-        "content": "3. Vì Sao Nên Chọn Vòng Tay Bracy Custom Khi Theo Đuổi Phong Cách Boho Chic?",
-        "level": 2
+        id: "section-3",
+        type: "heading",
+        content:
+          "3. Vì Sao Nên Chọn Vòng Tay Bracy Custom Khi Theo Đuổi Phong Cách Boho Chic?",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Thiết kế độc quyền, mang dấu ấn cá nhân: Vòng tay Bracy custom cho phép bạn lựa chọn màu sắc, chất liệu, charm và thông điệp riêng biệt – từ đó tạo ra một chiếc vòng mang ý nghĩa cá nhân, không trùng lặp với bất kỳ ai.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Thiết kế độc quyền, mang dấu ấn cá nhân: Vòng tay Bracy custom cho phép bạn lựa chọn màu sắc, chất liệu, charm và thông điệp riêng biệt – từ đó tạo ra một chiếc vòng mang ý nghĩa cá nhân, không trùng lặp với bất kỳ ai.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "Chất liệu thiên nhiên, thân thiện và bền vững: BracyCrafts sử dụng các chất liệu như dây dù, hạt gỗ, đá phong thủy tự nhiên... phù hợp hoàn hảo với tinh thần của Boho Chic – gần gũi với thiên nhiên và không gò bó theo quy chuẩn.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Chất liệu thiên nhiên, thân thiện và bền vững: BracyCrafts sử dụng các chất liệu như dây dù, hạt gỗ, đá phong thủy tự nhiên... phù hợp hoàn hảo với tinh thần của Boho Chic – gần gũi với thiên nhiên và không gò bó theo quy chuẩn.",
+        parentId: "section-3",
       },
       {
-        "type": "paragraph",
-        "content": "Tăng năng lượng tích cực: Không chỉ là phụ kiện thời trang, nhiều mẫu vòng tay Bracy còn được kết hợp đá phong thủy, giúp tăng năng lượng tích cực, thu hút may mắn và mang lại sự bình an cho người đeo.",
-        "parentId": "section-3"
+        type: "paragraph",
+        content:
+          "Tăng năng lượng tích cực: Không chỉ là phụ kiện thời trang, nhiều mẫu vòng tay Bracy còn được kết hợp đá phong thủy, giúp tăng năng lượng tích cực, thu hút may mắn và mang lại sự bình an cho người đeo.",
+        parentId: "section-3",
       },
       {
-        "id": "section-4",
-        "type": "heading",
-        "content": "4. Gợi Ý Phối Đồ Boho Cùng Vòng Tay Bracy Custom",
-        "level": 2
+        id: "section-4",
+        type: "heading",
+        content: "4. Gợi Ý Phối Đồ Boho Cùng Vòng Tay Bracy Custom",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Nếu bạn yêu thích sự trẻ trung, năng động pha chút nữ tính thì combo áo croptop kết hợp cùng chân váy maxi sẽ là lựa chọn hoàn hảo. Để tạo điểm nhấn cho phong cách này, hãy chọn một chiếc vòng tay ocean mood. Sự mềm mại của vải cùng chi tiết charm mang hơi hướng biển cả sẽ giúp tổng thể trở nên hài hòa, phóng khoáng và đậm chất Boho.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Nếu bạn yêu thích sự trẻ trung, năng động pha chút nữ tính thì combo áo croptop kết hợp cùng chân váy maxi sẽ là lựa chọn hoàn hảo. Để tạo điểm nhấn cho phong cách này, hãy chọn một chiếc vòng tay ocean mood. Sự mềm mại của vải cùng chi tiết charm mang hơi hướng biển cả sẽ giúp tổng thể trở nên hài hòa, phóng khoáng và đậm chất Boho.",
+        parentId: "section-4",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dbr85jktp/image/upload/v1745759907/Ch%C6%B0a_c%C3%B3_t%C3%AAn_1440_x_594_px_A4_lfwabr.png",
-        "altText": "Phối phong cách nhẹ nhàng nữ tính cùng vòng tay handmade",
-        "parentId": "section-4"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dbr85jktp/image/upload/v1745759907/Ch%C6%B0a_c%C3%B3_t%C3%AAn_1440_x_594_px_A4_lfwabr.png",
+        altText: "Phối phong cách nhẹ nhàng nữ tính cùng vòng tay handmade",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "Phong cách Boho không chỉ dừng lại ở sự phá cách mà còn có những nét rất dịu dàng, tinh tế. Một chiếc đầm trắng vintage kết hợp sandal dây mảnh sẽ cực kỳ tỏa sáng nếu được phối cùng vòng tay dây cói phối hoa gốm. Đây là lựa chọn hoàn hảo dành cho những ai yêu sự thanh lịch, nhẹ nhàng nhưng vẫn muốn thể hiện sự kết nối với thiên nhiên.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Phong cách Boho không chỉ dừng lại ở sự phá cách mà còn có những nét rất dịu dàng, tinh tế. Một chiếc đầm trắng vintage kết hợp sandal dây mảnh sẽ cực kỳ tỏa sáng nếu được phối cùng vòng tay dây cói phối hoa gốm. Đây là lựa chọn hoàn hảo dành cho những ai yêu sự thanh lịch, nhẹ nhàng nhưng vẫn muốn thể hiện sự kết nối với thiên nhiên.",
+        parentId: "section-4",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dbr85jktp/image/upload/v1745751185/2_w1logl.png",
-        "altText": "Phối phong cách dịu dàng,tinh tế với vòng tay BracyCrafts",
-        "parentId": "section-4"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dbr85jktp/image/upload/v1745751185/2_w1logl.png",
+        altText: "Phối phong cách dịu dàng,tinh tế với vòng tay BracyCrafts",
+        parentId: "section-4",
       },
       {
-        "type": "paragraph",
-        "content": "Đối với những cô nàng cá tính, thích sự phóng khoáng, bạn có thể thử ngay combo áo sơ mi oversize đi cùng quần thổ cẩm. Để tăng thêm phần ấn tượng, hãy chọn vòng tay ocean bloom – đây là chi tiết đậm chất Boho, thể hiện tinh thần tự do và năng lượng tích cực trong mỗi chuyển động.",
-        "parentId": "section-4"
+        type: "paragraph",
+        content:
+          "Đối với những cô nàng cá tính, thích sự phóng khoáng, bạn có thể thử ngay combo áo sơ mi oversize đi cùng quần thổ cẩm. Để tăng thêm phần ấn tượng, hãy chọn vòng tay ocean bloom – đây là chi tiết đậm chất Boho, thể hiện tinh thần tự do và năng lượng tích cực trong mỗi chuyển động.",
+        parentId: "section-4",
       },
       {
-        "type": "image",
-        "content": "https://res.cloudinary.com/dbr85jktp/image/upload/v1745759741/3_ukl8nd.png",
-        "altText": "Phối phong cách cá tính với vòng tay thiết kế riêng đến từ BracyCrafts",
-        "parentId": "section-4"
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dbr85jktp/image/upload/v1745759741/3_ukl8nd.png",
+        altText:
+          "Phối phong cách cá tính với vòng tay thiết kế riêng đến từ BracyCrafts",
+        parentId: "section-4",
       },
       {
-        "id": "section-5",
-        "type": "heading",
-        "content": "5. Lời Kết",
-        "level": 2
+        id: "section-5",
+        type: "heading",
+        content: "5. Lời Kết",
+        level: 2,
       },
       {
-        "type": "paragraph",
-        "content": "Trong thế giới thời trang Boho, mỗi món phụ kiện đều có tiếng nói riêng. Và với Bracy vòng tay custom, bạn hoàn toàn có thể tạo ra một món đồ mang đậm dấu ấn cá nhân, vừa đẹp mắt vừa mang năng lượng tích cực.",
-        "parentId": "section-5"
+        type: "paragraph",
+        content:
+          "Trong thế giới thời trang Boho, mỗi món phụ kiện đều có tiếng nói riêng. Và với Bracy vòng tay custom, bạn hoàn toàn có thể tạo ra một món đồ mang đậm dấu ấn cá nhân, vừa đẹp mắt vừa mang năng lượng tích cực.",
+        parentId: "section-5",
+      },
+    ],
+  },
+  {
+    slug: "vong-tay-handmade-tai-uit-gui-gam-ky-niem-sinh-vien-cong-nghe-thong-tin",
+    title:
+      "Vòng Tay Handmade tại UIT - Gửi Gắm Kỷ Niệm Sinh Viên Công Nghệ Thông Tin",
+    description:
+      "Khám phá xu hướng vòng tay handmade đang làm mưa làm gió tại Đại học Công nghệ Thông tin UIT. Bracy mang đến những thiết kế độc đáo, cá nhân hóa, giúp sinh viên công nghệ lưu giữ kỷ niệm đáng nhớ qua từng món phụ kiện ý nghĩa.",
+    image:
+      "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378159/cn-11134207-7r98o-luedc4zal56s03_d77niv.jpg",
+    altText: "Vòng tay handmade độc đáo dành cho sinh viên UIT",
+    publishedAt: "2025-05-04T09:15:00Z",
+    updatedAt: "2025-05-04T09:15:00Z",
+    author: "Phạm Quang Vũ",
+    category: ["Vòng Tay", "Sinh Viên", "Handmade"],
+    tags: [
+      "vòng tay UIT",
+      "Bracy vòng tay thiết kế riêng",
+      "vòng tay sinh viên",
+      "vòng tay handmade",
+      "vòng tay hot trend",
+      "vòng tay đôi",
+      "vòng tay custom",
+      "lắc tay handmade",
+    ],
+    readingTime: 7,
+    canonicalUrl: "https://bracycrafts.id.vn/blog/vong-tay-handmade-tai-uit",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline:
+        "Vòng Tay Handmade tại UIT - Gửi Gắm Kỷ Niệm Sinh Viên Công Nghệ",
+      datePublished: "2025-05-04T09:15:00Z",
+      dateModified: "2025-05-04T09:15:00Z",
+      author: {
+        "@type": "Person",
+        name: "Phạm Quang Vũ",
+      },
+    },
+    sections: [
+      {
+        id: "section-intro",
+        type: "heading",
+        content:
+          "Vòng Tay Handmade - Trào Lưu Mới Tại Đại Học Công Nghệ Thông Tin UIT",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Tại Đại học Công nghệ Thông tin (UIT) - một trong những trường đại học hàng đầu về công nghệ tại Việt Nam, sinh viên không chỉ nổi tiếng với niềm đam mê coding hay hackathon mà còn tạo nên trào lưu vòng tay handmade độc đáo, kết hợp giữa công nghệ và thủ công mỹ nghệ. Vòng tay hot nhất mạng xã hội này đã trở thành hiện tượng viral trên nhiều nền tảng như Facebook và TikTok, thu hút sự chú ý của cộng đồng sinh viên toàn quốc.",
+        parentId: "section-intro",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Khác với quan niệm rằng sinh viên IT thường hướng về thế giới kỹ thuật số, vòng tay thủ công tại UIT lại chứng minh rằng những bạn trẻ công nghệ cũng có niềm đam mê mãnh liệt với nghệ thuật tạo tác thủ công. Từ những sợi dây đơn giản, hạt đá, đến các charm độc đáo mang hình tượng về công nghệ, vòng tay sinh viên tại UIT không chỉ là món phụ kiện thời trang mà còn là cách để các bạn thể hiện cá tính và lưu giữ kỷ niệm thời sinh viên.",
+        parentId: "section-intro",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378159/vong-tay-handmade-1360898180_gtoxzt.jpg",
+        altText: "Vòng tay độc lạ trở thành xu hướng trong sinh viên UIT",
+        parentId: "section-intro",
+      },
+      {
+        id: "section-bracy",
+        type: "heading",
+        content:
+          "Bracy - Người Tiên Phong Trong Làn Sóng Vòng Tay Handmade Tại UIT",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Giữa vô vàn cửa hàng phụ kiện handmade, Bracy nổi lên như một hiện tượng đặc biệt tại UIT với slogan "Code your memory" - ý tưởng độc đáo kết hợp giữa đam mê lập trình và nghệ thuật handmade. Bracy vòng tay thiết kế riêng cho sinh viên UIT không chỉ là sản phẩm thủ công đơn thuần mà còn là tác phẩm nghệ thuật mang đậm dấu ấn công nghệ.',
+        parentId: "section-bracy",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Điểm đặc biệt trong các sản phẩm của Bracy chính là Bracy charm vòng tay độc quyền với những mẫu thiết kế độc quyền lấy cảm hứng từ ngôn ngữ lập trình, biểu tượng công nghệ và văn hóa geek. Phụ kiện Bracy không chỉ đẹp mắt mà còn mang ý nghĩa sâu sắc, như những dòng code đặc biệt được khắc trên charm, hay biểu tượng của các ngôn ngữ lập trình yêu thích.",
+        parentId: "section-bracy",
+      },
+      {
+        type: "paragraph",
+        content:
+          '"Chúng tôi muốn tạo ra những món phụ kiện không chỉ đẹp mà còn kể được câu chuyện về hành trình học tập và đam mê công nghệ của mỗi sinh viên UIT. Vòng tay Bracy custom cho phép các bạn thiết kế sản phẩm theo cá tính riêng, từ màu sắc, kiểu dáng đến thông điệp được khắc laser trên sản phẩm," đại diện Bracy chia sẻ.',
+        parentId: "section-bracy",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378159/vn-11134207-7r98o-lo3d2ng9o3xpba_kc2c8q.jpg",
+        altText:
+          "Bracy vòng tay thiết kế lấy cảm hứng công nghệ cho sinh viên UIT",
+        parentId: "section-bracy",
+      },
+      {
+        id: "section-trends",
+        type: "heading",
+        content: "5 Mẫu Vòng Tay Hot Trend Được Sinh Viên UIT Săn Đón",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Với tư duy sáng tạo và đam mê công nghệ, sinh viên UIT đã tạo nên những xu hướng vòng tay độc đáo, phản ánh văn hóa và đam mê của cộng đồng công nghệ:",
+        parentId: "section-trends",
+      },
+      {
+        type: "paragraph",
+        content:
+          '❤️ Code Bracelet: Vòng tay hot trend này có điểm nhấn là những đoạn code ngắn được khắc trên mặt kim loại. Mỗi sinh viên có thể chọn đoạn code yêu thích, từ "Hello World" đơn giản đến những thuật toán phức tạp hơn. Đây là món quà ý nghĩa mà nhiều sinh viên UIT tặng nhau trong những dịp đặc biệt, trở thành Bracy vòng tay - quà tặng ý nghĩa cho người thương hay bạn bè trong ngành.',
+        parentId: "section-trends",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Binary Love: Vòng tay đôi tình bạn/tình yêu độc đáo với chuỗi mã nhị phân biểu thị tên hoặc một thông điệp đặc biệt giữa hai người. Đây là lựa chọn phổ biến cho các cặp đôi tại UIT, tạo nên sự kết nối riêng tư và ý nghĩa mà chỉ họ mới hiểu được.",
+        parentId: "section-trends",
+      },
+      {
+        type: "paragraph",
+        content:
+          '❤️ Debug My Life: Vòng tay may mắn với charm hình bug được tạo từ đá phong thủy, mang ý nghĩa giúp "debug" những khó khăn trong cuộc sống. Mỗi màu đá tượng trưng cho một loại bug khác nhau mà sinh viên muốn khắc phục, từ học tập, tình cảm đến sự nghiệp.',
+        parentId: "section-trends",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ UIT Memory String: Vòng tay khắc tên kết hợp với mã số sinh viên, tên lớp hoặc năm nhập học tại UIT. Đây là sản phẩm được săn đón đặc biệt vào dịp tốt nghiệp, như một kỷ vật lưu giữ thời gian đáng nhớ tại trường.",
+        parentId: "section-trends",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Tech Charm Collection: Lắc tay handmade với nhiều charm công nghệ như chip máy tính, biểu tượng Wi-Fi, logo các ngôn ngữ lập trình... Sinh viên có thể mix charm theo sở thích, tạo nên vòng tay độc lạ thể hiện đam mê và chuyên ngành của mình.",
+        parentId: "section-trends",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378159/97-vc3b2ng-tay-handmade-c491c3a1-te1bbb1-nhic3aan-mc3a8o-may-me1baafn-nhe1baadt-be1baa3n-2_dx7ezw.webp",
+        altText: "Các mẫu vòng tay handmade đẹp được sinh viên UIT yêu thích",
+        parentId: "section-trends",
+      },
+      {
+        id: "section-meaning",
+        type: "heading",
+        content:
+          "UIT và Vòng Tay - Câu Chuyện Đặc Biệt Của Sinh Viên Công Nghệ",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Vòng tay xinh không chỉ đơn thuần là phụ kiện thời trang mà còn chứa đựng những câu chuyện và ý nghĩa sâu sắc trong đời sống sinh viên UIT:",
+        parentId: "section-meaning",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Kết nối đồng đội: Trong môi trường học tập và làm việc nhóm tại UIT, vòng tay đôi bạn thân trở thành biểu tượng cho sự gắn kết giữa các thành viên trong team project. Nhiều nhóm thực hiện đồ án tốt nghiệp đã đặt làm vòng tay theo yêu cầu với logo nhóm hoặc tên project như một kỷ niệm chung.",
+        parentId: "section-meaning",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Vượt qua thử thách: Vòng tay phong thủy đặc biệt trở nên phổ biến trong mùa thi và hackathon. Ý nghĩa vòng tay phong thủy không chỉ là may mắn mà còn là nguồn động viên tinh thần, nhắc nhở sinh viên về khả năng và sự nỗ lực của bản thân.",
+        parentId: "section-meaning",
+      },
+      {
+        type: "paragraph",
+        content:
+          '❤️ Lưu giữ kỷ niệm: "Mỗi dự án, mỗi kỳ học tại UIT đều là một hành trình đáng nhớ. Vòng tay custom giúp tôi lưu giữ những cột mốc quan trọng đó," Minh Anh, sinh viên năm 3 ngành Khoa học Máy tính chia sẻ về chiếc vòng tay tự thiết kế với những charm đánh dấu từng học kỳ đã qua.',
+        parentId: "section-meaning",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Thể hiện cá tính: Trong môi trường đại học đề cao sự sáng tạo như UIT, vòng tay độc lạ là cách sinh viên thể hiện cá tính riêng. Không ít bạn đã tự học cách làm vòng tay handmade để sáng tạo những sản phẩm độc nhất.",
+        parentId: "section-meaning",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378158/sg-11134202-7rdxo-lyz59toyscg74b_wcv8lu.jpg",
+        altText: "Ý nghĩa đặc biệt của vòng tay trong đời sống sinh viên UIT",
+        parentId: "section-meaning",
+      },
+      {
+        id: "section-workshop",
+        type: "heading",
+        content: 'Workshop "Code Your Bracelet" - Sân Chơi Sáng Tạo Tại UIT',
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          'Nhận thấy nhu cầu và sự yêu thích của sinh viên đối với vòng tay handmade, Bracy đã kết hợp với Câu lạc bộ Sáng tạo của UIT tổ chức workshop "Code Your Bracelet" - nơi công nghệ gặp gỡ nghệ thuật thủ công.',
+        parentId: "section-workshop",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Tại workshop, sinh viên không chỉ được hướng dẫn làm vòng tay handmade từ cơ bản đến nâng cao mà còn được tiếp cận với công nghệ in 3D, khắc laser để tạo ra những charm độc đáo. Set làm vòng tay handmade đa dạng với nhiều vật liệu từ đá tự nhiên, hạt gỗ đến kim loại và nhựa tái chế, tạo điều kiện cho sinh viên thỏa sức sáng tạo.",
+        parentId: "section-workshop",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Workshop không chỉ là nơi để học hỏi kỹ năng làm vòng tay đôi handmade mà còn là cơ hội để sinh viên UIT giao lưu, kết nối và tìm kiếm những người bạn có cùng sở thích, đam mê.",
+        parentId: "section-workshop",
+      },
+      {
+        type: "image",
+        content:
+          "https://res.cloudinary.com/dn8z3mhbs/image/upload/v1746378158/unnamed-3-1_yhhiio.png",
+        altText:
+          "Workshop Code Your Bracelet - Nơi sinh viên UIT sáng tạo vòng tay handmade",
+        parentId: "section-workshop",
+      },
+      {
+        id: "section-guide",
+        type: "heading",
+        content: "Cẩm Nang Chọn Vòng Tay Chất Lượng Cho Sinh Viên UIT",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Với vô số mẫu vòng tay handmade đẹp trên thị trường, việc lựa chọn sản phẩm phù hợp có thể khiến sinh viên UIT băn khoăn. Dưới đây là những gợi ý hữu ích từ chuyên gia vòng tay thủ công:",
+        parentId: "section-guide",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Xác định phong cách: Sinh viên UIT thường có phong cách riêng biệt, từ cool ngầu công nghệ đến nhẹ nhàng tinh tế. Vòng tay nam/nữ cần được chọn phù hợp với phong cách và trang phục thường ngày.",
+        parentId: "section-guide",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Cân nhắc tính thực tiễn: Với lịch học dày đặc và nhiều giờ thực hành máy tính, vòng tay cần đảm bảo không làm ảnh hưởng đến việc gõ phím. Vòng tay giá rẻ nhưng chất lượng tốt, không gây kích ứng da là lựa chọn tối ưu.",
+        parentId: "section-guide",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Tùy chỉnh theo nhu cầu: Vòng tay thiết kế chính hãng như của Bracy cho phép bạn điều chỉnh size, độ dài và thêm bớt charm linh hoạt. Đây là điểm cộng lớn cho sinh viên UIT - những người thường xuyên phải điều chỉnh phụ kiện cho phù hợp với công việc.",
+        parentId: "section-guide",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Ý nghĩa phong thủy: Nhiều sinh viên UIT quan tâm đến yếu tố phong thủy trong việc chọn vòng tay hợp mệnh. Vòng tay thạch anh được cho là giúp tăng cường trí tuệ và sáng tạo, trong khi vòng tay đá tự nhiên như ngọc bích, mã não giúp ổn định tinh thần trong những kỳ thi căng thẳng.",
+        parentId: "section-guide",
+      },
+      {
+        type: "paragraph",
+        content:
+          "❤️ Thương hiệu uy tín: Với vòng tay handmade loại nào đẹp nhất là câu hỏi khó, nhưng việc chọn những thương hiệu uy tín như Bracy sẽ đảm bảo chất lượng và độ bền của sản phẩm. Vòng tay bán chạy thường có thiết kế tốt và độ hoàn thiện cao.",
+        parentId: "section-guide",
+      },
+      {
+        id: "section-conclusion",
+        type: "heading",
+        content: "Vòng Tay Handmade UIT - Từ Xu Hướng Đến Văn Hóa",
+        level: 2,
+      },
+      {
+        type: "paragraph",
+        content:
+          "Từ một xu hướng đơn thuần, vòng tay handmade đã phát triển thành một phần không thể thiếu trong văn hóa sinh viên UIT. Sự kết hợp độc đáo giữa công nghệ và nghệ thuật thủ công không chỉ tạo ra những sản phẩm vòng tay đẹp nên mua mà còn xây dựng một cộng đồng kết nối, sáng tạo và đầy cảm hứng.",
+        parentId: "section-conclusion",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Bracy tự hào được đồng hành cùng sinh viên UIT trong việc lưu giữ những khoảnh khắc đáng nhớ của tuổi trẻ qua những thiết kế vòng tay độc đáo và ý nghĩa. Từ vòng tay mix charm thể hiện cá tính, vòng tay khắc tên lưu giữ kỷ niệm, đến lắc tay phong thủy mang lại may mắn - mỗi sản phẩm đều là một câu chuyện riêng về hành trình sinh viên tại UIT.",
+        parentId: "section-conclusion",
+      },
+      {
+        type: "paragraph",
+        content:
+          '"Chúng tôi không chỉ tạo ra vòng tay, mà còn là người lưu giữ những câu chuyện đẹp của sinh viên UIT. Mỗi vòng tay handmade là một mảnh ghép trong bức tranh thanh xuân rực rỡ nơi giảng đường công nghệ," đại diện Bracy chia sẻ.',
+        parentId: "section-conclusion",
+      },
+      {
+        type: "paragraph",
+        content:
+          "👉 Khám phá bộ sưu tập vòng tay sinh viên UIT độc đáo tại: https://bracycrafts.id.vn/product",
+        parentId: "section-conclusion",
       }
-    ]
-  }  
+    ],
+  },
 ];
