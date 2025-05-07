@@ -23,7 +23,8 @@ const BlogComponent = ({ blog }: BlogProps) => {
             alt={blog.title}
             fill
             className="object-cover border"
-            quality={100}
+            quality={75}
+            loading="lazy"
           />
         </div>
         <div className="p-4">

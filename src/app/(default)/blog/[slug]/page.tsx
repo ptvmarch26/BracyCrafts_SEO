@@ -159,7 +159,8 @@ const BlogSectionComponent = ({
               width={700}
               height={700}
               className="rounded-lg border"
-              quality={100}
+              quality={75}
+              loading="lazy"
             />
             {section.altText && (
               <p className="text-md text-gray-500 mt-2 text-center">

@@ -15,7 +15,8 @@ export default function ProductComponent({ product }: ProductProps) {
           alt={product.alt}
           fill
           className="object-cover border"
-          quality={100}
+          quality={75}
+          loading="lazy"
         />
       </div>
       <div className="p-4">
@@ -28,7 +29,11 @@ export default function ProductComponent({ product }: ProductProps) {
           </span>
           {product.percent > 0 && (
             <span className="text-sm line-through text-gray-400">
-              {(Math.round(product.price / (1 - product.percent / 100) / 1000) * 1000).toLocaleString()}₫
+              {(
+                Math.round(product.price / (1 - product.percent / 100) / 1000) *
+                1000
+              ).toLocaleString()}
+              ₫
             </span>
           )}
         </div>

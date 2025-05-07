@@ -52,9 +52,21 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const socials = [
-    { src: shopee_logo, alt: "Shopee Logo", link: "https://shopee.vn/phithngvvn134" },
-    { src: ins_logo, alt: "Instagram Logo", link: "https://www.instagram.com/bracy.crafts/" },
-    { src: fb_logo, alt: "Facebook Logo", link: "https://www.facebook.com/bracycrafts.shop" },
+    {
+      src: shopee_logo,
+      alt: "Shopee Logo",
+      link: "https://shopee.vn/phithngvvn134",
+    },
+    {
+      src: ins_logo,
+      alt: "Instagram Logo",
+      link: "https://www.instagram.com/bracy.crafts/",
+    },
+    {
+      src: fb_logo,
+      alt: "Facebook Logo",
+      link: "https://www.facebook.com/bracycrafts.shop",
+    },
   ];
 
   return (
@@ -87,7 +99,8 @@ export default function Home() {
             alt="BracyCrafts Logo"
             width={500}
             height={250}
-            quality={100}
+            quality={75}
+            loading="lazy"
           />
         </div>
       </div>
@@ -145,7 +158,8 @@ export default function Home() {
                 alt={social.alt}
                 width={100}
                 height={100}
-                quality={100}
+                quality={75}
+                loading="lazy"
               />
             </Link>
           ))}

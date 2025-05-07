@@ -117,7 +117,8 @@ export default function ProductDetailsClient({
                       height={325}
                       className="object-cover border"
                       priority={index === 0}
-                      quality={100}
+                      quality={75}
+                      loading="lazy"
                     />
                   </div>
                 ))}
@@ -142,7 +143,8 @@ export default function ProductDetailsClient({
                           ? "border-[#BD3A3A]"
                           : "border-gray-200"
                       }`}
-                      quality={100}
+                      quality={75}
+                      loading="lazy"
                     />
                   </div>
                 ))}
