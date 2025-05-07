@@ -4,16 +4,32 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Image from "next/image";
-import Slider from "react-slick";
+import dynamic from "next/dynamic";
 import slider1 from "../../public/images/slider1.svg";
 import slider2 from "../../public/images/slider2.svg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import type { ReactNode, ReactElement } from "react";
 
+interface SliderProps {
+  children: ReactNode;
+  infinite?: boolean;
+  speed?: number;
+  slidesToShow?: number;
+  slidesToScroll?: number;
+  autoplay?: boolean;
+  autoplaySpeed?: number;
+  prevArrow?: ReactElement;
+  nextArrow?: ReactElement;
+}
 type CustomArrowProps = {
   onClick?: () => void;
 };
 
 export default function SliderBanner() {
+  const Slider = dynamic<SliderProps>(
+    () => import("react-slick").then((mod) => mod.default),
+    { ssr: false }
+  );
   const images = [slider1, slider2];
 
   const PrevArrow = ({ onClick }: CustomArrowProps) => (
