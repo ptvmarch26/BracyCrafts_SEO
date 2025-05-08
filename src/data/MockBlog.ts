@@ -4831,7 +4831,7 @@ export const blogPosts: Blog[] = [
     "slug": "vong-tay-doi-lang-dai-hoc",
     "title": "Vòng Tay Đôi Làng Đại Học",
     "description": "Vòng tay đôi tại làng đại học không chỉ là phụ kiện mà còn là biểu tượng kết nối bạn bè, tình yêu và những kỷ niệm đáng nhớ thời sinh viên. Cùng BracyCrafts khám phá những thiết kế vòng tay cặp đôi mang đậm dấu ấn cá nhân, phù hợp cho nhóm bạn thân, các cặp yêu nhau hay tri kỷ.",
-    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746202300/vongtaydoi-langdaihoc.png",
+    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746690727/16-truong-dhqg-chup-tu-tren-cao-1_UEPB_qqxbfa.jpg",
     "altText": "Vòng tay đôi tại làng đại học từ BracyCrafts",
     "publishedAt": "2025-05-08T08:00:00Z",
     "updatedAt": "2025-05-08T08:00:00Z",
