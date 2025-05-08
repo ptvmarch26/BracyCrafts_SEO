@@ -4827,4 +4827,119 @@ export const blogPosts: Blog[] = [
       }
     ],
   },
+  {
+    "slug": "vong-tay-doi-lang-dai-hoc",
+    "title": "Vòng Tay Đôi Làng Đại Học",
+    "description": "Vòng tay đôi tại làng đại học không chỉ là phụ kiện mà còn là biểu tượng kết nối bạn bè, tình yêu và những kỷ niệm đáng nhớ thời sinh viên. Cùng BracyCrafts khám phá những thiết kế vòng tay cặp đôi mang đậm dấu ấn cá nhân, phù hợp cho nhóm bạn thân, các cặp yêu nhau hay tri kỷ.",
+    "image": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746202300/vongtaydoi-langdaihoc.png",
+    "altText": "Vòng tay đôi tại làng đại học từ BracyCrafts",
+    "publishedAt": "2025-05-08T08:00:00Z",
+    "updatedAt": "2025-05-08T08:00:00Z",
+    "author": "Võ Văn Phi Thông",
+    "category": ["Vòng Tay", "Cặp Đôi", "Sinh Viên"],
+    "tags": [
+      "vòng tay cặp đôi",
+      "vòng tay làng đại học",
+      "bracycrafts handmade",
+      "quà tặng tình bạn",
+      "vòng tay sinh viên",
+      "vòng tay kỷ niệm"
+    ],
+    "readingTime": 5,
+    "canonicalUrl": "https://bracycrafts.vn/vong-tay-doi-lang-dai-hoc",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Vòng Tay Đôi Làng Đại Học",
+      "datePublished": "2025-05-08T08:00:00Z",
+      "dateModified": "2025-05-08T08:00:00Z",
+      "author": {
+        "@type": "Person",
+        "name": "Võ Văn Phi Thông"
+      }
+    },
+    "sections": [
+      {
+        "id": "section-1",
+        "type": "heading",
+        "content": "Làng Đại Học – Nơi Tình Bạn Gắn Kết Qua Vòng Tay",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Ở làng đại học, nơi những kỷ niệm sinh viên được chắt chiu mỗi ngày, những chiếc vòng tay đôi từ BracyCrafts trở thành món quà giản dị nhưng chứa đựng ý nghĩa sâu sắc. Đó là cách bạn khắc ghi tình bạn, tình yêu và cả tuổi trẻ đầy nhiệt huyết của mình."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746690727/16-truong-dhqg-chup-tu-tren-cao-1_UEPB_qqxbfa.jpg",
+        "altText": "Làng đại học"
+      },
+      {
+        "id": "section-2",
+        "type": "heading",
+        "content": "1. Thiết kế vòng tay đôi mang dấu ấn riêng của nhóm bạn",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "BracyCrafts nhận thiết kế vòng tay cho từng nhóm bạn, từng câu chuyện riêng. Từ ngày gặp mặt đầu tiên đến câu nói 'thương hiệu' của nhóm, tất cả đều có thể khắc họa thành phụ kiện – như chiếc vòng tay cùng nhau đeo suốt 4 năm đại học."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746691041/daa09dfe11e2da444027370bcacaba18_qpwf5a.jpg",
+        "altText": "Vòng tay nhóm bạn thân"
+      },
+      {
+        "id": "section-3",
+        "type": "heading",
+        "content": "2. Dành cho cặp đôi yêu nhau",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Những cặp đôi quen nhau từ những tiết học chung, cùng nhau ôn thi, cùng nhau đi chơi sẽ tìm thấy ở BracyCrafts một cách để lưu giữ kỷ niệm đó. Vòng tay khắc ngày yêu nhau, hoặc charm biểu tượng riêng là món quà lý tưởng cho kỷ niệm tình yêu sinh viên."
+      },
+      {
+        "type": "image",
+        "content": "https://res.cloudinary.com/dkww5mgnf/image/upload/v1746690916/26014620-83a2-4d73-8793-b9c8f323fb5a_ysyuax.png",
+        "altText": "Vòng tay cặp đôi yêu nhau"
+      },
+      {
+        "id": "section-4",
+        "type": "heading",
+        "content": "3. Đặt vòng tay đôi",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "BracyCrafts thường xuyên có mặt tại các hội chợ sinh viên trong làng đại học, tại các workshop. Bạn có thể đến tận nơi, chọn mẫu, thêm ý tưởng và nhận sản phẩm trực tiếp. Ngoài ra, bạn cũng có thể đặt online cực dễ dàng!"
+      },
+      {
+        "type": "paragraph",
+        "content": "👉 Đặt vòng tay tại: https://bracycrafts.id.vn/product"
+      },
+      {
+        "type": "paragraph",
+        "content": "👉 Liên hệ qua Facebook để tư vấn mẫu vòng đôi riêng: https://www.facebook.com/bracycrafts.shop"
+      },
+      {
+        "id": "section-5",
+        "type": "heading",
+        "content": "Một chiếc vòng – Cả thanh xuân",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "content": "Vòng tay đôi tại làng đại học không chỉ đơn thuần là một món phụ kiện để đeo cho vui. Đó là món quà tinh thần, là biểu tượng của những mối quan hệ đáng trân trọng – giữa những người bạn từng cùng nhau vượt qua áp lực thi cử, những đêm thức trắng ôn bài, những lần ăn vặt vỉa hè rồi cười như chưa từng lo nghĩ."
+      },
+      {
+        "type": "paragraph",
+        "content": "Mỗi chiếc vòng là một lời nhắc nhở về những tháng ngày tuổi trẻ không thể nào quên: một cái nắm tay lần đầu, một lời hứa lặng lẽ hay đơn giản là một ánh nhìn hiểu nhau không cần nói."
+      },
+      {
+        "type": "paragraph",
+        "content": "Hãy để BracyCrafts đồng hành cùng bạn trên hành trình lưu giữ những khoảnh khắc ấy. Vì tuổi trẻ có thể trôi qua, nhưng ký ức – khi được khắc ghi bằng một món quà nhỏ – sẽ sống mãi cùng năm tháng."
+      }      
+    ]
+  },  
 ];
